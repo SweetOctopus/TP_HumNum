@@ -1,0 +1,14 @@
+Namespace(no_progress_bar=False, log_interval=100, log_format=None, log_file=None, aim_repo=None, aim_run_hash=None, tensorboard_logdir=None, wandb_project=None, azureml_logging=False, seed=1, cpu=False, tpu=False, bf16=False, memory_efficient_bf16=False, fp16=False, memory_efficient_fp16=False, fp16_no_flatten_grads=False, fp16_init_scale=128, fp16_scale_window=None, fp16_scale_tolerance=0.0, on_cpu_convert_precision=False, min_loss_scale=0.0001, threshold_loss_scale=None, amp=False, amp_batch_retries=2, amp_init_scale=128, amp_scale_window=None, user_dir=None, empty_cache_freq=0, all_gather_list_size=16384, model_parallel_size=1, quantization_config_path=None, profile=False, reset_logging=False, suppress_crashes=False, use_plasma_view=False, plasma_path='/tmp/plasma', criterion='cross_entropy', tokenizer=None, bpe=None, optimizer=None, lr_scheduler='fixed', scoring='bleu', task='translation', source_lang='src', target_lang='trg', trainpref='data/train.sp2000', validpref='data/dev.sp2000', testpref='data/test.sp2000', align_suffix=None, destdir='data/data_norm_bin_2000/', thresholdtgt=0, thresholdsrc=0, tgtdict=None, srcdict=None, nwordstgt=-1, nwordssrc=-1, alignfile=None, dataset_impl='mmap', joined_dictionary=True, only_source=False, padding_factor=8, workers=1, dict_only=False)
+[src] Dictionary: 2072 types
+[src] data/train.sp2000.src: 19472 sents, 443729 tokens, 0.0% replaced (by <unk>)
+[src] Dictionary: 2072 types
+[src] data/dev.sp2000.src: 2615 sents, 68215 tokens, 0.0103% replaced (by <unk>)
+[src] Dictionary: 2072 types
+[src] data/test.sp2000.src: 5879 sents, 144440 tokens, 0.0104% replaced (by <unk>)
+[trg] Dictionary: 2072 types
+[trg] data/train.sp2000.trg: 19472 sents, 432047 tokens, 0.0% replaced (by <unk>)
+[trg] Dictionary: 2072 types
+[trg] data/dev.sp2000.trg: 2615 sents, 66440 tokens, 0.00753% replaced (by <unk>)
+[trg] Dictionary: 2072 types
+[trg] data/test.sp2000.trg: 5879 sents, 140501 tokens, 0.0114% replaced (by <unk>)
+Wrote preprocessed data to data/data_norm_bin_2000/

@@ -1,0 +1,729 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+ schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Correction VP:
+    Le sourceDesc est pas le bon
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+ <teiHeader>
+  <fileDesc>
+   <titleStmt>
+    <title>Les Liaisons dangereuses</title>
+    <author>Pierre Choderlos de Laclos</author>
+   </titleStmt>
+   <publicationStmt>
+    <authority>Université de Genève</authority>
+    <availability>
+     <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+    </availability>
+   </publicationStmt>
+   <sourceDesc>
+    <bibl>
+     <author>Pierre Choderlos de Laclos</author>
+     <title>Les Liaisons dangereuses</title>
+     <pubPlace>Amsterdam</pubPlace>
+     <publisher>Durand neveu</publisher>
+     <date when="1782">1782</date>
+     <ptr target="https://catalogue.bnf.fr/ark:/12148/cb31189430j"/>
+    </bibl>
+   </sourceDesc>
+  </fileDesc>
+  <profileDesc>
+   <textClass>
+    <keywords>
+     <term type="genre">theatre</term>
+     <term type="form">comédie</term>
+    </keywords>
+   </textClass>
+  </profileDesc>
+ </teiHeader>
+ <text>
+  <body>
+   <div>
+    <head>
+     <orig>ZENEIDE</orig>
+     <orig>ZÉNÉÏDE</orig>
+    </head>
+    <head>
+     <orig>COMEDIE</orig>
+     <orig>COMÉDIE</orig>
+    </head>
+    <div>
+     <head>
+      <orig>SCENE PREMIERE.</orig>
+      <reg>SCÈNE PREMIÈRE.</reg>
+     </head>
+     <stage>
+      <orig>LA FEE, ZENEIDE.</orig>
+      <reg>LA FÉE, ZÉNÉÏDE.</reg>
+     </stage>
+     <sp>
+      <speaker>
+       <orig>LA FEE</orig>
+       <reg>LA FÉE</reg>
+      </speaker>
+      <l>
+       <orig>VOus voila Zéneide, un peu dédommagée,</orig>
+       <reg>VOus voilà Zéneide, un peu dédommagée,</reg>
+      </l>
+      <l>
+       <orig>De la retraite où vous vivez ici.</orig>
+       <reg>De la retraite où vous vivez ici.</reg>
+      </l>
+      <l>
+       <orig>Mais d’où naît le nouveau louci,</orig>
+       <reg>Mais d’où naît le nouveau louci,</reg>
+      </l>
+      <l>
+       <orig>Où votre ame paroit plongée?</orig>
+       <reg>Où votre ame paraît plongée?</reg>
+      </l>
+      <l>
+       <orig>Je vous ai transportée en des lieux embellis</orig>
+       <reg>Je vous ai transportée en des lieux embellis</reg>
+      </l>
+      <l>
+       <orig>Par l’Art, la Nature, &amp; les Graces:</orig>
+       <reg>Par l’Art, la Nature, et les Grâces:</reg>
+      </l>
+      <l>
+       <orig>Et cependant dans vos yeux attendris,</orig>
+       <reg>Et cependant dans vos yeux attendris,</reg>
+      </l>
+      <l>
+       <orig>D’une vive douleur je retrouve les traces?...</orig>
+       <reg>D’une vive douleur je retrouve les traces?...</reg>
+      </l>
+      <l>
+       <orig>Vous ſoupirez? Avouez franchement,</orig>
+       <reg>Vous soupirez? Avouez franchement,</reg>
+      </l>
+      <l>
+       <orig>Que la Fête pour vous avoit quelque agrêment.</orig>
+       <reg>Que la Fête pour vous avoit quelque agrément.</reg>
+      </l>
+      <l>
+       <orig>Le Bal vous amuſoit; ce Palais vous ennuïe.</orig>
+       <reg>Le Bal vous amusait; ce Palais vous ennuie.</reg>
+      </l>
+     </sp>
+     <fw>
+      <orig>A2</orig>
+      <reg>A2</reg>
+     </fw>
+     <fw>
+      <orig>ZE</orig>
+      <reg>ZE</reg>
+     </fw>
+     <fw>
+      <orig>4</orig>
+      <reg>4</reg>
+     </fw>
+     <fw>
+      <orig>Zénéïde</orig>
+      <reg>Zénéïde</reg>
+     </fw>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Fée aimable, il eſt vrai: tous ces nouveaux objets</orig>
+       <reg>Fée aimable, il est vrai: tous ces nouveaux objets</reg>
+      </l>
+      <l>
+       <orig>Avoient pour moi quelques attraits:</orig>
+       <reg>Avaient pour moi quelques attraits:</reg>
+      </l>
+      <l>
+       <orig>Mais je vous ai d’abord ſuivie.</orig>
+       <reg>Mais je vous ai d’abord suivie.</reg>
+      </l>
+      <l>
+       <orig>J'en conviens; mais en ſoûpirant,</orig>
+       <reg>J'en conviens; mais en soupirant,</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Vous regardiez, en le quittant,</orig>
+       <reg>Vous regardiez, en le quittant,</reg>
+      </l>
+      <l>
+       <orig>Avec des yeux de deſir &amp; d’envie,</orig>
+       <reg>Avec des yeux de désir et d’envie,</reg>
+      </l>
+      <l>
+       <orig>Ce Bal pour vous trop attrayant....</orig>
+       <reg>Ce Bal pour vous trop attrayant....</reg>
+      </l>
+      <l>
+       <orig>Zénéide, je vois votre ame toute nuë,</orig>
+       <reg>Zénéide, je vois votre âme toute nue,</reg>
+      </l>
+      <l>
+       <orig>J'y lis des ſecrets dangereux,</orig>
+       <reg>J'y lis des secrets dangereux,</reg>
+      </l>
+      <l>
+       <orig>Qui ſe dérobent à vos yeux,</orig>
+       <reg>Qui se dérobent à vos yeux,</reg>
+      </l>
+      <l>
+       <orig>Et qui tous ont frappé ma vûë.</orig>
+       <reg>Et qui tous ont frappé ma vue.</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <stage>
+       <orig>troublée.</orig>
+       <reg>troublée.</reg>
+      </stage>
+      <l>
+       <orig>O Ciel! Qu’ai-je donc fait de mal!</orig>
+       <reg>Ô Ciel! Qu’ai-je donc fait de mal!</reg>
+      </l>
+      <l>
+       <orig>Auprès de vous j’ai vû le Bal,</orig>
+       <reg>Auprès de vous j’ai vu le Bal,</reg>
+      </l>
+      <l>
+       <orig>Sur le Gradin, où vous m’aviez placée.</orig>
+       <reg>Sur le Gradin, où vous m’aviez placée.</reg>
+      </l>
+      <l>
+       <orig>C’eſt tout, je crois....</orig>
+       <reg>C’est tout, je crois....</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+
+      <l>
+       <orig>Et cet air de courroux,</orig>
+       <reg>Et cet air de courroux,</reg>
+      </l>
+      <l>
+       <orig>Que vous m’avez montré, quand je vous ai forcée</orig>
+       <reg>Que vous m’avez montré, quand je vous ai forcée</reg>
+      </l>
+      <l>
+       <orig>De garder ce maſque jaloux,</orig>
+       <reg>De garder ce masque jaloux,</reg>
+      </l>
+      <l>
+       <orig>Qui maigré la foule empreſſée,</orig>
+       <reg>Qui maigré la foule empressée,</reg>
+      </l>
+      <l>
+       <orig>Des curieux qui rodoient près de nous,</orig>
+       <reg>Des curieux qui rôdaient près de nous,</reg>
+      </l>
+      <l>
+       <orig>Et plus encore malgré vous,</orig>
+       <reg>Et plus encore malgré vous,</reg>
+      </l>
+      <l>
+       <orig>Aux regards vous tenoit cachée?</orig>
+       <reg>Aux regards vous tenait cachée?</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Il eſt vrai, vous m’avez fachée...</orig>
+       <reg>Il est vrai, vous m’avez fâchée...</reg>
+      </l>
+      <l>
+       <orig>Et la chaleur du Bal...</orig>
+       <reg>Et la chaleur du Bal...</reg>
+      </l>
+     </sp>
+     <fw>
+      <orig>LA</orig>
+      <reg>LA</reg>
+     </fw>
+     <fw>
+      <orig>Comédie.</orig>
+      <reg>Comédie.</reg>
+     </fw>
+     <fw>
+      <orig>5</orig>
+      <reg>5</reg>
+     </fw>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Vous ne la ſentiez plus,</orig>
+       <reg>Vous ne la sentiez plus,</reg>
+      </l>
+      <l>
+       <orig>Quand pour cette raiſon j’ai voulu diſparoitre</orig>
+       <reg>Quand pour cette raison j’ai voulu disparaître</reg>
+      </l>
+      <l>
+       <orig>Mais pourquoi ces ſoins ſuperflus?</orig>
+       <reg>Mais pourquoi ces soins superflus?</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <stage>
+       <orig>vivement.</orig>
+       <reg>vivement.</reg>
+      </stage>
+      <l>
+       <orig>Pourquoi refuſez-vous de me faire connoitre?</orig>
+       <reg>Pourquoi refusez-vous de me faire connaître?</reg>
+      </l>
+      <l>
+       <orig>Je vous dois tout; &amp; je ne vis jamais</orig>
+       <reg>Je vous dois tout; et je ne vis jamais</reg>
+      </l>
+      <l>
+       <orig>Ceux de qui le Ciel m’a fait naitre?</orig>
+       <reg>Ceux de qui le Ciel m’a fait naître?</reg>
+      </l>
+      <l>
+       <orig>C’eſt de votre pouvoir que je tiens mes attraits.</orig>
+       <reg>C’est de votre pouvoir que je tiens mes attraits.</reg>
+      </l>
+      <l>
+       <orig>Puis je trop chérir vos bienfaits?</orig>
+       <reg>Puis-je trop chérir vos bienfaits?</reg>
+      </l>
+      <l>
+       <orig>M’en parer, c’eſt les reconnoitre,</orig>
+       <reg>M’en parer, c’est les reconnaître,</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Et vos vœux ſeroient ſatisfaits,</orig>
+       <reg>Et vos vœux seraient satisfaits,</reg>
+      </l>
+      <l>
+       <orig>Si vous aviez fait voir cette reconnoiſſance,</orig>
+       <reg>Si vous aviez fait voir cette reconnaissance,</reg>
+      </l>
+      <l>
+       <orig>A ce jeune inconnu, dont l’aimable préſence....</orig>
+       <reg>À ce jeune inconnu, dont l’aimable présence....</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Oh! Madame, je ſçais ſon nom.</orig>
+       <reg>Oh! Madame, je sais son nom.</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Sçait il le vôtre? &amp; de quelle façon</orig>
+       <reg>Sait-il le vôtre? et de quelle façon</reg>
+      </l>
+      <l>
+       <orig>Ma tendreſſe a pris ſoin d’élever votre enfance?</orig>
+       <reg>Ma tendresse a pris soin d’élever votre enfance?</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+
+      <l>
+       <orig>Il m’a tout demandé; mais avec tant d’inſtance...</orig>
+       <reg>Il m’a tout demandé; mais avec tant d’instance...</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Que vous avez tout dit?</orig>
+       <reg>Que vous avez tout dit?</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Olinde eſt ſi preſſant,</orig>
+       <reg>Olinde est si pressant,</reg>
+      </l>
+
+      <l>
+       <orig>Il me prioit ſi tendrement,</orig>
+       <reg>Il me priait si tendrement,</reg>
+      </l>
+      <l>
+       <orig>Qu’il a vaincu ma réſiſtance.</orig>
+       <reg>Qu’il a vaincu ma résistance.</reg>
+      </l>
+      <l>
+       <orig>Mais j’ai mal fait peut être?</orig>
+       <reg>Mais j’ai mal fait peut être?</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Il eſt donc à vos yeux</orig>
+       <reg>Il est donc à vos yeux</reg>
+      </l>
+      <l>
+       <orig>Bien intéreſſant, bien aimable?</orig>
+       <reg>Bien intéressant, bien aimable?</reg>
+      </l>
+     </sp>
+     <fw>
+      <orig>A3</orig>
+      <reg>A3</reg>
+     </fw>
+     <fw>
+      <orig>ZE</orig>
+      <reg>ZE</reg>
+     </fw>
+     <fw>
+      <orig>Zénéide,</orig>
+      <reg>Zénéide,</reg>
+     </fw>
+     <fw>
+      <orig>6</orig>
+      <reg>6</reg>
+     </fw>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Madame, il eſt charmant.</orig>
+       <reg>Madame, il est charmant.</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Peut-être dans ces lieux</orig>
+       <reg>Peut-être dans ces lieux</reg>
+      </l>
+      <l>
+       <orig>Il s’eſt montré dans un jour favorable:</orig>
+       <reg>Il s’est montré dans un jour favorable:</reg>
+      </l>
+      <l>
+       <orig>Et ſi vous le connoiſſiez mieux....</orig>
+       <reg>Et si vous le connaissiez mieux....</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Il me plairoit ſans doute davantage.</orig>
+       <reg>Il me plairait sans doute davantage.</reg>
+      </l>
+      <l>
+       <orig>Bien d’autres m’ont parlé; mais leur air, leur langage,</orig>
+       <reg>Bien d’autres m’ont parlé; mais leur air, leur langage,</reg>
+      </l>
+      <l>
+       <orig>Leur gayté, leur ton,, &amp; leurs ſoins,</orig>
+       <reg>Leur gaieté, leur ton, et leurs soins,</reg>
+      </l>
+      <l>
+       <orig>Leur empreſſement à me plaire,</orig>
+       <reg>Leur empressement à me plaire,</reg>
+      </l>
+      <l>
+       <orig>Ont juſtement fait le contraire.</orig>
+       <reg>Ont justement fait le contraire.</reg>
+      </l>
+      <l>
+       <orig>Ils avoient tant d’eſprit....</orig>
+       <reg>Ils avaient tant d’eſprit....</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Olinde en a-t-il moins?</orig>
+       <reg>Olinde en a-t-il moins?</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Je ne ſçai car je ſuis ſincére,</orig>
+       <reg>Je ne sais car je suis sincère,</reg>
+      </l>
+      <l>
+       <orig>Mais avec lui je croyois en avoir.</orig>
+       <reg>Mais avec lui je croyais en avoir.</reg>
+      </l>
+      <l>
+       <orig>Quand je parlois, ſes yeux me faiſoient voir,</orig>
+       <reg>Quand je parlais, ses yeux me faisaient voir,</reg>
+      </l>
+      <l>
+       <orig>Qu’il goutoit un plaiſir extrême.</orig>
+       <reg>Qu’il goûtait un plaisir extrême.</reg>
+      </l>
+      <l>
+       <orig>Tous les autres de bonne foi,</orig>
+       <reg>Tous les autres de bonne foi,</reg>
+      </l>
+      <l>
+       <orig>Me paroiſſoient contens d’eux-même.</orig>
+       <reg>Me paraissaient contents d’eux-mêmes.</reg>
+      </l>
+      <l>
+       <orig>Lui ſeul ne l’étoit que de moi,</orig>
+       <reg>Lui seul ne l’était que de moi,</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Je le vois, il eſt tems de rompre le ſilence:</orig>
+       <reg>Je le vois, il est temps de rompre le silence:</reg>
+      </l>
+      <l>
+       <orig>Votre ſort va ſe déclarer.</orig>
+       <reg>Votre sort va se déclarer.</reg>
+      </l>
+      <l>
+       <orig>On peut ſouvent par la prudence</orig>
+       <reg>On peut souvent par la prudence</reg>
+      </l>
+      <l>
+       <orig>Des Aſtres corriger la maligne influence,</orig>
+       <reg>Des Astres corriger la maligne influence,</reg>
+      </l>
+      <l>
+       <orig>L’éviter, ou la réparer.</orig>
+       <reg>L’éviter, ou la réparer.</reg>
+      </l>
+      <l>
+       <orig>Et ſi votre bonheur n’eſt pas en ma puissance,</orig>
+       <reg>Et si votre bonheur n’est pas en ma puissance,</reg>
+      </l>
+      <fw>
+       <orig>Je</orig>
+       <reg>Je</reg>
+      </fw>
+      <fw>
+       <orig>Comédie.</orig>
+       <reg>Comédie.</reg>
+      </fw>
+      <fw>
+       <orig>6</orig>
+       <reg>6</reg>
+      </fw>
+      <l>
+       <orig>Je dois au moins vous éclairer.</orig>
+       <reg>Je dois au moins vous éclairer.</reg>
+      </l>
+      <l>
+       <orig>Dans un moment Olinde va paroitre.</orig>
+       <reg>Dans un moment Olinde va paraître.</reg>
+      </l>
+      <l>
+       <orig>Quoi, Madame, dans ce Palais?..</orig>
+       <reg>Quoi, Madame, dans ce Palais?..</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Quoi, tout à l’heure je verrois?...</orig>
+       <reg>Quoi, tout à l’heure je verrais?...</reg>
+      </l>
+      <l>
+       <orig>Il vous verra trop tôt peut-être.</orig>
+       <reg>Il vous verra trop tôt peut-être.</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Zénéide, vous ignorez</orig>
+       <reg>Zénéide, vous ignorez</reg>
+      </l>
+      <l>
+       <orig>Que ce penchant qui vers lui vous entraine,</orig>
+       <reg>Que ce penchant qui vers lui vous entraîne,</reg>
+      </l>
+      <l>
+       <orig>En le quittant cette cruelle peine,</orig>
+       <reg>En le quittant cette cruelle peine,</reg>
+      </l>
+      <l>
+       <orig>Ce plaiſir à le voir que vous vous figurez,</orig>
+       <reg>Ce plaisir à le voir que vous vous figurez,</reg>
+      </l>
+      <l>
+       <orig>Tout ce que vous craignez, ce que vous deſirez</orig>
+       <reg>Tout ce que vous craignez, ce que vous désirez</reg>
+      </l>
+      <l>
+       <orig>Eſt le premier accès d’une paſſion vive</orig>
+       <reg>Est le premier accès d’une passion vive</reg>
+      </l>
+      <l>
+       <orig>Dont votre ame tendre &amp; naive</orig>
+       <reg>Dont votre ame tendre et naïve</reg>
+      </l>
+      <l>
+       <orig>Brûlera tant que vous vivrez.</orig>
+       <reg>Brûlera tant que vous vivrez.</reg>
+      </l>
+      <l>
+       <orig>L’amour dans votre cœur, en un mot, vient</orig>
+       <reg>L’amour dans votre cœur, en un mot, vient</reg>
+      </l>
+      <l>
+       <orig>d’éclore.</orig>
+       <reg>d’éclore.</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>L'amour! Seroit ce un mal: Eſt-ce un bien? je l'ignore</orig>
+       <reg>L'amour! Serait-ce un mal: Est-ce un bien? je l'ignore</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Il peut cauſer le malheur de vos jours.</orig>
+       <reg>Il peut causer le malheur de vos jours.</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Vraiment ma frayeur eſt extrême.</orig>
+       <reg>Vraiment ma frayeur est extrême.</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>LA FEE.</orig>
+       <reg>LA FÉE.</reg>
+      </speaker>
+      <l>
+       <orig>Mais ſi votre Olinde vous aime</orig>
+       <reg>Mais si votre Olinde vous aime</reg>
+      </l>
+      <l>
+       <orig>D’un amour qui dure toûjours,</orig>
+       <reg>D’un amour qui dure toujours,</reg>
+      </l>
+      <l>
+       <orig>Comptez ſur un bonheur ſuprême</orig>
+       <reg>Comptez sur un bonheur suprême</reg>
+      </l>
+      <l>
+       <orig>Dont rien n’alterera le cours.</orig>
+       <reg>Dont rien n’alterera le cours.</reg>
+      </l>
+     </sp>
+     <sp>
+      <speaker>
+       <orig>ZENEIDE.</orig>
+       <reg>ZÉNÉÏDE.</reg>
+      </speaker>
+      <l>
+       <orig>Mais en ce cas l’Amour n’eſt pas ſi redoutable.</orig>
+       <reg>Mais en ce cas l’Amour n’est pas si redoutable.</reg>
+      </l>
+     </sp>
+     <fw>
+      <orig>A4</orig>
+      <reg>A4</reg>
+     </fw>
+     <fw>
+      <orig>LA</orig>
+      <reg>LA</reg>
+     </fw>
+    </div>
+   </div>
+  </body>
+ </text>
+</TEI>

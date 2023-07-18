@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Correction SG:
+   Pas de header
+   vous ne normalisez pas
+   vous ne corrigez pas l'OCR
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>L'Olive et quelques autres oeuvres poeticques</title>
+            <author>Joachim Du Bellay</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Joachim Du Bellay</author>
+               <title>L'Olive et quelques autres oeuvres poeticques</title>
+               <pubPlace>Paris</pubPlace>
+               <date>1549</date>
+               <publisher>Arnoul l'Angelier</publisher>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genre">poésie</term>
+               <term type="form">vers</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+  <text>
+      <body>
+         <div xml:id="s1">
+            <div>
+               <head>
+                  <orig>L'OLIVE ET QVELQVES AUTRES ŒVVRES POETICQVES.</orig>
+                  <reg>L'OLIVE ET QUELQVES AUTRES ŒUVRES POÉTIQUES.</reg>
+               </head>
+               <ab>
+                  <orig> Le contenu de ce livre.</orig>
+                  <reg> Le contenu de ce livre.</reg>
+               </ab>
+               <ab>
+                  <orig>Cinquante Sonnetz à la louange de l'Oliue.</orig>
+                  <reg>Cinquante Sonnets à la louange de l'Olive.</reg>
+               </ab>
+               <ab>
+                  <orig>L'anterotique de la vieille,&amp; de la ieunne Amye.</orig>
+                  <reg>L'anterotique de la vieille, et de la jeunne Amie.</reg><!-- erreur -->
+               </ab>
+               <ab>
+                  <orig>Vers Lyriques.</orig>
+                  <reg>Vers Lyriques.</reg>
+               </ab>
+               <ab>
+                  <orig>par I. D. B. A.</orig>
+                  <reg>par I. D. B. A.</reg>
+               </ab>
+               <ab>
+                  <orig>CAELO MVSA BEAT.</orig><!-- erreur -->
+                  <reg>CAELO MVSA BEAT.</reg>
+               </ab>
+               <ab>
+                  <orig>Imprimé à Paris pour Arnoul l'Angelier tenant ſa Boutique au ſecond pillier de la grand' ſale du Palays.</orig>
+                  <reg>Imprimé à Paris pour Arnoul l'Angelier tenant sa Boutique au second pillier de la grand' salle du Palais.</reg>
+               </ab>
+               <ab>
+                  <orig>Avec privilege.</orig>
+                  <reg>Avec privilège.</reg>
+               </ab>
+            </div>
+            <div>
+            <head>
+               <orig>Cinquante SONNETZ A LA LOVANGE DE L’OLIVE.</orig><!-- erreur -->
+               <reg>Cinquante SONNETZ À LA LOVANGE DE L’OLIVE.</reg>
+            </head>
+            <div type="sonnet" n="1">
+               <head>
+                  <orig>I.</orig>
+                  <reg>I.</reg>
+               </head>
+               <lg n="1" type="quatrain" rhyme="abba">
+                  <l n="1">
+                     <orig>IE ne quiers pas la fameuſe Couronne</orig>
+                     <reg>IE ne quiers pas la fameuſe Couronne</reg>
+                  </l>
+                  <l n="2">
+                     <orig>Sainct ornement du Dieu au chef doré,</orig>
+                     <reg>Saint ornement du Dieu au chef doré,</reg>
+                  </l>
+                  <l n="3">
+                     <orig>Ou que du Dieu aux Indes adoré</orig>
+                     <reg>Ou que du Dieu aux Indes adoré</reg>
+                  </l>
+                  <l n="4">
+                     <orig>Le gay chapeau la teſte m'enuironne</orig>
+                     <reg>Le gay chapeau la tête m'environne</reg>
+                  </l>
+               </lg>
+               <lg n="2" type="quatrain" rhyme="abba">
+                  <l n="5">
+                     <orig>Encores moins ueux-ie, que lon me donne</orig>
+                     <reg>Encore moins veux-je, que l'on me donne</reg>
+                  </l>
+                  <l n="6">
+                     <orig>Le mol rameau en Cypre decoré,</orig>
+                     <reg>Le mol rameau en Chypre décoré,</reg>
+                     <lb/>
+                  </l>
+                  <l n="7">
+                     <orig>Celuy, qui eſt d’Athenes honoré</orig>
+                     <reg>Celui, qui est d’Athènes honoré</reg>
+                  </l>
+                  <l n="8">
+                     <orig>Seul ie le ueux, &amp; le ciel me l'ordonne</orig>
+                     <reg>Seul je le veux, et le ciel me l'ordonne</reg>
+                  </l>
+               </lg>
+               <lg n="3" type="tercet" rhyme="cde">
+                  <l n="9">
+                     <orig>O Arbre heureux, que la ſage Deeſſe</orig>
+                     <reg>Ô Arbre heureux, que la sage Déesse</reg>
+                  </l>
+                  <l n="10">
+                     <orig>En ſa tutelle, &amp; garde a uoulu prendre,</orig>
+                     <reg>En sa tutelle, et garde a voulu prendre,</reg>
+                  </l>
+                  <l n="11">
+                     <orig>Pour faire honneur à ſon ſacré Autel!</orig>
+                     <reg>Pour faire honneur à son sacré Autel!</reg>
+                     <lb/>
+                  </l>
+               </lg>
+               <lg n="4" type="tercet" rhyme="cde">
+                  <l n="12">
+                     <orig>Orne mon chef, donne moy hardieſſe</orig>
+                     <reg>Orne mon chef, donne-moi hardiesse</reg>
+                  </l>
+                  <l n="13">
+                     <orig>De te chanter, qui eſpere te rendre</orig>
+                     <reg>De te chanter, qui espère te rendre</reg>
+                  </l>
+                  <l n="14">
+                     <orig>Egal un iour au Laurier immortel</orig>
+                     <reg>Égal un iour au Laurier immortel</reg>
+                  </l>
+               </lg>
+               <fw>
+                  <orig>A iij</orig>
+                  <reg>A iij</reg>
+               </fw>
+               <pb n="1"/>
+            </div>
+            <div type="sonnet" n="2">
+               <head>
+                  <orig>II.</orig>
+                  <reg>II.</reg>
+               </head>
+               <lg n="5" type="quatrain" rhyme="abba">
+                  <l n="15">
+                     <orig>D’Amour, de Grace, &amp; de haulte Valeur</orig>
+                     <reg>D’Amour, de Grâce, et de haute Valeur</reg>
+                  </l>
+                  <l n="16">
+                     <orig>Les Feuz diuins eſtoiẽt ceinctz, &amp; les Cieulx</orig>
+                     <reg>Les Feux divins étaient ceints, et les Cieux</reg>
+                  </l>
+                  <l n="17">
+                     <orig>S’eſtoient ueſtuz d’un Manteau precieux</orig>
+                     <reg>S’étaient vêtus d’un Manteau précieux</reg>
+                  </l>
+                  <l n="18">
+                     <orig>A Raiz ardens, de diuerſe couleur</orig>
+                     <reg>À Rais ardents, de diverse couleur</reg>
+                     <rhyme label="a"></rhyme>
+                     .
+                     <lb/>
+                  </l>
+               </lg>
+               <lg n="6" type="quatrain" rhyme="abba">
+                  <l n="19">
+                     <orig>Tout eſtoit plein de Beauté, de Bonheur</orig>
+                     <reg>Tout était plein de Beauté, de Bonheur</reg>
+                  </l>
+                  <l n="20">
+                     <orig>La Mer tranquile, &amp; le Vent gracieux</orig>
+                     <reg>La Mer tranquille, et le Vent gracieux</reg>
+                  </l>
+                  <l n="21">
+                     <orig>Quand celle la naquit en ces bas Lieux</orig>
+                     <reg>Quand celle-là naquit en ces bas Lieux</reg>
+                  </l>
+                  <l n="22">
+                     <orig>Qui a pillé du Monde tout l’Honneur</orig>
+                     <reg>Qui a pillé du Monde tout l’Honneur</reg>
+                  </l>
+               </lg>
+               <lg n="7" type="tercet" rhyme="cdc">
+                  <l n="23">
+                     <orig>Ell' priſt ſon Teint des beaux Lyz blanchiſſans,</orig>
+                     <reg>Ell' prit son Teint des beaux Lys blanchissants,</reg>
+                  </l>
+                  <l n="24">
+                     <orig>Son chef de l’Or, ſes deux Leures des Rozes,</orig>
+                     <reg>Son chef de l’Or, ses deux lèvres des Roses,</reg>
+                  </l>
+                  <l n="25">
+                     <orig>Et du Soleil ſes yeux reſplendiſſans</orig>
+                     <reg>Et du Soleil ses yeux resplendissants</reg>
+                  </l>
+               </lg>
+               <lg n="8" type="tercet" rhyme="ede">
+                  <l n="26">
+                     <orig>Le Ciel uſant de Liberalité</orig>
+                     <reg>Le Ciel usant de Libéralité</reg>
+                  </l>
+                  <l n="27">
+                     <orig>Miſt en l’Eſprit ſes Semences encloſes,</orig>
+                     <reg>Mit en l’Esprit ses Semences encloses,</reg>
+                  </l>
+                  <l n="28">
+                     <orig>Son Nom des Dieux priſt l'immortalité.</orig>
+                     <reg>Son Nom des Dieux prit l'immortalité.</reg>
+                  </l>
+               </lg>
+            </div>
+            <div type="sonnet" n="3">
+               <head>
+                  <orig>III.</orig>
+                  <reg>III.</reg>
+               </head>
+               <lg n="9" type="quatrain" rhyme="abba">
+                  <l n="29">
+                     <orig>Loyre fameux, qui ta petite Source</orig>
+                     <reg>Loire fameux, qui ta petite Source</reg>
+                  </l>
+                  <l n="30">
+                     <orig>Enfles de maintz gros fleuues, &amp; Ruyſſeaux,</orig>
+                     <reg>Enfles de maints gros fleuves, et Ruisseaux,</reg>
+                  </l>
+                  <l n="31">
+                     <orig>Et qui de loing coules tes cleres Eaux</orig>
+                     <reg>Et qui de loin coules tes claires Eaux</reg>
+                  </l>
+                  <l n="32">
+                     <orig>En l'Occéan d'une aſſez lente Courſe.</orig>
+                     <reg>En l'Océan d'une assez lente Course.</reg>
+                  </l>
+               </lg>
+               <lg n="10" type="quatrain" rhyme="abba">
+                  <l n="33">
+                     <orig>Ton chef Royal hardimẽt bien hault pouſſe</orig>
+                     <reg>Ton chef Royal hardiment bien haut pousse</reg>
+                  </l>
+                  <l n="34">
+                     <orig>Et aparoy entre tous les plus beaux</orig>
+                     <reg>Et apparaît entre tous les plus beaux</reg>
+                  </l>
+                  <l n="35">
+                     <orig>Cõme un Thaureau ſur les menuz Troupeaux</orig>
+                     <reg>Comme un Taureau sur les menus Troupeaux</reg>
+                  </l>
+                  <l n="36">
+                     <orig>Quoy que le Pau enuieux s'en courrouſſe.</orig>
+                     <reg>Quoique le Pau envieux s'en courrouce.</reg>
+                  </l>
+               </lg>
+               <lg n="11" type="tercet" rhyme="cde">
+                  <l n="37">
+                     <orig>Commande doncq' aux gentiles Naiades</orig>
+                     <reg>Commande doncq' aux gentilles Naïades</reg>
+                  </l>
+                  <l n="38">
+                     <orig>Sortir dehors leurs beaux Palaiz humides</orig>
+                     <reg>Sortir dehors leurs beaux Palais humides</reg>
+                  </l>
+                  <l n="39">
+                     <orig>Auecques toy, leur Fleuue Paternel.</orig>
+                     <reg>Avecque toi, leur Fleuve Paternel.</reg>
+                  </l>
+               </lg>
+               <lg n="12" type="tercet" rhyme="cde">
+                  <l n="40">
+                     <orig>Pour ſalüer de ioyeuſes Aubades</orig>
+                     <reg>Pour saluer de joyeuses Aubades</reg>
+                  </l>
+                  <l n="41">
+                     <orig>Celle, qui t'a, &amp; tes Filles liquides</orig>
+                     <reg>Celle, qui t'a, et tes Filles liquides</reg>
+                  </l>
+                  <l n="42">
+                     <orig>Deïfié de ce bruyt eternel.</orig>
+                     <reg>Déifié de ce bruit éternel.</reg>
+                  </l>
+               </lg>
+               <pb n="2"/>
+            </div>
+            <div type="sonnet" n="4">
+               <head>IIII.</head> 
+               <lg n="13" type="quatrain" rhyme="abba">
+                  <l n="43">
+                     <orig>L'heureuſe Branche à Pallas conſacrée,</orig>
+                     <reg>L'heureuse Branche à Pallas consacrée,</reg>
+                  </l>
+                  <l n="44">
+                     <orig>Branche de Paix, porte le Nom de celle,</orig>
+                     <reg>Branche de Paix, porte le Nom de celle,</reg>
+                  </l>
+                  <l n="45">
+                     <orig>Qui le Sẽs m’oſte, &amp; ſoubz grãd' Beaulté cele</orig>
+                     <reg>Qui le Sens m’ôte, et sous grand' Beauté cèle</reg>
+                  </l>
+                  <l n="46">
+                     <orig>La Cruaulté, qui à Mars tant agrée.</orig>
+                     <reg>La Cruauté, qui à Mars tant agrée.</reg>
+                  </l>
+               </lg>
+               <lg n="14" type="quatrain" rhyme="abba">
+                  <l n="47">
+                     <orig>Delaiſſe doncq' ô Cruelle obſtinée!</orig>
+                     <reg>Délaisse doncq' ô Cruelle obstinée!</reg>
+                  </l>
+                  <l n="48">
+                     <orig>Ce tant doulx Nom, ou bien te montre telle,</orig>
+                     <reg>Ce tant doux Nom, ou bien te montre telle,</reg>
+                  </l>
+                  <l n="49">
+                     <orig>Qu'ainſi qu'en tout ſembles eſtre Immortelle,</orig>
+                     <reg>Qu'ainsi qu'en tout sembles être Immortelle,</reg>
+                  </l>
+                  <l n="50">
+                     <orig>Sembles le Nom auoir par Deſtinée.</orig>
+                     <reg>Sembles le Nom avoir par Destinée.</reg>
+                  </l>
+               </lg>
+               <lg n="15" type="tercet" rhyme="ccd">
+                  <l n="51">
+                     <orig>Que du hault Ciel il t'ait eté donné,</orig>
+                     <reg>Que du haut Ciel il t'ait été donné,</reg>
+                  </l>
+                  <l n="52">
+                     <orig>Ie ne ſuy' point de le croyre etonné</orig>
+                     <reg>Je ne suis point de le croire étonné</reg>
+                  </l>
+                  <l n="53">
+                     <orig>Veu qu'en Eſprit tu es la Souueraine.</orig>
+                     <reg>Vu qu'en Esprit tu es la Souveraine.</reg>
+                  </l>
+               </lg>
+               <lg n="16" type="tercet" rhyme="ccd">
+                  <l n="54">
+                     <orig>Et que tes yeulx à ceulx, qui te contemplẽt,</orig>
+                     <reg>Et que tes yeulx à ceux, qui te contemplent,</reg>
+                  </l>
+                  <l n="55">
+                     <orig>Coeur, Cors, Eſprit, Sẽs, Ame, &amp; uouloir ẽblẽt</orig>
+                     <reg>Cœur, Corps, Eſprit, Sens, Âme, et vouloir emblent</reg>
+                  </l>
+                  <l n="56">
+                     <orig>Par leur Douceur angelique, &amp; ſeraine.</orig>
+                     <reg>Par leur Douceur angélique, et ſeraine.</reg>
+                  </l>
+               </lg>
+            </div>
+            <div type="sonnet" n="5">
+               <head>V.</head>
+               <lg n="17" type="quatrain" rhyme="abba">
+                  <l n="57">
+                     <orig>C'etoit la Nuyt que la Diuinité</orig>
+                     <reg>C'était la Nuit que la Divinité</reg>
+                  </l>
+                  <l n="58">
+                     <orig>Du plus hault Ciel en Terre ſe rendit</orig>
+                     <reg>Du plus haut Ciel en Terre se rendit</reg>
+                  </l>
+                  <l n="59">
+                     <orig>Quand deſſus moy Amour ſon Arc tendit</orig>
+                     <reg>Quand dessus moi Amour son Arc tendit</reg>
+                  </l>
+                  <l n="60">
+                     <orig>Et me fiſt Serf de ſa grand' Deïté.</orig>
+                     <reg>Et me fit Serf de sa grand' Déité.</reg>
+                  </l>
+               </lg>
+               <lg n="18" type="quatrain" rhyme="abba">
+                  <l n="61">
+                     <orig>Ny le ſainct Lieu de telle Cruaulté,</orig>
+                     <reg>Ni le saint Lieu de telle Cruauté,</reg>
+                  </l>
+                  <l n="62">
+                     <orig>Ny le Tens meſme aſſez me deffendit:</orig>
+                     <reg>Ni le Temps même assez me défendit:</reg>
+                  </l>
+                  <l n="63">
+                     <orig>Le coup au Cœur par les yeulx deſcendit</orig>
+                     <reg>Le coup au Cœur par les yeux descendit</reg>
+                  </l>
+                  <l n="64">
+                     <orig>Trop ententifz à ceſte grand' Beauté.</orig>
+                     <reg>Trop ententifs à ceſte grand' Beauté.</reg>
+                  </l>
+               </lg>
+               <lg n="19" type="tercet" rhyme="cde">
+                  <l n="65">
+                     <orig>Ie penſoy' bien que l'Archer euſt uiſé</orig>
+                     <reg>Je pensais bien que l'Archer eût visé</reg>
+                  </l>
+                  <l n="66">
+                     <orig>A tous les deux, &amp; qu’un meſme Lien</orig>
+                     <reg>À tous les deux, et qu’un même Lien</reg>
+                  </l>
+                  <l n="67">
+                     <orig>Nous deuſt enſemble egalement conioindre.</orig>
+                     <reg>Nous dût ensemble également conjoindre.</reg>
+                  </l>
+               </lg>
+               <lg n="20" type="tercet" rhyme="cde">
+                  <l n="68">
+                     <orig>Mais comme Aueugle, Enfant, mal auiſé,</orig>
+                     <reg>Mais comme Aveugle, Enfant, mal avisé,</reg>
+                  </l>
+                  <l n="69">
+                     <orig>Vous à laiſſée (helas) qui etiez bien</orig>
+                     <reg>Vous a laissée (hélas) qui étiez bien</reg>
+                  </l>
+                  <l n="70">
+                     <orig>La plus grãd Proye, &amp; à choiſi la moindre.</orig>
+                     <reg>La plus grand Proie, et a choisi la moindre.</reg>
+                  </l>
+               </lg>
+               <fw>
+                  <orig>A iiij</orig>
+                  <reg>A iiij</reg>
+               </fw>
+               <pb n="3"/>
+            </div>
+            <div type="sonnet" n="6">
+               <head>
+                  <orig>VI.</orig>
+                  <reg>VI.</reg>
+               </head>
+               <lg n="21" type="quatrain" rhyme="abba">
+                  <l n="71">
+                     <orig>Comme on ne peult d’oeil conſtant ſouſtenir</orig>
+                     <reg>Comme on ne peut d’œil constant soutenir</reg>
+                  </l>
+                  <l n="72">
+                     <orig>Du beau Soleil la clarté uiolente,</orig>
+                     <reg>Du beau Soleil la clarté violente,</reg>
+                  </l>
+                  <l n="73">
+                     <orig>Außi qui uoid uoſtre face excellente,</orig>
+                     <reg>Aussi qui voit votre face excellente,</reg>
+                  </l>
+                  <l n="74">
+                     <orig>Ne peult les yeulx aſſez fermes tenir.</orig>
+                     <reg>Ne peut les yeux assez fermes tenir.</reg>
+                  </l>
+               </lg>
+               <lg n="22" type="quatrain" rhyme="abba">
+                  <l n="75">
+                     <orig>Et ſi de pres il cuyde paruenir</orig>
+                     <reg>Et si de près il cuide parvenir</reg>
+                  </l>
+                  <l n="76">
+                     <orig>A contempler uoſtre Beauté luyſante,</orig>
+                     <reg>À contempler votre Beauté luisante,</reg>
+                  </l>
+                  <l n="77">
+                     <orig>Telle clarté à uoir luy eſt nuyſante</orig>
+                     <reg>Telle clarté à voir lui est nuisante</reg>
+                  </l>
+                  <l n="78">
+                     <orig>Et ſi le faict aueugle deuenir.</orig>
+                     <reg>Et si le fait aveugle devenir.</reg>
+                  </l>
+               </lg>
+               <lg n="23" type="tercet" rhyme="ccd">
+                  <l n="79">
+                     <orig>Regardez doncq' ſi ſuffiſant ie ſuy</orig>
+                     <reg>Regardez doncq' si suffisant je suis</reg>
+                  </l>
+                  <l n="80">
+                     <orig>A uous louer, qui ſeulement ne puy</orig>
+                     <reg>À vous louer, qui seulement ne puis</reg>
+                  </l>
+                  <l n="81">
+                     <orig>Voz grands Beautez contempler à mon gré.</orig>
+                     <reg>Vos grands Beautés contempler à mon gré.</reg>
+                  </l>
+               </lg>
+               <lg n="24" type="tercet" rhyme="eed">
+                  <l n="82">
+                     <orig>Que ſi mes yeulx auoient un tel pouuoir,</orig>
+                     <reg>Que si mes yeux avaient un tel pouvoir,</reg>
+                  </l>
+                  <l n="83">
+                     <orig>I’eſtimeroy' plus fermes les auoir,</orig>
+                     <reg>J’estimerais plus fermes les avoir,</reg>
+                  </l>
+                  <l n="84">
+                     <orig>Que n’a l’Oyſeau à Iupiter ſacré.</orig>
+                     <reg>Que n’a l’Oiseau à Jupiter sacré.</reg>
+                  </l>
+               </lg>
+            </div>
+            <div type="sonnet" n="7">
+               <head>VII.</head>
+               <lg n="25" type="quatrain" rhyme="abba">
+                  <l n="85">
+                     <orig>De grand' Beauté ma Déeſſe eſt ſi pleine,</orig>
+                     <reg>De grand' Beauté ma Déesse est si pleine,</reg>
+                  </l>
+                  <l n="86">
+                     <orig>Que ie ne uoy' choſe au Monde plus belle.</orig>
+                     <reg>Que je ne vois chose au Monde plus belle.</reg>
+                  </l>
+                  <l n="87">
+                     <orig>Soit que le front ie uoye, ou les yeulx d'elle,</orig>
+                     <reg>Soit que le front je vois, ou les yeux d'elle,</reg>
+                  </l>
+                  <l n="88">
+                     <orig>Dont la clarté ſaincte me guyde, &amp; meine.</orig>
+                     <reg>Dont la clarté sainte me guide, et mène.</reg>
+                  </l>
+               </lg>
+               <lg n="26" type="quatrain" rhyme="abba">
+                  <l n="89">
+                     <orig>Soit ceſte Bouche, ou ſouſpire une halaine,</orig>
+                     <reg>Soit cette Bouche, où soupire une haleine,</reg>
+                  </l>
+                  <l n="90">
+                     <orig>Qui les odeurs des Arabes excelle.</orig>
+                     <reg>Qui les odeurs des Arabes excelle.</reg>
+                  </l>
+                  <l n="91">
+                     <orig>Soit ce chef d’or, qui rendroit l’eſtincelle</orig>
+                     <reg>Soit ce chef d’or, qui rendrait l’étincelle</reg>
+                  </l>
+                  <l n="92">
+                     <orig>Du beau Soleil honteuſe, obſcure, &amp; uaine.</orig>
+                     <reg>Du beau Soleil honteuse, obscure, et vaine.</reg>
+                  </l>
+               </lg>
+               <lg n="27" type="tercet" rhyme="ccd">
+                  <l n="93">
+                     <orig>Soient ces coutaux d’Albaſtre, &amp; Main polie,</orig>
+                     <reg>Soient ces coteaux d’Albâtre, et Main polie,</reg>
+                  </l>
+                  <l n="94">
+                     <orig>Qui mõ coeur ſerre, enferme, eſtreinct, &amp; lie,</orig>
+                     <reg>Qui mon cœur serre, enferme, étreint, et lie,</reg>
+                  </l>
+                  <l n="95">
+                     <orig>Bref, ce q̃ d’elle on peult ou voir, ou croyre,</orig>
+                     <reg>Bref, ce que d’elle on peut ou voir, ou croire,</reg>
+                  </l>
+               </lg>
+               <lg n="28" type="tercet" rhyme="ede">
+                  <l n="96">
+                     <orig>Tout est diuin, celeſte, incomparable:</orig>
+                     <reg>Tout est divin, céleste, incomparable:</reg>
+                  </l>
+                  <l n="97">
+                     <orig>Mais i'oſe bien me donner ceſte gloyre,</orig>
+                     <reg>Mais j'ose bien me donner cette gloire,</reg>
+                  </l>
+                  <l n="98">
+                     <orig>Que ma Conſtance eſt trop plus admirable.</orig>
+                     <reg>Que ma Constance est trop plus admirable.</reg>
+                  </l>
+               </lg>
+               <pb n="4"/>
+            </div>
+            <div type="sonnet" n="8">
+               <head>VIII.</head>
+               <lg n="29" type="quatrain" rhyme="abba">
+                  <l n="99">
+                     <orig>Auroy'-ie bien de louer le pouuoir</orig>
+                     <reg>Aurai'-je bien de louer le pouvoir</reg>
+                  </l>
+                  <l n="100">
+                     <orig>Ceſte Beauté, qui decore le monde?</orig>
+                     <reg>Cette Beauté, qui décore le monde?</reg>
+                  </l>
+                  <l n="101">
+                     <orig>Quand pour orner ſa Cheuelure blonde</orig>
+                     <reg>Quand pour orner sa Chevelure blonde</reg>
+                  </l>
+                  <l n="102">
+                     <orig>Ie ſens ma langue ineptement mouuoir?</orig>
+                     <reg>Je sens ma langue ineptement mouvoir?</reg>
+                  </l>
+               </lg>
+               <lg n="30" type="quatrain" rhyme="abba">
+                  <l n="103">
+                     <orig>Ny le Romain, ny l’Atique Scauoir,</orig>
+                     <reg>Ni le Romain, ni l’Attique Savoir,</reg>
+                  </l>
+                  <l n="104">
+                     <orig>Quoy que la feuſt l’Ecolle de facunde,</orig>
+                     <reg>Quoique là fût l’École de faconde,</reg>
+                  </l>
+                  <l n="105">
+                     <orig>Aux Cheueux meſme, ou le fin Or abunde.</orig>
+                     <reg>Aux Cheveux même, ou le fin Or abonde.</reg>
+                  </l>
+                  <l n="106">
+                     <orig>Euſſent bien faict à demy leur debuoir.</orig>
+                     <reg>Eussent bien fait à demi leur devoir.</reg>
+                  </l>
+               </lg>
+               <lg n="31" type ="tercet" rhyme="ccd">
+                  <l n="107">
+                     <orig>Quand ie les uoy' ſi reluyſans, &amp; blonds,</orig>
+                     <reg>Quand je les vois si reluisants, et blonds,</reg>
+                  </l>
+                  <l n="108">
+                     <orig>Entrenouez, creſpes, egaulx, &amp; longs,</orig>
+                     <reg>Entrenouez, crêpes, égaux, et longs,</reg>
+                  </l>
+                  <l n="109">
+                     <orig>Ie m'eſmerueille, &amp; fay' telle complaincte.</orig>
+                     <reg>Je m'émerveille, et fais telle complainte.</reg>
+                  </l>
+               </lg>
+               <lg n="32" type="tercet" rhyme="ede">
+                  <l n="110">
+                     <orig>Puis que pour uous (Cheueulx) i’ay tel martyre,</orig>
+                     <reg>Puisque pour vous (Cheveux) j’ai tel martyre,</reg>
+                  </l>
+                  <l n="111">
+                     <orig>Que n’ay-ie beu à la Fontaine ſaincte?</orig>
+                     <reg>Que n’ai-je bu à la Fontaine sainte?</reg>
+                  </l>
+                  <l n="112">
+                     <orig>Ie mourroy' Cygne, ou ie meurs ſãs mot dire.</orig>
+                     <reg>Je mourrai' Cygne, ou je meurs sans mot dire.</reg>
+                  </l>
+               </lg>
+            </div>
+            <div type="sonnet" n="9">
+               <head>IX.</head>
+               <lg n="33" type="quatrain" rhyme="abba">
+                  <l n="113">
+                     <orig>Garde toy bien o gracieux Zephire!</orig>
+                     <reg>Garde-toi bien ô gracieux Zephyr!</reg>
+                  </l>
+                  <l n="114">
+                     <orig>D'ẽpeſtrer l’eſle en ces beaulx nœuds epars,</orig>
+                     <reg>D'empêtrer l’aile en ces beaux nœuds épars,</reg>
+                  </l>
+                  <l n="115">
+                     <orig>Que ca, &amp; la, doulcement tu depars</orig>
+                     <reg>Que çà, et là, doucement tu dépars</reg>
+                  </l>
+                  <l n="116">
+                     <orig>Sur ce beau Col de Marbre, &amp; de Porphire.</orig>
+                     <reg>Sur ce beau Col de Marbre, et de Porphyre.</reg>
+                  </l>
+               </lg>
+               <lg n="34" type="quatrain" rhyme="abba">
+                  <l n="117">
+                     <orig>Si tu t’y prens, plus ne uouldra nous ryre</orig>
+                     <reg>Si tu t’y prends, plus ne voudra nous rire</reg>
+                  </l>
+                  <l n="118">
+                     <orig>Le uerd Printemps: aincoys de toutes pars</orig>
+                     <reg>Le vert Printemps: ainçois de toutes parts</reg>
+                  </l>
+                  <l n="119">
+                     <orig>Flore uoyant que d’autre amour tu ards,</orig>
+                     <reg>Flore voyant que d’autre amour tu ards,</reg>
+                  </l>
+                  <l n="120">
+                     <orig>Fera ſes Fleurs deſſecher par grand' ire.</orig>
+                     <reg>Fera ses Fleurs dessécher par grand' ire.</reg>
+                  </l>
+               </lg>
+               <lg n="35" type="tercet" rhyme="ccd">
+                  <l n="121">
+                     <orig>Que dy-ie las? Zephire n’eſt-ce point,</orig>
+                     <reg>Que dis-je las? Zéphyr n’est-ce point,</reg>
+                  </l>
+                  <l n="122">
+                     <orig>C’eſt toy Amour, qui uoles en ce point</orig>
+                     <reg>C’est toi Amour, qui voles en ce point</reg>
+                  </l>
+                  <l n="123">
+                     <orig>Tout à l’entour, &amp; par dedans ces Retz.</orig>
+                     <reg>Tout à l’entour, et par dedans ces Rêts.</reg>
+                  </l>
+               </lg>
+               <lg n="36" type="tercet" rhyme="ede">
+                  <l n="124">
+                     <orig>Que tu as faictz d’art plus laborieux</orig>
+                     <reg>Que tu as faits d’art plus laborieux</reg>
+                  </l>
+                  <l n="125">
+                     <orig>Que ceulx, auſquelz iadis feurent ſerrez</orig>
+                     <reg>Que ceux, auxquels jadis furent serrés</reg>
+                  </l>
+                  <l n="126">
+                     <orig>Ta doulce Mere, &amp; le Dieu furieux.</orig>
+                     <reg>Ta douce Mère, et le Dieu furieux.</reg>
+                  </l>
+               </lg>
+            </div>
+            </div>
+         </div>
+      </body>
+  </text>
+</TEI>

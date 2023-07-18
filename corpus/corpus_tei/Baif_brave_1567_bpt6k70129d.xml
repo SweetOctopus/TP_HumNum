@@ -1,0 +1,760 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Correction SG:
+   Nombreuses erreurs de correction,
+   étranges utilisation orig/reg à différents niveaux (phrase, caractère, mot)
+   Pas de header
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Le brave</title>
+            <author>Jean-Antoine de Baïf</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>Jean-Antoine de Baïf</author>
+               <title>Le Brave</title>
+               <pubPlace>Paris</pubPlace>
+               <date>1567</date>
+               <publisher>Robert Estienne</publisher>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genre">comédie</term>
+               <term type="form">vers</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="acte" n="1">
+            <div type="scène" n="1">
+               <pb n="1"/>
+               <head>ACTE I. SCENE I.</head>
+               <stage>TAILLEBRAS, Capitaine. <lb/>GALLEPAIN, Eſcornifleur.</stage>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="1">
+                        <orig>GOVIATS, fourbiſſez ma rondelle:</orig><!-- erreur -->
+                        <reg>GOUJATS, fourbissez ma rondelle:</reg>
+                     </l>
+                     <l n="2">
+                        <orig>Qu'on me face qu'elle eſtincelle,</orig>
+                        <reg>Qu'on me face quelle étincelle,</reg>
+                     </l>
+                     <l n="3">
+                        <orig>Eſclatant plus grande clarté</orig>
+                        <reg>Éclatant plus grande clarté</reg>
+                     </l>
+                     <l n="4">
+                        <orig>Que n'eſt au plus beau iour d'eſté</orig>
+                        <reg>Que n'est au plus beau jour d'été</reg>
+                     </l>
+                     <l n="5">
+                        <orig>La clarté du ſoleil, ie dy</orig>
+                        <reg>La clarté du soleil, je dis</reg><!-- erreur -->
+                     </l>
+                     <l n="6">
+                        <orig>Lors que tout bruſle en plein midy:</orig>
+                        <reg>Lorsque tout brûle en plein midi:</reg>
+                     </l>
+                     <l n="7">
+                        <orig>A fin que s'il fauſt que lon aille</orig>
+                        <reg>Afin que s'il faut que l'on aille</reg>
+                     </l>
+                     <l n="8">
+                        <orig></orig>
+                        <reg>Donner l'aſſaut ou la bataille,</reg>
+                        <orig>Donner l'assaut ou la bataille,</orig>
+                     </l>
+                     <l n="9">
+                        <reg>Venant aux mains, elle ébarlue</reg>
+                        <orig>Venant aux mains, elle ébarlue</orig>
+                       </l>
+                     <l n="10">
+                        <orig>L'ennemi frappé dans la vue.</orig>
+                        <reg>L'ennemi frappé dans la vue.</reg>
+                     </l>
+                     <l n="11">
+                        <orig>O toy rapiere que ie porte,</orig>
+                        <reg>Ô toi rapière que je porte,</reg>
+                     </l><!-- erreur -->
+                     <l n="12">
+                        <orig>Il fauſt que ie te reconforte:</orig>
+                        <reg>Il faut que je te réconforte:</reg>
+                     </l>
+                     <l n="13">
+                        <orig>Ne te plain, ne te deſeſpere</orig>
+                        <reg>Ne te plains, ne te désespère</reg>
+                     </l>
+                     <l n="14">
+                        <orig>D'eſtre ſi long temps ſans rien faire:</orig>
+                        <reg>D'être si longtemps sans rien faire:</reg>
+                     </l>
+                     <l n="15">
+                        <orig>Si d'arracher tu as enuie</orig><!-- erreur -->
+                        <reg>Si d'arracher tu as envie</reg>
+                     </l>
+                     <l n="16">
+                        <orig>A plus d'vn ennemi de la vie,</orig>
+                        <reg>À plus d'un ennemi de la vie,</reg>
+                     </l>
+                     <l n="17">
+                        <orig>Fracaſſant bras, iambes &amp; teſte,</orig>
+                        <reg>Fracassant bras, jambes et tête,</reg><!-- erreur -->
+                     </l>
+                     <l n="18">
+                        <orig>Force carnage ie t'appreſte,</orig>
+                        <reg>Force carnage je t'apprête,</reg>
+                     </l>
+                     <fw>B.i.</fw>
+                     <pb n="2"/>
+                     <l n="19">
+                        <orig>Ou ne fauſdra fraper en vain.</orig>
+                        <reg>Ou ne faudra frapper en vain.</reg>
+                     </l>
+                     <l n="20">
+                        <orig>Mais ou eſt icy Gallepain.</orig>
+                        <reg>Mais où est ici Gallepain.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="21">
+                        <orig>Le voyci pres d'vn perſonnage</orig>
+                        <reg>Le voici près d'un personnage</reg>
+                     </l>
+                     <l n="22">
+                        <orig>Glorieux &amp; de fier courage,</orig>
+                        <reg>Glorieux et de fier courage,</reg>
+                     </l>
+                     <l n="23">
+                        <orig>Hazardeux en toute entrepriſe,</orig>
+                        <reg>Hazardeux en toute entreprise,</reg>
+                     </l>
+                     <l n="24">
+                        <orig>Que la Fortune fauoriſe,</orig>
+                        <reg>Que la Fortune favorise,</reg>
+                     </l>
+                     <l n="25">
+                        <orig>Homme en tout digne d'eſtre Roy,</orig>
+                        <reg>Homme en tout digne d'être Roi,</reg>
+                     </l>
+                     <l n="26">
+                        <orig>Si braue guerrier que (ie croy)</orig>
+                        <reg>Si brave guerrier que (je crois)</reg>
+                     </l>
+                     <l n="27">
+                        <orig>Mars meſme le Dieu des combas</orig>
+                        <reg>Mars même le Dieu des combats</reg>
+                     </l>
+                     <l n="28">
+                        <orig>Auecque vous n'oſeroit pas</orig>
+                        <reg>Avecque vous n'oserez pas</reg>
+                     </l>
+                     <l n="29">
+                        <orig>S'aparager, non ſans raiſon,</orig>
+                        <reg>S'aparager, non sans raison,</reg><!-- erreur -->
+                     </l>
+                     <l n="30">
+                        <orig>N'y ayant point comparaiſon</orig>
+                        <reg>N'y ayant point comparaison</reg>
+                     </l>
+                     <l n="31">
+                        <orig>De ſa proüeſſe à vos faidarmes</orig>
+                        <reg>De sa prouesse à vos faits d'armes</reg>
+                     </l>
+                     <l n="32">
+                        <orig>Tant vous eſtes adroit aux armes.</orig>
+                        <reg>Tant vous êtes adroits aux armes.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="33">
+                        <orig>Mais, aux aproches d'Edinton,</orig>
+                        <reg>Mais, aux approches d'Edinton,</reg><!-- erreur -->
+                     </l>
+                     <l n="34">
+                        <orig>Qui fit la belle faction</orig>
+                        <reg>Qui fit la belle faction</reg>
+                     </l>
+                     <l n="35">
+                        <orig>A la ſaillie, ou commandoit</orig>
+                        <reg>À la saillie, ou commandait</reg>
+                     </l>
+                     <l n="36">
+                        <orig>Ce braue Millor, qui eſtoit</orig>
+                        <reg>Ce brave Millor, qui était</reg>
+                     </l>
+                     <l n="37">
+                        <orig>Parent du Duc Notomberlant?</orig>
+                        <reg>Parent du Duc Northumberland?</reg><!-- Pour le manuel -->
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="38">
+                        <orig>Il m'en ſouuient: c'eſt ce Geant</orig><!-- erreur -->
+                        <reg>Il m'en souvient: c'est ce Géant</reg>
+                     </l>
+                     <l n="39">
+                        <orig>Couuert d'vn harnois tout doré,</orig>
+                        <reg>Couvert d'un harnois tout doré,</reg>
+                     </l>
+                     <l n="40">
+                        <orig>Qui par vous fut ſi bien bourré:</orig>
+                        <reg>Qui par vous fut si bien bourré:</reg>
+                     </l>
+                     <l n="41">
+                        <orig>Ce Geant que deſarconâtes</orig>
+                        <reg>Ce Géant que vous désarçonnâtes</reg>
+                     </l>
+                     <l n="42">
+                        <orig>D'vn coup d'eſpieu que luy donâtes:</orig>
+                        <reg>D'un coup d'épieu que vous lui donnâtes:</reg><!-- erreur -->
+                     </l>
+                     <l n="43">
+                        <orig>Sa troupe fuït débandee,</orig>
+                        <reg>Sa troupe fuit débandée,</reg><!-- erreur -->
+                     </l>
+                     <l n="44">
+                        <orig>Comme on voit les fucilles ſouuent</orig>
+                        <reg>Comme on voit les fucilles souvent</reg>
+                     </l>
+                     <pb n="3"/>
+                     <l n="45">
+                        <orig>S'éparpiller deuant le vent.</orig>
+                        <reg>S'éparpiller devant le vent.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="46">
+                        <orig>Ceci n'eſt rien.</orig>
+                        <reg>Ceci n'est rien.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="47">
+                        <orig>Non ce n'eſt rien,</orig>
+                        <reg>Non ce n'est rien,</reg>
+                     </l>
+                     <l n="48">
+                        <orig>Au pris de ce qu'on pourroit bien</orig>
+                        <reg>Au prix de ce qu'on pourrait bien</reg>
+                     </l>
+                     <l n="49">
+                        <orig>Raconter, que tu ne fis oncques.</orig>
+                        <reg>Raconter, que tu ne fis oncques.</reg>
+                     </l>
+                     <l n="50">
+                        <orig>Si pas vn trouue hõme quelconques</orig>
+                        <reg>Si pas un trouve homme quelconques</reg> 
+                     </l>
+                     <l n="51">
+                        <orig>Qui ſoit plus ſot, plus glorieux,</orig>
+                        <reg>Qui soit plus sot, plus glorieux,</reg>
+                     </l>
+                     <l n="52">Plus vanteur, plus audacieux,</l>
+                     <l n="53">
+                        <orig>Qu'eſt ce fat, me tende la main:</orig>
+                        <reg>Qu'est ce fat, me tende la main:</reg>
+                     </l>
+                     <l n="54">
+                        <orig>Ie me donne à luy pour du pain.</orig>
+                        <reg>Je me donne à lui pour du pain.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="55">
+                        <orig>Ou es-tu allé?</orig>
+                        <reg>Où es-tu allé?</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="56">
+                        <orig>Me voyci:</orig>
+                        <reg>Me voici:</reg>
+                     </l>
+                     <l n="57">
+                        <orig>Quel effort fites-vous auſſi</orig>
+                        <reg>Quel effort fîtes-vous aussi</reg>
+                     </l>
+                     <l n="58">
+                        <orig>Contre ce monſtre d'Oliphant?</orig>
+                        <reg>Contre ce monstre d'Oliphant?</reg>
+                     </l>
+                     <l n="59">
+                        <orig>Ce fut vn acte triomphant,</orig>
+                        <reg>Ce fut un acte triomphant,</reg>
+                     </l>
+                     <l n="60">
+                        <orig>Quand vous luy rompiſtes le bras.</orig>
+                        <reg>Quand vous lui rompîtes le bras.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="61">
+                        <orig>Quel bras?</orig>
+                        <reg>Quel bras?</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="62">
+                        <orig>Non, ie ne vouloy pas</orig>
+                        <reg>Non, je ne voulai pas</reg><!-- erreur -->
+                     </l>
+                     <l n="63">
+                        <orig>Dire le bras: ce fut la cuiſſe:</orig>
+                        <reg>Dire le bras: ce fut la cuisse:</reg>
+                     </l>
+                     <l n="64">
+                        <orig>Vous vouluſtes que ie le viſſe.</orig>
+                        <reg>Vous voulûtes que je le visse.</reg>
+                     </l>
+                     <l n="65">
+                        <orig>Et, ſi vous fuſſiez efforcé,</orig>
+                        <reg>Et, si vous fussiez efforcé,</reg>
+                     </l>
+                     <l n="66">
+                        <orig>Vous l'euſſiez tout outreperſé</orig>
+                        <reg>Vous l'eussiez tout outrepassé</reg>
+                     </l>
+                     <l n="67">
+                        <orig>De part en part d'vn coup de poing,</orig>
+                        <reg>De part en part d'un coup de poing,</reg>
+                     </l>
+                     <l n="68">
+                        <orig>Paſſant la main de là bien loing</orig>
+                        <reg>Passant la main de là bien loin</reg>
+                     </l>
+                     <fw>B.ii.</fw>
+                     <pb n="4"/>
+                     <l n="69">
+                        <orig>A trauers ſes coſtes, ſes os,</orig>
+                        <reg>À travers ses côtes, ses os,</reg>
+                     </l>
+                     <l n="70">
+                        <orig>Sa peau, ſa chair, &amp; ſes boyos.</orig>
+                        <reg>Sa peau, sa chair, et ses boyaux.</reg><!-- erreur -->
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="71">
+                        <orig>Laiſſe-là la beſte.</orig>
+                        <reg>Laisse-là la bête.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="72">
+                        <orig>Il fauſt doncques</orig>
+                        <reg>Il faut doncques</reg>
+                     </l>
+                     <l n="73">
+                        <orig>Te laiſſer, car il n'en fut oncques</orig>
+                        <reg>Te laisser, car il n'en fut jamais</reg>
+                     </l>
+                     <l n="74">
+                        <orig>Si tu n'es beſte.</orig>
+                        <reg>Si tu n'es bête.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="75">
+                        <orig>Que dis-tu?</orig>
+                        <reg>Que dis-tu?</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="76">
+                        <orig>Ie parloy de voſtre vertu</orig>
+                        <reg>Je parlai de votre vertu</reg>
+                     </l>
+                     <l n="77">
+                        <orig>Qui ne put ſouffrir qu'vn ſauuage</orig>
+                        <reg>Qui ne put souffrir qu'un sauvage</reg>
+                     </l>
+                     <l n="78">
+                        <orig>Fiſt tant, qu'encores d'auantage</orig>
+                        <reg>Fit tant, qu'encore davantage</reg><!-- erreur -->
+                     </l>
+                     <l n="79">
+                        <orig>Ne fiſſiez: quand deuant Dombarre</orig>
+                        <reg>Ne fissiez: quand devant Dombarre</reg>
+                     </l>
+                     <l n="80">
+                        <orig>Les Anglois ſi bien on rembarre.</orig>
+                        <reg>Les Anglais si bien on rembarre.</reg>
+                     </l>
+                     <l n="81">
+                        <orig>Le ſauuage (ce diſoit-on)</orig>
+                        <reg>Le sauvage (se disait-on)</reg>
+                     </l>
+                     <l n="82">
+                        <orig>En prit vn deuant Edinton,</orig>
+                        <reg>En prit un devant Edinton,</reg>
+                     </l>
+                     <l n="83">
+                        <orig>Mais vous tout ſeul deux vous en priſtes,</orig>
+                        <reg>Mais vous tout seul deux vous en prîtes,</reg>
+                     </l>
+                     <l n="84">
+                        <orig>Et ſur vos eſpaules les miſtes,</orig>
+                        <reg>Et sur vos épaules les mîtes,</reg>
+                     </l>
+                     <l n="85">
+                        <orig>Et tout ſeul vous les aportaſtes</orig>
+                        <reg>Et tout seul vous les apportâtes</reg>
+                     </l>
+                     <l n="86">
+                        <orig>En la ville, où les déchargeaſtes</orig>
+                        <reg>En la ville, où les déchargeâtes</reg>
+                     </l>
+                     <l n="87">
+                        <orig>Tous deux, aux yeux de cent teſmoins,</orig>
+                        <reg>Tous deux, aux yeux de cent témoins,</reg>
+                        </l>
+                     <l n="88">
+                        <orig>Auſſi croyables pour le moins</orig>
+                        <reg>Aussi croyables pour le moins</reg>
+                        </l>
+                     <l n="89">
+                        <orig>Que ie ſuis, qui en bonne foy</orig>
+                        <reg>Que je fuis, qui en bonne foi</reg>
+                     </l>
+                     <l n="90">
+                        <orig>Le ſcauent auſſi bien que moy.</orig>
+                        <reg>Le savent aussi bien que moi.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="91">
+                        <orig>Ie ne veux que lon parle icy</orig>
+                        <reg>Je ne veux que l'on parle ici</reg>
+                     </l>
+                     <l n="92">
+                        <orig>De tout cela.</orig>
+                        <reg>De tout cela.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="93">
+                        <orig>Ce n'eſt auſſi</orig>
+                        <reg>Ce n'est aussi</reg>
+                     </l>
+                     <pb n="5"/>
+                     <l n="94">
+                        <orig>Grand chef d'oeuure à moy de les dire,</orig>
+                        <reg>Grand chef d'œuvre à moi de les dire,</reg>
+                     </l>
+                     <l n="95">
+                        <orig>Qui ſcay vos vertus. Qui eſt pire</orig>
+                        <reg>Qui sait vos vertus. Qui est pire</reg>
+                     </l>
+                     <l n="96">
+                        <orig>Que le ventre &amp; la malle fain?</orig>
+                        <reg>Que le ventre et la male faim?</reg><!-- erreur -->
+                     </l>
+                     <l n="97">
+                        <orig>Il me font pour auoir du pain</orig>
+                        <reg>Il me font pour avoir du pain</reg>
+                     </l>
+                     <l n="98">
+                        <orig>Preſter l'oreille à ce ſot home.</orig>
+                        <reg>Prêter l'oreille à ce sot homme.</reg>
+                     </l>
+                     <l n="99">
+                        <orig>De peur que mon moulin ne chome,</orig>
+                        <reg>De peur que mon moulin ne chomme,</reg><!-- erreur -->
+                     </l>
+                     <l n="100">
+                        <orig>Mes moulieres moulans à vuide,</orig><!-- erreur -->
+                        <reg>Mes moulières moulant à vide,</reg>
+                     </l>
+                     <l n="101">
+                        <orig>Où c'eſt que pauureté me guide!</orig>
+                        <reg>Où c'est que pauvreté me guide!</reg>
+                     </l>
+                     <l n="102">
+                        <orig>Encor que ce ſoit menterie</orig>
+                        <reg>Encore que ce soit menterie</reg>
+                     </l>
+                     <l n="103">Tout ce qu'il dit, par flaterie</l>
+                     <l n="104">
+                        <orig>Il me fauſt accorder à tout,</orig>
+                        <reg>Il me faut accorder à tout,</reg>
+                     </l>
+                     <l n="105">
+                        <orig>Pour boire &amp; pour manger au bout.</orig>
+                        <reg>Pour boire et pour manger au bout.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="106">
+                        <orig>Qu'eſt-ce que ie veu dire? Holá!</orig>
+                        <reg>Qu'est-ce que je veux dire? Holà!</reg><!-- erreur -->
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="107">
+                        <orig>Ie ſcay bien : il eſt vray cela:</orig>
+                        <reg>Je sais bien : il est vrai cela:</reg>
+                     </l>
+                     <l n="108">
+                        <orig>I'en ay bien bonne ſouuenance.</orig>
+                        <reg>J'en ai bien bonne souvenance.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="109">
+                        <orig>Qu'eſtoit-ce?</orig>
+                        <reg>Qu'était-ce?</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="110">
+                        <orig>Quoy que ſoit i'y penſe.</orig>
+                        <reg>Quoi que ce soit j'y pense.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="111">
+                        <orig>As-tu ſur toy ton eſcritoire?</orig>
+                        <reg>As-tu sur toi ton écritoire?</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="112">
+                        <orig>Demandez-vous ſi ie l'ay? voire</orig>
+                        <reg>Demandez-vous si je l'ai? voire</reg>
+                     </l>
+                     <l n="113">
+                        <orig>Ie l'ay: l'encre auec le papier,</orig>
+                        <reg>Je l'ai: l'encre avec le papier,</reg>
+                     </l>
+                     <l n="114">
+                        <orig>La plume, &amp; ce qui fait meſtier.</orig>
+                        <reg>La plume, et ce qui fait métier.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="115">
+                        <orig>Il n'eſt poſsible de voir rien</orig>
+                        <reg>Il n'est possible de voir rien</reg>
+                     </l>
+                     <l n="116">
+                        <orig>Plus duict, que ton eſprit au mien.</orig>
+                        <reg>Plus duit, que ton esprit au mien.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <fw>B.iii.</fw>
+               <pb n="6"/>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="117">
+                        <orig>Il fault que ie ſcache par cueur</orig>
+                        <reg>Il faut que je sache par cœur</reg>
+                     </l>
+                     <l n="118">
+                        <orig>La volonte de voſtre cueur,</orig>
+                        <reg>La volonté de votre coeur,</reg>
+                     </l>
+                     <l n="119">
+                        <orig>Afin que, pluſtoſt que le vent,</orig>
+                        <reg>Afin que, plutôt que le vent,</reg>
+                     </l>
+                     <l n="120">
+                        <orig>Mon penſer prompr vole deuant</orig>
+                        <reg>Mon penſer prompt vole devant</reg>
+                     </l>
+                     <l n="121">
+                        <orig>Voſtre vouloir, &amp; que i'entende</orig>
+                        <reg>Votre vouloir, et que j'entende</reg>
+                     </l>
+                     <l n="122">
+                        <orig>A demi mot ce qu'il demande.</orig>
+                        <reg>À demi mot ce qu'il demande.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="123">
+                        <orig>Et bien en as-tu ſouuenance?</orig>
+                        <reg>Et bien en as-tu souvenance?</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="124">
+                        <orig>Il m'en ſouuiendra, ſi i'y panſe.</orig>
+                        <reg>Il m'en souviendra, si j'y pense.</reg>
+                     </l>
+                     <l n="125">
+                        <orig>Cent fantaſſins en Angleterre:</orig>
+                        <reg>Cent fantassins en Angleterre:</reg>
+                     </l>
+                     <l n="126">
+                        <orig>Soixante lancettes de guerre:</orig>
+                        <reg>Soixante lancettes de guerre:</reg>
+                     </l>
+                     <l n="127">
+                        <orig>Cent cinquante archers Irlandois,</orig><!-- erreur -->
+                        <reg>Cent cinquante archers Irlandais,</reg>
+                     </l>
+                     <l n="128">
+                        <orig>Et trente Notomberlandois:</orig>
+                        <reg>Et trente Northumberlandais:</reg><!-- erreur -->
+                     </l>
+                     <l n="129">
+                        <orig>C'eſt le nombre des hommes morts,</orig>
+                        <reg>C'est le nombre des hommes morts,</reg>
+                     </l>
+                     <l n="130">
+                        <orig>Deſquels en vn iour vos bras forts</orig>
+                        <reg>Desquels en un jour vos bras forts</reg>
+                     </l>
+                     <l n="131">
+                        <orig>Firent carnage en la bataille,</orig>
+                        <reg>Firent carnage en la bataille,</reg>
+                     </l>
+                     <l n="132">
+                        <orig>Autant d'eſtoc comme de taille.</orig>
+                        <reg>Autant d'estoc comme de taille.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="133">
+                        <orig>Combien eſt-ce que le tout monte?</orig>
+                        <reg>Combien est-ce que le tout monte?</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="134">
+                        <orig>Ce ſont treize cent de bon conte.</orig>
+                        <reg>Ce font treize cent de bon compte.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="taillebras">
+                  <speaker rend="center">TAILLEBRAS.</speaker>
+                  <lg>
+                     <l n="135">
+                        <orig>Il fault qu'il y en ait autant:</orig>
+                        <reg>Il faut qu'il y en ait autant:</reg>
+                     </l>
+                     <l n="136">
+                        <orig>Tu ſcez le nombre tout contant.</orig>
+                        <reg>Tu sais le nombre tout comptant.</reg>
+                     </l>
+                  </lg>
+               </sp>
+               <sp who="gallepain">
+                  <speaker rend="center">GALLEPAIN.</speaker>
+                  <lg>
+                     <l n="137">
+                        <orig>Si eſt-ce que ie n'en ay rien</orig>
+                        <reg>Si est-ce que je n'en ai rien</reg>
+                     </l>
+                     <l n="138">
+                        <orig>Par eſcrit, &amp; m'en ſouuient bien.</orig>
+                        <reg>Par écrit, et m'en souvient bien.</reg><!-- erreur -->
+                     </l>
+                  </lg>
+               </sp>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

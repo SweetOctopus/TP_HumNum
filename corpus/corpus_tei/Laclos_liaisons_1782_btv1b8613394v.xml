@@ -1,0 +1,720 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Les Liaisons dangereuses</title>
+        <author>Pierre Choderlos de Laclos</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Université de Genève</authority>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Pierre Choderlos de Laclos</author>
+          <title>Les Liaisons dangereuses</title>
+          <pubPlace>Amsterdam</pubPlace>
+          <publisher>Durand neveu</publisher>
+          <date when="1782">1782</date>
+          <ptr target="https://catalogue.bnf.fr/ark:/12148/cb31189430j"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term type="genre">roman</term>
+          <term type="form">prose</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text>
+    <front>
+        <pb n="3" facs="#PremierePage"/>
+        <ab>
+          <choice>       
+            <orig>LES LIAISONS DANGEREUSES OU LETTRES</orig>
+            <reg>LES LIAISONS DANGEREUSES OU LETTRES</reg>
+          </choice> 
+          <choice>
+            <orig>Recueillies dans une société, &amp; publiées pour l'instruction de quelques autres.</orig>
+            <reg>Recueillies dans une société, et publiées pour l'instruction de quelques autres.</reg>
+          </choice>
+          <choice>
+            <orig>Par M. C..... DE L...</orig>
+            <reg>Par M. C..... DE L...</reg>
+          </choice>
+          <choice>
+            <orig>J’ai vu les mœurs de mon temps, &amp; j’ai publié ces Lettres.</orig>
+            <reg>J’ai vu les mœurs de mon temps, et j’ai publié ces Lettres.</reg>
+          </choice>
+          <choice>
+            <orig>J. J. ROUSSEAU, Préf. De la Nouvelle Héloïſe.</orig>
+            <reg>Jean-Jacques ROUSSEAU, Préface De la Nouvelle Héloïse.</reg>
+          </choice>
+          <choice>
+            <orig>CHODERLOS DE LACLOS</orig>
+            <reg>CHODERLOS DE LACLOS</reg>
+          </choice>
+          <choice>
+            <orig>A. AMSTERDAM;</orig>
+            <reg>À. AMSTERDAM;</reg>
+          </choice>
+          <choice>
+            <orig>Et ſe trouve à PARIS,</orig>
+            <reg>Et se trouve à PARIS,</reg>
+          </choice>
+          <choice>
+            <orig>Chez DURAND Neveu, Libraire, à la Sageſſe, rue Galande</orig>
+            <reg>Chez DURAND Neveu, Libraire, à la Sagesse, rue Galande</reg>
+          </choice>
+          <choice>
+            <orig>M. DCC. LXXXII</orig>
+            <reg>M. DCC. LXXXII</reg>
+          </choice>
+        </ab>
+    </front>
+    <body>
+      <div type="novel">
+        <pb n="25" facs="#DeuxiemePage"/>
+        <head>
+          <orig>LES LIAISONS DANGEREUSES.</orig>
+          <reg>LES LIAISONS DANGEREUSES.</reg>
+        </head>
+        <head>
+          <orig>LETTRE Iere.</orig>
+          <reg>LETTRE Iere.</reg>
+        </head>
+        <head>
+          <orig>CÉCILE VOLANGES à SOPHIE</orig>
+          <reg>CÉCILE VOLANGES à SOPHIE</reg>
+        </head>
+        <head>
+          <orig>CARNAY, aux Urſulines de…</orig>
+          <reg>CARNAY, aux Ursulines de…</reg>
+        </head>
+          <p>
+            <choice>
+              <orig>TU vois, ma bonne amie, que je te tiens parole, &amp; que les bonnets &amp; les pompons ne prennent pas tout mon temps; il m’en reſtera toujours pour toi.</orig>
+              <reg>TU vois, ma bonne amie, que je te tiens parole, et que les bonnets et les pompons ne prennent pas tout mon temps; il m’en restera toujours pour toi.</reg>
+            </choice>
+            <choice>
+              <orig>J’ai pourtant vu plus de parures dans cette ſeule journée que dans les quatre ans que nous avons paſſés enſemble;</orig>
+              <reg>J’ai pourtant vu plus de parures dans cette seule journée que dans les quatre ans que nous avons passés ensemble;</reg>
+            </choice>
+            <choice>
+              <orig>&amp; je crois que la ſuperbe Tanville (I) aura plus de chagrin à ma premiere viſite, où je compte bien la demander, qu’elle n’a cru nous en faire toutes les fois qu’elle eſt venue nous voir in fiocchi.</orig>
+              <reg>et je crois que la superbe Tanville (I) aura plus de chagrin à ma première visite, où je compte bien la demander, qu’elle n’a cru nous en faire toutes les fois qu’elle est venue nous voir in fiocchi.</reg>
+            </choice>
+            <choice>
+              <orig>(I) Penſionnaire du même Couvent.</orig>
+              <reg>(I) Pensionnaire du même couvent.</reg>
+            </choice>
+            <fw>
+              <orig>20</orig>
+              <reg>20</reg>
+            </fw>
+            <fw>
+              <orig>LES LIAISONS</orig>
+              <reg>LES LIAISONS</reg>
+            </fw>
+            <choice>
+              <orig>Maman m’a conſultée ſur tout; elle me traite beaucoup moins en penſionnaire que par le paſſé.</orig>
+              <reg>Maman m’a consultée sur tout; elle me traite beaucoup moins en pensionnaire que par le passé.</reg>
+            </choice>
+            <lb/><choice>
+              <orig>J’ai une Femme-de-chambre à moi;</orig>
+              <reg>J’ai une femme de chambre à moi;</reg>
+            </choice>
+            <choice>
+              <orig>j’ai une chambre &amp; un cabinet dont je diſpoſe, &amp; je t’écris à un ſecrétaire très-joli, dont on m’a remis la clef, &amp; où je peux renfermer tout ce que je veux.</orig>
+              <reg>j’ai une chambre et un cabinet dont je dispose, et je t’écris à un secrétaire très joli, dont on m’a remis la clef, et où je peux renfermer tout ce que je veux.</reg>
+            </choice>
+            <choice>
+              <orig>Maman m’a dit que je la verrois tous les jours à ſon lever;</orig>
+              <reg>Maman m’a dit que je la verrais tous les jours à son lever;</reg>
+            </choice>
+            <choice>
+              <orig>qu’il ſuffiſoit que je fuſſe coiffée pour dîner, parce que nous ſerions toujours ſeules, &amp; qu’elle me diroit chaque jour l’heure où je devois l’aller joindre l’après midi.</orig>
+              <reg>qu’il suffisoit que je fusse coiffée pour dîner, parce que nous serions toujours seules, et qu’elle me dirait chaque jour l’heure où je devais l’aller joindre l’après-midi.</reg>
+            </choice>
+            <choice>
+              <orig>Les reſte du temps eſt à ma diſpoſition, &amp; j’ai ma harpe, mon deſſin, &amp; des livres comme au Couvent, ſi ce n’eſt que la Mère Perpétue n’eſt pas là pour me gronder, &amp; qu’il ne tiendroit qu’à moi d’être toujours à rien faire:</orig>
+              <reg>Les reste du temps est à ma disposition, et j’ai ma harpe, mon dessin, et des livres comme au Couvent, si ce n’est que la Mère Perpétue n’est pas là pour me gronder, et qu’il ne tiendrait qu’à moi d’être toujours à rien faire:</reg>
+            </choice>
+            <choice>
+              <orig>mais comme je n’ai pas ma Sophie pour cauſer &amp; pour rire, j’aime autant m’occuper.</orig>
+              <reg>mais comme je n’ai pas ma Sophie pour causer et pour rire, j’aime autant m’occuper.</reg>
+            </choice>
+            <fw>
+              <orig>21</orig>
+              <reg>21</reg>
+            </fw>
+            <fw>
+              <orig>DANGEREUSES.</orig>
+              <reg>DANGEREUSES.</reg>
+            </fw>
+            <choice>
+              <orig>Il n’eſt pas encore cinq heures; je ne dois aller retrouver Maman qu’à ſept:</orig>
+              <reg>Il n’est pas encore cinq heures; je ne dois aller retrouver Maman qu’à sept:</reg>
+            </choice>
+            <choice>
+              <orig>voilà bien du temps, ſi j’avois quelque choſe à te dire!</orig>
+              <reg>voilà bien du temps, si j’avais quelque chose à te dire!</reg>
+            </choice>
+            <lb/>
+            <choice>
+              <orig>Mais on ne m’a encore parlé de rien, &amp; ſans les apprêts que je vois faire, &amp; la quantité d’Ouvrieres qui viennent toutes pour moi, je croirois qu’on ne ſonge pas à me marier, &amp; que c’eſt un radotage de plus de la bonne Joſéphine (I).</orig>
+              <reg>Mais on ne m’a encore parlé de rien, et sans les apprêts que je vois faire, et la quantité d’Ouvrières qui viennent toutes pour moi, je croirais qu’on ne songe pas à me marier, et que c’est un radotage de plus de la bonne Joséphine (I).</reg>
+            </choice>
+            <choice>
+              <orig>(I) Tourriere du Couvent.</orig>
+              <reg>(I) Tourière du couvent.</reg>
+            </choice>
+            <choice>
+              <orig>Cependant Maman m’a dit ſi ſouvent qu’une Demoiselle devoit reſter au Couvent juſqu’à ce qu’elle ſe mariât, que puiſqu’elle m’en fait ſortir, il faut bien que Joſéphine ait raiſon.</orig>
+              <reg>Cependant Maman m’a dit si souvent qu’une Demoiselle devait rester au Couvent jusqu’à ce qu’elle se mariât, que puisqu’elle m’en fait sortir, il faut bien que Joséphine ait raison.</reg>
+            </choice>
+            <choice>
+              <orig>Il vient d’arrêter un carroſſe à la porte, &amp; Maman me fait dire de paſſer chez elle tout de ſuite, Si c’étoit le Monſieur ?</orig>
+              <reg>Il vient d’arrêter un carrosse à la porte, et Maman me fait dire de paſſer chez elle tout de suite, Si c’était le Monsieur ?</reg>
+            </choice>
+            <choice>
+              <orig>Je ne ſuis pas habillée, la main me tremble &amp; le cœur me bat.</orig>
+              <reg>Je ne suis pas habillée, la main me tremble et le cœur me bat.</reg>
+            </choice>
+            <choice>
+              <orig>J’ai demandé à la Femme-de-chambre ſi elle ſavoit qui étoit chez ma mere:</orig>
+              <reg>J’ai demandé à la Femme de chambre si elle savait qui était chez ma mère:</reg>
+            </choice>
+            <fw>
+              <orig>22</orig>
+              <reg>22</reg>
+            </fw>
+            <fw>
+              <orig>LES LIAISONS</orig>
+              <reg>LES LIAISONS</reg>
+            </fw>
+            <choice>
+              <orig>« Vraiment, m’a-t-elle</orig>
+              <reg>« Vraiment, m’a-t-elle</reg>
+            </choice>
+            <choice>
+              <orig>» dit, c’eſt M. C*** ». Et elle rioit.</orig>
+              <reg>» dit, c’est M. C*** ». Et elle riait.</reg>
+            </choice>
+            <choice>
+              <orig>Oh!</orig>
+              <reg>Oh!</reg>
+            </choice>
+            <choice>
+              <orig>Je crois que c’eſt lui.</orig>
+              <reg>Je crois que c’est lui.</reg>
+            </choice>
+            <choice>
+              <orig>Je reviendrai sûrement te raconter ce qui ſe ſera paſſé.</orig>
+              <reg>Je reviendrai sûrement te raconter ce qui se sera passé.</reg>
+            </choice>
+            <lb/><choice>
+              <orig>Voilà toujours ſon nom.</orig>
+              <reg>Voilà toujours son nom.</reg>
+            </choice>
+            <lb/><choice>
+              <orig>Il ne faut pas ſe faire attendre.</orig>
+              <reg>Il ne faut passe faire attendre.</reg>
+            </choice>
+            <choice>
+              <orig>Adieu, juſqu’à un petit moment.</orig>
+              <reg>Adieu, jusqu’à un petit moment.</reg>
+            </choice>
+            <choice>
+              <orig>Comme tu vas te moquer de la pauvre Cécile!</orig>
+              <reg>Comme tu vas te moquer de la pauvre Cécile!</reg>
+            </choice>
+            <choice>
+              <orig>Oh!</orig>
+              <reg>Oh!</reg>
+            </choice>
+            <choice>
+              <orig>J’ai été bien honteuſe !</orig>
+              <reg>J’ai été bien honteuse !</reg>
+            </choice>
+            <choice>
+              <orig>Mais tu y aurois été attrapée comme moi.</orig>
+              <reg>Mais tu y aurais été attrapée comme moi.</reg>
+            </choice>
+            <choice>
+              <orig>En entrant chez Maman, j’ai vu un Monſieur en noir, debout auprès d’elle.</orig>
+              <reg>En entrant chez Maman, j’ai vu un Monsieur en noir, debout auprès d’elle.</reg>
+            </choice>
+            <choice>
+              <orig>Je l’ai ſalué du mieux que j’ai pu, &amp; ſuis reſtée ſans pouvoir bouger de ma place.</orig>
+              <reg>Je l’ai salué du mieux que j’ai pu, et suis restée sans pouvoir bouger de ma place.</reg>
+            </choice>
+            <lb/><choice>
+              <orig>Tu juges combien je l’examinois!</orig>
+              <reg>Tu juges combien je l’examinais!</reg>
+            </choice>
+            <choice>
+              <orig>« Ma</orig>
+              <reg>« Ma</reg>
+            </choice>
+            <choice>
+              <orig>» dame, a-t-il dit à ma mere, en me</orig>
+              <reg>» dame, a-t-il dit à ma mère, en me</reg>
+            </choice>
+            <choice>
+              <orig>» ſaluant, voilà une charmante Demoi</orig>
+              <reg>» saluant, voilà une charmante Demoi</reg>
+            </choice>
+            <choice>
+              <orig>» ſelle, &amp; je ſens mieux que jamais le</orig>
+              <reg>» selle, et je sens mieux que jamais le</reg>
+            </choice>
+            <lb/><choice>
+              <orig>» prix de vos bontés ».</orig>
+              <reg>» prix de vos bontés ».</reg>
+            </choice>
+            <lb/><choice>
+              <orig>A ce propos ſi poſitif, il m’a pris un tremblement, tel</orig>
+              <reg>À ce propos si positif, il m’a pris un tremblement, tel</reg>
+            </choice>
+            <choice>
+              <orig>que je ne pouvois me ſoutenir;</orig>
+              <reg>que je ne pouvais me soutenir;</reg>
+            </choice>
+            <lb/><choice>
+              <orig>j’ai trouvé un fauteuil, &amp; je m’y ſuis aſſiſe, bien rouge et bien déconcertée.</orig>
+              <reg>j’ai trouvé un fauteuil, et je m’y suis asise, bien rouge et bien déconcertée.</reg>
+            </choice>
+            <lb/><choice>
+              <orig>J’y étois à peine, que voilà cet homme à mes genoux.</orig>
+              <reg>J’y étais à peine, que voilà cet homme à mes genoux.</reg>
+            </choice>
+            <fw>
+              <orig>23</orig>
+              <reg>23</reg>
+            </fw>
+            <fw>
+              <orig>DANGEREUSES.</orig>
+              <reg>DANGEREUSES.</reg>
+            </fw>
+            <choice>
+              <orig>Ta pauvre Cécile alors a perdu la tête;</orig>
+              <reg>Ta pauvre Cécile alors a perdu la tête;</reg>
+            </choice>
+            <choice>
+              <orig>j’étois, comme a dit Maman, toute effarouchée.</orig>
+              <reg>j’étais, comme a dit Maman, toute effarouchée.</reg>
+            </choice>
+            <lb/><choice>
+              <orig>Je me ſuis levée en jetant un cri perçant;…</orig>
+              <reg>Je me suis levée en jetant un cri perçant;…</reg>
+            </choice>
+            <choice>
+              <orig>tiens, comme ce jour du tonnerre.</orig>
+              <reg>tiens, comme ce jour du tonnerre.</reg>
+            </choice>
+            <choice>
+              <orig>Maman eſt partie d’un éclat de rire, en me diſant: « Eh</orig>
+              <reg>Maman est partie d’un éclat de rire, en me disant: « Eh</reg>
+            </choice>
+            <choice>
+              <orig>» bien!</orig>
+              <reg>» bien!</reg>
+            </choice>
+            <choice>
+              <orig>Qu’avez-vous?</orig>
+              <reg>Qu’avez-vous?</reg>
+            </choice>
+            <choice>
+              <orig>Aſſéyez-vous,</orig>
+              <reg>Asseyez-vous,</reg>
+            </choice>
+            <choice>
+              <orig>» &amp; donnez votre pied à Monſieur ».</orig>
+              <reg>» et donnez votre pied à Monsieur ».</reg>
+            </choice>
+            <choice>
+              <orig>En effet, ma chere amie, le Monſieur étoit un Cordonnier.</orig>
+              <reg>En effet, ma chère amie, le Monsieur était un Cordonnier.</reg>
+            </choice>
+            <choice>
+              <orig>Je ne peux te rendre combien j’ai été honteuſe:</orig>
+              <reg>Je ne peux te rendre combien j’ai été honteuse:</reg>
+            </choice>
+            <lb/><choice>
+              <orig>par bonheur il n’y avoit que Maman.</orig>
+              <reg>par bonheur il n’y avait que Maman.</reg>
+            </choice>
+            <choice>
+              <orig>Je crois que, quand je ſerai mariée, je ne me ſervirai plus de ce Cordonnier-là.</orig>
+              <reg>Je crois que, quand je serai mariée, je ne me servirai plus de ce Cordonnier-là.</reg>
+            </choice>
+            <choice>
+              <orig>Conviens que nous voilà bien ſavantes!</orig>
+              <reg>Conviens que nous voilà bien savantes!</reg>
+            </choice>
+            <choice>
+              <orig>Adieu.</orig>
+              <reg>Adieu.</reg>
+            </choice>
+            <choice>
+              <orig>Il eſt près de ſix heures, &amp; ma Femme-de-chambre dit qu’il faut que je m’habille.</orig>
+              <reg>Il est près de six heures, et ma femme de chambre dit qu’il faut que je m’habille.</reg>
+            </choice>
+            <choice>
+              <orig>Adieu, ma chere Sophie;</orig>
+              <reg>Adieu, ma chère Sophie;</reg>
+            </choice>
+            <lb break="no" rend="-"/>
+            <choice>
+              <orig>je t’aime comme ſi j’étois encore au Couvent.</orig>
+              <reg>je t’aime comme si j’étais encore au Couvent.</reg>
+            </choice>
+            <choice>
+              <orig>P.S. Je ne ſais par qui envoyer ma Lettre:</orig>
+              <reg>P.S. Je ne sais par qui envoyer ma Lettre:</reg>
+            </choice>
+            <choice>
+              <orig>ainſi j’attendrai que Joſéphine vienne.</orig>
+              <reg>ainsi j’attendrai que Joséphine vienne.</reg>
+            </choice>
+            <choice>
+              <orig>Paris, ce 3 Août 17**.</orig>
+              <reg>Paris, ce 3 Août 17**.</reg>
+            </choice>
+          </p>
+      </div>
+      <div>
+        <head>
+          <orig>LETTRE II.</orig>
+          <reg>LETTRE II.</reg>
+        </head>
+        <head>
+          <orig>La Marquiſe DE MERTEUIL au Vicomte DE VALMONT, au Château de...</orig>
+          <reg>La Marquise DE MERTEUIL au Vicomte DE VALMONT, au Château de...</reg>
+        </head>
+        <p>
+          <choice>
+            <orig>REVENEZ, mon cher Vicomte, re>venez:</orig>
+            <reg>REVENEZ, mon cher Vicomte, re>venez:</reg>
+          </choice>
+          <choice>
+            <orig>que faites-vous, que pouvez-vous faire chez une vieille tante dont tous les biens vous ſont ſubſtitués?</orig>
+            <reg>que faites-vous, que pouvez-vous faire chez une vieille tante dont tous les biens vous sont substitués?</reg>
+          </choice>
+          <choice>
+            <orig>Partez ſur le champ; j’ai beſoin de vous.</orig>
+            <reg>Partez sur le champ; j’ai besoin de vous.</reg>
+          </choice>
+          <choice>
+            <orig>Il m’eſt venu une excellente idée, &amp; je veux bien vous en confier l’exécution.</orig>
+            <reg>Il m’est venu une excellente idée, et je veux bien vous en confier l’exécution.</reg>
+          </choice>
+          <choice>
+            <orig>Ce peu de mots devroit ſuffire;</orig>
+            <reg>Ce peu de mots devra suffire;</reg>
+          </choice>
+          <choice>
+            <orig>&amp;, trop honoré de mon choix, vous devriez venir, avec empreſſement, prendre mes ordres à genoux:</orig>
+            <reg>et, trop honoré de mon choix, vous devriez venir, avec empressement, prendre mes ordres à genoux:</reg>
+            </choice>
+          <choice>
+            <orig>mais vous abuſez de mes bontés, même depuis</orig>
+            <reg>mais vous abusez de mes bontés, même depuis</reg>
+          </choice>
+          <choice>
+            <orig>que vous n’en uſez plus;</orig>
+            <reg>que vous n’en usez plus;</reg>
+          </choice>
+          <choice>
+            <orig>&amp; dans l’alternative d’une haine éternelle ou d’une exceſſive indulgence, votre bonheu veut que ma bonté l’emporte.</orig>
+            <reg>et dans l’alternative d’une haine éternelle ou d’une excessive indulgence, votre bonheur veut que ma bonté l’emporte.</reg>
+          </choice>
+          <choice>
+            <orig>Je veux donc bien vous inſtruire de mes projets:</orig>
+            <reg>Je veux donc bien vous instruire de mes projets:</reg>
+          </choice>
+          <fw>
+            <orig>mais</orig>
+            <reg>mais</reg>
+          </fw>
+          <fw>
+            <orig>25</orig>
+            <reg>25</reg>
+          </fw>
+          <fw>
+            <orig>DANGEREUSES.</orig>
+            <reg>DANGEREUSES.</reg>
+          </fw>
+          <choice>
+            <orig>mais jurez-moi qu’en fidele Chevalier, vous ne courrez aucune aventure que vous n’ayiez mis celle-ci à fin.</orig>
+            <reg>mais jurez-moi qu’en fidèle Chevalier, vous ne courrez aucune aventure que vous n’ayiez mis celle-ci à fin.</reg>
+          </choice>
+            <choice>
+              <orig>Elle eſt digne d’un Héros:</orig>
+              <reg>Elle est digne d’un Héros:</reg>
+            </choice>
+            <lb/><choice>
+              <orig>vous ſervirez l’amour &amp; la vengeance; ce ſera enfin une rouerie (I) de plus à mettre dans vos Mémoires:</orig>
+              <reg>vous servirez l’amour et la vengeance; ce sera enfin une rouerie (I) de plus à mettre dans vos Mémoires:</reg>
+            </choice>
+            <choice>
+              <orig>(I) Ces mots roué &amp; rouerie, dont heureuſement la bonne compagnie commence à ſe défaire, étoieut fort en uſage à l'époque où ces Lettres ont été écrites.</orig>
+              <reg>(I) Ces mots roué et rouerie, dont heureusement la bonne compagnie commence à se défaire, étaient fort en usage à l'époque où ces lettres ont été écrites.</reg>
+            </choice>
+            <choice>
+              <orig>oui, dans vos Mémoires, car je veux qu’ils ſoient imprimés un jour, &amp; je me charge de les écrire.</orig>
+              <reg>oui, dans vos mémoires, car je veux qu’ils soient imprimés un jour, et je me charge de les écrire.</reg>
+            </choice>
+            <choice>
+              <orig>Mais laiſſons cela, &amp; revenons à ce qui m’occupe.</orig>
+              <reg>Mais laissons cela, et revenons à ce qui m’occupe.</reg>
+            </choice>
+            <choice>
+              <orig>Mde de Volanges marie ſa fille:</orig>
+              <reg>Madame de Volanges marie sa fille:</reg>
+            </choice>
+            <choice>
+              <orig>c’eſt encore un ſecret; mais elle m’en a fait part hier.</orig>
+              <reg>c’est encore un secret; mais elle m’en a fait part hier.</reg>
+            </choice>
+            <choice>
+              <orig>Et qui croyez-vous qu’elle ait choiſi pour gendre?</orig>
+              <reg>Et qui croyez-vous qu’elle ait choisi pour gendre?</reg>
+            </choice>
+          <choice>
+            <orig>le Comte de Gercourt.</orig>
+            <reg>le comte de Gercourt.</reg>
+          </choice>
+            <lb break="no" rend="-"/><choice>
+              <orig>Qui m’auroit dit que je deviendrois la couſine de Gercourt?</orig>
+              <reg>Qui m’aurait dit que je deviendrais la cousine de Gercourt?</reg>
+            </choice>
+            <choice>
+              <orig>J’en ſuis dans une fureur.....</orig>
+              <reg>J’en suis dans une fureur.....</reg>
+            </choice>
+            <choice>
+              <orig>Eh bien !</orig>
+              <reg>Eh bien !</reg>
+            </choice>
+            <choice>
+              <orig>vous ne devinez pas encore ?</orig>
+              <reg>vous ne devinez pas encore ?</reg>
+            </choice>
+          <choice>
+            <orig>oh !</orig>
+            <reg>oh !</reg>
+          </choice>
+          <choice>
+            <orig>l’eſprit lourd !</orig>
+            <reg>l’esprit lourd !</reg>
+          </choice>
+          <fw>
+            <orig>Iere Partie</orig>
+            <reg>Iere Partie</reg>
+          </fw>
+          <fw>
+            <orig>B</orig>
+            <reg>B</reg>
+          </fw>
+          <fw>
+            <orig>26</orig>
+            <reg>26</reg>
+          </fw>
+          <fw>
+            <orig>LES LIAISONS.</orig>
+            <reg>LES LIAISONS.</reg>
+          </fw>
+          <choice>
+            <orig>Lui avez-vous donc pardonné l’aventure de l’Intendante?</orig>
+            <reg>Lui avez-vous donc pardonné l’aventure de l’intendante?</reg>
+          </choice>
+          <choice>
+            <orig>Et moi, n’ai-je pas encore plus à me plaindre de lui, monſtre que vous êtes (I)?</orig>
+            <reg>Et moi, n’ai-je pas encore plus à me plaindre de lui, monstre que vous êtes (I)?</reg>
+          </choice>
+          <choice>
+            <orig>(I) Pour entendre ce paſſage, il faut ſavoir que le Comte de Gercourt avoit quitté la Marquiſe de Merteuil pour l’Intendante de ***, qui lui avoit ſacrifié le Vicomte de Valmont, &amp; que c’eſt alors que la Marquiſe &amp; le Vicomte s’attacherent l’un à l’autre.</orig>
+            <reg>(I) Pour entendre ce passage, il faut savoir que le comte de Gercourt avait quitté la Marquise de Merteuil pour l’Intendante de ***, qui lui avait sacrifié le vicomte de Valmont, et que c’est alors que la marquise et le Vicomte s’attachèrent l’un à l’autre.</reg>
+          </choice>
+          <choice>
+            <orig>Comme cette aventure eſt fort antérieure aux événemens dont il eſt queſtion dans ces Lettres, on a cru devoir en ſupprimer toute la Correſpondance.</orig>
+            <reg>Comme cette aventure est fort antérieure aux évènements dont il est question dans ces lettres, on a crû devoir en supprimer toute la Correspondance.</reg>
+          </choice>
+          <choice>
+            <orig>Mais je m’appaiſe, &amp; l’eſpoir de me venger raſſérene mon ame.</orig>
+            <reg>Mais je m’appaise, et l’espoir de me venger rassérène mon âme.</reg>
+          </choice>
+         <choice>
+           <orig>Vous avez été ennuyé cent fois, ainſi que moi, de l’importance que met Gercourt à la femme qu’il aura, &amp; de la ſotte préſomption qui lui fait croire qu’il évitera le ſort inévitable.</orig>
+           <reg>Vous avez été ennuyé cent fois, ainsi que moi, de l’importance que met Gercourt à la femme qu’il aura, et de la sotte présomption qui lui fait croire qu’il évitera le sort inévitable.</reg>
+         </choice>
+         <choice>
+           <orig>Vous connoiſſez ſes ridicules préventions pour les éducations cloîtrées, &amp; ſon préjugé, plus ridicule encore, en faveur de la retenue des blondes.</orig>
+           <reg>Vous connaissez ses ridicules préventions pour les éducations cloîtrées, et son préjugé, plus ridicule encore, en faveur de la retenue des blondes.</reg>
+         </choice>
+         <choice>
+           <orig>En effet, je gagerois que, malgré les ſoixante mille livres de rente de la petite Volanges, il n’auroit jamais, fait ce mariage, ſi elle eût été brune, ou ſi elle n’eût pas été au Couvent.</orig>
+           <reg>En effet, je gagerais que, malgré les soixante mille livres de rente de la petite Volanges, il n’aurait jamais, fait ce mariage, si elle eût été brune, ou si elle n’eût pas été au Couvent.</reg>
+            </choice>
+          <fw>
+            <orig>27</orig>
+            <reg>27</reg>
+          </fw>
+          <fw>
+            <orig>DANGEREUSES.</orig>
+            <reg>DANGEREUSES.</reg>
+          </fw>
+          <choice>
+            <orig>Prouvons-lui donc qu’il n’eſt qu’un ſot:</orig>
+            <reg>Prouvons-lui donc qu’il n’est qu’un sot:</reg>
+            </choice>
+          <choice>
+            <orig>il le ſera ſans, doute un jour;</orig>
+            <reg>il le sera sans, doute un jour;</reg>
+            </choice>
+           <choice>
+             <orig>ce n'eſt pas là ce qui m’embarraſſe:</orig>
+             <reg>ce n'est pas là ce qui m’embarrasse:</reg>
+            </choice>
+            <lb break="no" rend="-"/><choice>
+              <orig>mais le plaiſant ſeroit qu’il débutât par-là.</orig>
+              <reg>mais le plaisant seroit qu’il débutât par là.</reg>
+            </choice>
+            <choice>
+              <orig>Comme nous nous amuſerions le lendemain en l’entendant ſe vanter!</orig>
+              <reg>Comme nous nous amuserions le lendemain en l’entendant se vanter!</reg>
+            </choice>
+           <choice>
+             <orig>car il ſe, vantera;</orig>
+             <reg>car il se, vantera;</reg>
+            </choice>
+          <choice>
+            <orig>&amp; puis, ſi une fois vous formez cette petite fille, il y aura bien du malheur ſi le Gercourt ne devient pas, comme un autre, la fable de Paris.</orig>
+            <reg>et puis, si une fois vous formez cette petite fille, il y aura bien du malheur si le Gercourt ne devient pas, comme un autre, la fable de Paris.</reg>
+          </choice>
+          <choice>
+            <orig>Au reſte, l’Héroïne de ce nouveau Roman mérite tous vos ſoins:</orig>
+            <reg>Au reste, l’Héroïne de ce nouveau Roman mérite tous vos soins:</reg>
+            </choice>
+          <choice>
+            <orig>elle eſt vraiment jolie;</orig>
+            <reg>elle est vraiment jolie;</reg>
+          </choice>
+          <choice>
+            <orig>cela n’a que quinze ans, c’eſt le bouton de roſe;</orig>
+            <reg>cela n’a que quinze ans, c’est le bouton de rose;</reg>
+          </choice>
+          <choice>
+            <orig>gauche à la vérité, comme on ne l’eſt point, &amp; nullement maniérée:</orig>
+            <reg>gauche à la vérité, comme on ne l’est point, et nullement maniérée:</reg>
+          </choice>
+          <choice>
+            <orig>mais, vous autres hommes, vous ne craignez pas cela;</orig>
+            <reg>mais, vous autres hommes, vous ne craignez pas cela;</reg>
+          </choice>
+          <choice>
+            <orig>e plus, un certain regard langoureux qui promet beaucoup en vérité:</orig>
+            <reg>e plus, un certain regard langoureux qui promet beaucoup en vérité:</reg>
+          </choice>
+          <choice>
+            <orig>ajoutez-y que je vous la recommande;</orig>
+            <reg>ajoutez-y que je vous la recommande;</reg>
+          </choice>
+          <fw>
+            <orig>B2</orig>
+            <reg>B2</reg>
+          </fw>
+          <fw>
+            <orig>28</orig>
+            <reg>28</reg>
+          </fw>
+          <fw>
+            <orig>LES LIAISONS.</orig>
+            <reg>LES LIAISONS.</reg>
+          </fw>
+          <choice>
+            <orig>vous n’avez plus qu’à me remercier &amp; m’obéir.</orig>
+            <reg>vous n’avez plus qu’à me remercier et m’obéir.</reg>
+          </choice>
+          <choice>
+            <orig>Vous recevrez cette Lettre demain matin.</orig>
+            <reg>Vous recevrez cette lettre demain matin.</reg>
+            </choice>
+            <choice>
+              <orig>J’exige que demain, à ſept heures du ſoir, vous ſoyiez chez moi.</orig>
+              <reg>J’exige que demain, à sept heures du soir, vous soyiez chez moi.</reg>
+            </choice>
+          <choice>
+            <orig>Je ne recevrai perſonne qu’à huit, pas même le régnant Chevalier:</orig>
+            <reg>Je ne recevrai personne qu’à huit, pas même le régnant chevalier:</reg>
+            </choice>
+            <choice>
+              <orig>il n’a pas aſſez de tête pour une auſſi grande affaire.</orig>
+              <reg>il n’a pas assez de tête pour une aussi grande affaire.</reg>
+            </choice>
+            <lb/>
+            <choice>
+              <orig>Vous voyez que l’amour ne m’aveugle pas.</orig>
+              <reg>Vous voyez que l’amour ne m’aveugle pas.</reg>
+            </choice>
+          <choice>
+            <orig>A huit heures je vous rendrai votre liberté, &amp; vous reviendrez à dix ſouper avec le bel objet;</orig>
+            <reg>À huit heures je vous rendrai votre liberté, et vous reviendrez à dix souper avec le bel objet;</reg>
+            </choice>
+           <choice>
+             <orig>car la mere &amp; la fille ſouperont chez moi.</orig>
+             <reg>car la mère et la fille souperont chez moi.</reg>
+            </choice>
+           <choice>
+             <orig>Adieu, il eſt midi paſſé:</orig>
+             <reg>Adieu, il est midi passé:</reg>
+            </choice>
+           <choice>
+             <orig>bientôt je ne m’occuperai plus de vous.</orig>
+             <reg>bientôt je ne m’occuperai plus de vous.</reg>
+            </choice>
+          <choice>
+            <orig>Paris, ce 4 Août 17**.</orig>
+            <reg>Paris, ce 4 Août 17**.</reg>
+          </choice>
+        </p>
+      </div>
+      <div>
+        <head>
+          <orig>LETTRE III.</orig>
+          <reg>LETTRE III.</reg>
+        </head>
+        <head>
+          <orig>CÉCILE VOLANGES à SOPHIE CARNAY.</orig>
+          <reg>CÉCILE VOLANGES à SOPHIE CARNAY.</reg>
+        </head>
+        <p>
+          <choice>
+            <orig>JE ne ſais encore rien, ma bonne amie.</orig>
+            <reg>JE ne sais encore rien, ma bonne amie.</reg>
+          </choice>
+          
+          <choice>
+            <orig>Maman avoit hier beaucoup de monde à ſouper.</orig>
+            <reg>Maman avait hier beaucoup de monde à souper.</reg>
+          </choice>
+          <choice>
+            <orig>Malgré l’intérêt que j’avois à</orig>
+            <reg>Malgré l’intérêt que j’avais à</reg>
+          </choice>
+        </p>
+      </div>
+    </body>
+  </text>
+</TEI>

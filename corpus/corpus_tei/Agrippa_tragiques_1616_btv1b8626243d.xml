@@ -1,0 +1,700 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Correction:
+      teiHeader mal structuré
+      Beaucoup d'erreurs de normalisations, mais aussi de copies
+      Vous arrivez à introduire des fautes lors de la normalisation, ce ne sont aps que des oublis
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        
+        <fileDesc>
+            <titleStmt>
+                <title>Les Tragiques</title>
+                <author> <!-- Y'a besoin de mentionner l'auteur ici? -->
+                    <persName>
+                        <forename>Theodore Agrippa </forename>
+                        <surname>d'Aubigné</surname>
+                    </persName>
+                </author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Université de Genève</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+                </availability>
+            </publicationStmt>            
+            <sourceDesc><!-- erreur -->
+                <bibl>
+                    <title>Les Tragiques ci-devant donnez au public par le larcin de Promethée. Au dezert, par L.B.D.D</title>
+                    <author>
+                        <persName>Agrippa d'Aubigné</persName>
+                        <idno type="Wiki">https://www.wikidata.org/wiki/Q334950</idno>
+                        <graphic url="https://commons.wikimedia.org/wiki/File:Agrippa_d%27Aubigné.jpg" /><!-- A check -->
+                        <sex value="male">masculin</sex><!-- Comprendre comment et ou le mettre -->
+                        <birth>1552-02-08T00:00:00Z</birth><!-- Comprendre comment et ou le mettre -->
+                        <death>1630-05-09T00:00:00Z</death><!-- Comprendre comment et ou le mettre -->
+                        <idno type="BNF">118894118</idno>
+                        <idno type="IdRef">26694816</idno>
+                        <idno type="ISNI">0000 0001 2133 9677</idno>
+                    </author>
+                    <editor>Au Dezert, par L.B.D.D.</editor>
+                    <date>1616</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">comédie</term>
+                    <term type="form">vers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body>
+            <div>
+                <ab>
+                    <orig>LES TRAGIGVES</orig>
+                    <reg>LES TRAGIQUES</reg>
+                </ab>
+                <ab>
+                    <orig>DONNEZ AV PVBLIC PAR le larcin de Promethee</orig>
+                    <reg>DONNÉS AU PVBLIC PAR le larcin de Prométhée</reg>
+                </ab>
+                <ab>
+                    <orig>AU DEZERT</orig>
+                    <orig>AU DÉSERT</orig>
+                </ab>
+                <ab>
+                    <orig>PAR L. B. D.</orig>
+                    <orig>PAR L. B. D.</orig>
+                </ab>
+                <ab>
+                    <orig>M. DC. XVI.</orig>
+                    <orig>M. DC. XVI.</orig>
+                </ab>
+            </div>
+            <div type="poem">
+                <head>
+                    <orig>MISERES</orig>
+                    <reg>MISÈRES</reg>
+                </head>
+                <div type="livre" n="1">
+                    <head>
+                        <orig>LIVRE PREMIER.</orig>
+                        <reg>LIVRE PREMIER.</reg>
+                    </head>
+                    <l>
+                        <orig>Pvis qu’il faut s’attaquer aux legiõs de Rome,</orig>
+                        <reg>Puisqu'il faut s'attaquer aux légions de Rome</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Aux mõstres d'Italie, il faudra faire comme</orig>
+                        <reg>Aux montres d'Italie, il faudra faire comme</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Hãnibal, qui par feux d’aigre humeur arroſes</orig>
+                        <reg>Hannibal, qui par feux d'aigre humeur arrosés</reg>
+                    </l>
+                    
+                    <l>
+                        <orig>Se fendit un paſſage aux Alpes embraZez.</orig>
+                        <reg>Se fendit un passage aux Alpes embrasés.</reg>
+                    </l>
+                    <l>
+                        <orig>Mõ courage de feu, mõ humeur aigre &amp; forte</orig>
+                        <reg>Mon courage de feu, mon humeur aigre et forte</reg>
+                    </l>
+                    <l>
+                        <orig>Au travers des ſept monts faict bréche au lieu de porte.</orig>
+                        <reg>Au travers des sept monts fait brèche au lieu de porte.</reg>
+                    </l>
+                    <l>
+                        <orig>Ie briſe les rochers &amp; le reſpect d’erreur</orig>
+                        <reg>Je brise les rochers et le respect d'erreur</reg>
+                    </l>
+                    <l>
+                        <orig>Qui fit douter Ceſar d’une vaine terreur.</orig>
+                        <reg>Qui fit douter César d'une vaine terreur.</reg>
+                    </l>
+                    <l>
+                        <orig>Ie vid Rome tremblante, affreuZe, eſchevelee,</orig>
+                        <reg>Il vit Rome tremblante, affreuse, échevelée,</reg>
+                    </l>
+                    <l>
+                        <orig>Qui en pleurs, en ſanglots, mi-morte, deſolee,</orig>
+                        <reg>Qui en pleurs, en sanglots, mi-morte, désolée,</reg>
+                    </l>
+                    <l>
+                        <orig>Tordant ſes doigts, fermoit, defendoit de ſes mains</orig>
+                        <reg>Tordant ses doigts, fermait, defendait de ses mains</reg>
+                    </l>
+                    <l>
+                        <orig>A Ceſar le chemin au ſang de ſes germains.</orig>
+                        <reg>À César le chemin au sang de ses germains.</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Mais deſſous les autels des idoles, j’adviſe</orig>
+                        <reg>Mais dessous les autels des idoles, j'avise</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Le viſage meurtri de la captive Egliſe,</orig>
+                        <reg>Le visage meurtri de la captive Église</reg>
+                    </l>
+                    <l>
+                        <orig>Qui à ſa delivrance (aux deſpens des hazards)</orig>
+                        <reg>Qui à sa délivrance (aux dépens des hazards)</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>M'appelle, m'animant de ſes trenchans regards.</orig>
+                        <reg>M'appelle, m'animant de ses tranchants regards.</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Mes deſirs ſont des-ja volez outre la rive</orig>
+                        <reg>Mes désirs sont déjà volés outre la rive</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Du Rubicon troublé,que mon reſte les ſuive</orig><!-- erreur -->
+                        <reg>Du Rubicon troublé, que mon reste les suive</reg>
+                    </l>
+                    <l>
+                        <orig>Par vn chemin tout neuf, car ie ne trouve pas</orig>
+                        <reg>Par un chemin tout neuf, car je ne trouve pas</reg>
+                    </l>
+                    <l>
+                        <orig>Qu'autre homme l’ait iamais eſcorche de ſes pas.</orig>
+                        <reg>Qu'autre homme l'ait jamais écorché de ses pas</reg>
+                    </l>
+                    <l>
+                        <orig>Pour Mercures croizez, au lieu de Pyramides,</orig>
+                        <reg>Pour Mercures croisés, au lieu de Pyramides,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>I'ai de jour le pilier, de nuict les feux pour guides.</orig>
+                        <reg>J'ai de jour le pilier, de nuit les feux pour guides.</reg>
+                    </l>
+                    <fw type="cahier" place="bottom-right">B.. iiij.</fw>
+                    <pb/>
+                    <fw type="pageNum">2</fw>
+                    <fw>
+                        <orig>MISERES.</orig>
+                        <reg>MISÈRES.</reg>
+                    </fw>
+                    <l>
+                        <orig>Astres ſecourez-moi, ces chemins enlaceZ</orig>
+                        <reg>Astres secourez-moi, ces chemins enlacés</reg>
+                    </l>
+                    <l>
+                        <orig>Sont par l’antiquité des ſiecles effaceZ</orig>
+                        <reg>Sont par l'antiquité des siécles effacés</reg>
+                    </l>
+                    <l>
+                        <orig>Si bien que l’herbe verde en ſes ſentiers eſt creue,</orig>
+                        <reg>Si bien que l'herbe verte en ses sentiers est crue</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>En faict une prairie eſpaiſſe, haute &amp; drue,</orig>
+                        <reg>En fait une prairie épaisse, haute et drue,</reg>
+                    </l>
+                    <l>
+                        <orig>Là où estoient les feux des Prophetes plus vieux:</orig>
+                        <reg>Là où étaient les feux des Prophètes plus vieux:</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Ie tends comme je puis le cordeau de mes yeux,</orig>
+                        <reg>Je tends comme je puis le cordeau de mes yeux,</reg>
+                    </l>
+                    <l>
+                        <orig>Puis je cours au matin, de ma jambe arroſee,</orig>
+                        <reg>Puis je cours au matin, de ma jambe arrosée</reg>
+                    </l>
+                    <l>
+                        <orig>I'eſparpille à coste la premiere roſee.</orig>
+                        <reg>J'éparpille à côté la première rosée.</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Ne laiſſant apres moi trace à mes ſucceſſeurs</orig>
+                        <reg>Ne laissant après moi trace à mes successeurs</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Que les reins tous ployeZ des inutiles fleurs:</orig>
+                        <reg>Que les reins tous ployés des inutiles fleurs:</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Fleurs qui tombent ſi toſt qu’un vrai Soleil les touche,</orig>
+                        <reg>Fleurs qui tombent si tôt qu'un vrai Soleil les touche,</reg>
+                    </l>
+                    <l>
+                        <orig>Ou que Dieu fenera par le vent de ſa bouche.</orig>
+                        <reg>Ou que Dieu fènera par le vent de sa bouche.</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Tout puiſſant, tout voyant, qui du haut des hauts cieux</orig>
+                        <reg>Tout puissant, tout voyant, qui du haut des hauts cieux</reg>
+                    </l>
+                    <l>
+                        <orig>Fends les cœurs plus ſerrez par l'eſclair de tes yeux,</orig>
+                        <reg>Fends les cœurs plus serrés par l'éclair de tes yeux,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Qui fis tout, &amp; conneus tout ce que tu fis estre:</orig>
+                        <reg>Qui fis tout, et connus tout ce que tu fis être:</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Tout parfaict en ouvrant, tout parfaict à connoiſtre,</orig>
+                        <reg>Tout parfait en ouvrant, tout parfait à connaître,</reg>
+                    </l>
+                    <l>
+                        <orig>De qui l'œil tout courant, &amp; tout voyant außi,</orig>
+                        <reg>De qui l'œil tout courant, et tout voyant aussi,</reg>
+                    </l>
+                    <l>
+                        <orig>De qui le ſoin ſans ſoin prend de tout le ſouci,</orig>
+                        <reg>De qui le soin sans soin prend de tout le souci</reg>
+                    </l>
+                    <l>
+                        <orig>De qui la main forma exemplaires &amp; cauſes,</orig>
+                        <reg>De qui la main forma exemplaires et, causes,</reg>
+                    </l>
+                    <l>
+                        <orig>Qui preveus les effects dés le naistre des choſes:</orig>
+                        <reg>Qui prévus les effets des le naître des choses</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Dieu qui d’un ſtyle vif, comme il te plaiſt, eſcris</orig>
+                        <reg>Dieu qui d'un style vif, comme il te plaît, écris</reg>
+                    </l>
+                    <l>
+                        <orig>Le ſecret plus obſcur, en l’obſcur des eſprits:</orig>
+                        <reg>Le secret plus obscur, en l'obscur des esprits:</reg>
+                    </l>
+                    <l>
+                        <orig>Puis que de ton amour mon ame eſt eſchauffee,</orig>
+                        <reg>Puisque de ton amour mon ame est échauffée</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Ialouze de ton nom, ma poictrine embrazee</orig>
+                        <reg>Jalouse de ton nom, ma poitrine embrasée</reg>
+                    </l>
+                    <l>
+                        <orig>De ton feu pur, repurge außi de meſmes feux</orig>
+                        <reg>De ton feu pur, repurge aussi de mêmes feux</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Le vice naturel de mon cœur vicieux:</orig>
+                        <reg>Le vice naturel de mon cœur vicieux:</reg>
+                    </l>
+                    <l>
+                        <orig>De ce zelle tres-ſainct rebruſles-moi encore,</orig>
+                        <reg>De ce zèle très-saint rebrûles-moi encore,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Si que (tout conſomme au feu qui me devore,</orig>
+                        <reg>Si que (tout consomme au feu qui me dévore,</reg>
+                    </l>
+                    <l>
+                        <orig>N'estant ſerf de ton ire, en ire tranſporte</orig>
+                        <reg>N'étant serf de ton ire, en ire transporte</reg>
+                    </l>
+                    <l>
+                        <orig>Sans paßion) ie ſois propre à ta verite,</orig><!-- erreur -->
+                        <reg>Sans passion) je sois propre à ta vérité,</reg>
+                    </l>
+                    <fw type="reclame" place="bottom-right">Ailleurs</fw>
+                    <pb/>
+                    <fw type="pageNum">3</fw>
+                    <fw>
+                        
+                        <orig>MISERES. LIV. I.</orig>
+                        <reg>MISÈRES. LIV. I.</reg>
+                    </fw>
+                    <l>
+                        <orig>Ailleurs qu'à te loüer ne ſoit abandonnee</orig>
+                        <reg>Ailleurs qu'à te louer ne soit abandonnée</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>La plume que je tiens, puis que tu l'as donnee.</orig>
+                        <reg>La plume que je tiens, puisque tu l'as donnée.</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Ie n’eſcris plus les feux d’un amour inconnu,</orig>
+                        <reg>Je n'écris plus les feux d'un amour inconnu,</reg>
+                    </l>
+                    <l>
+                        <orig>Mais par l’affliction plus ſage devenu,</orig>
+                        <reg>Mais par l'affliction plus sage devenu,</reg>
+                    </l>
+                    <l>
+                        <orig>I'entreprens bien plus haut, car j’apprens à ma plume</orig>
+                        <reg>J'entreprends bien plus haut, car j'apprends à ma plume</reg>
+                    </l>
+                    <l>
+                        <orig>Vn autre feu, auquel la France ſe conſume.</orig>
+                        <reg>Un autre feu, auquel la France se consumme.</reg>
+                    </l>
+                    <l>
+                        <orig>Ces ruiſſelets d’argent, que les GrecZ nous feignoient,</orig>
+                        <reg>Ces ruisselets d'argent, que les Grecs nous feignaient,</reg>
+                    </l>
+                    <l>
+                        <orig>Où leurs Poëtes vains beuvoient &amp; ſe baignoient,</orig><!-- erreur -->
+                        <reg>Où les Poètes vains buvaient et se baignaient,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Ne courent plus ici: mais les ondes ſi claires</orig>
+                        <reg>Ne courent plus ici: mais les ondes si claires</reg>
+                    </l>
+                    <l>
+                        <orig>Qui eurent les ſaphirs &amp; les perles contraires,</orig>
+                        <reg>Qui eurent les saphirs et les perles contraires,</reg>
+                    </l>
+                    <l>
+                        <orig>Sont rouges de nos morts: le doux bruit de leurs flotZ</orig>
+                        <reg>Sont rouges de nos morts: le doux bruit de leurs flots</reg>
+                    </l>
+                    <l>
+                        <orig>Leur murmure plaiſant heurte contre des os.</orig>
+                        <reg>Leur murmure plaisant heurte contre des os.</reg>
+                    </l>
+                    <l>
+                        <orig>Telle eſt en eſcrivant ma non-commune image:</orig>
+                        <reg>Telle est en écrivant ma non-commune image:</reg>
+                    </l>
+                    <l>
+                        <orig>Autre fureur qu’amour reluit en mon viſage:</orig>
+                        <reg>Autre fureur qu'amour reluit en mon visage:</reg>
+                    </l>
+                    <l>
+                        <orig>Soubs un inique Mars parmi les durs labeurs</orig>
+                        <reg>Sous un inique Mars parmi les durs labeurs</reg>
+                    </l>
+                    <l>
+                        <orig>Qui gastent le pappier &amp; noſtre ancre de pleurs,</orig>
+                        <reg>Qui gâtent le papier et notre ancre de pleurs,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Au lieu de Theſſalie aux mignardes vallees,</orig>
+                        <reg>Au lieu de Thessalie aux mignardes vallées,</reg>
+                    </l>
+                    <l>
+                        <orig>Nous avortons ces chants au milieu des armees,</orig>
+                        <reg>Nous avortons ces chants au milieu des armées,</reg>
+                    </l>
+                    <l>
+                        <orig>En delaſſant nos bras de craſſe tous rouïllez</orig>
+                        <reg>En délassant nos bras de crasse tous rouillés,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Qui n'oſent s’eſloigner des braſſards deſpouillez.</orig>
+                        <reg>Qui n'osent s'éloigner des brassards dépouillés.</reg>
+                    </l>
+                    <l>
+                        <orig>Le luth que j’accordois avec mes chanſonnettes,</orig>
+                        <reg>Le luth que j'accordais avec mes chansonnettes,</reg>
+                    </l>
+                    <l>
+                        <orig>Eſt ores estouffe de l’eſclat des trompettes:</orig>
+                        <reg>Est ores étouffé de l'éclair des trompettes:</reg>
+                    </l>
+                    <l>
+                        <orig>Ici le ſang n'eſt feint, le meurtre n'y defaut,</orig>
+                        <reg>Ici le sang n'est feint, le meurtre n'y défaut,</reg>
+                    </l>
+                    <l>
+                        <orig>La mort iouë elle meſme en ce triste eſchaffaut:</orig>
+                        <reg>La mort joue elle même en ce triste échafaud:</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Le Iuge criminel tourne &amp; emplit ſon urne:</orig>
+                        <reg>Le Juge criminel tourne et emplit son urne:</reg>
+                    </l>
+                    <l>
+                        <orig>D'ici la botte en jambe, &amp; non pas le cothurne:</orig>
+                        <reg>D'ici la botte en jambe, et non pas le cothurne:</reg>
+                    </l>
+                    <l>
+                        <orig>I'appelle Melpomene en ſa vive fureur,</orig>
+                        <reg>J'appelle Melpomène en sa vive fureur,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Au lieu de l'Hypocrene, eſveillant cette Sœur</orig>
+                        <reg>Au lieu de l'Hippocrène, éveillant cette Sœur</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Des tombeaux rafraiſchis, dont il faut qu'elle ſorte,</orig>
+                        <reg>Des tombeaux rafraîchis, dont il faut qu'elle sorte,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Affreuſe, eſchevelee, &amp; bramant en la ſorte</orig><!-- erreur -->
+                        <reg>Affreuse, échevelée, et bramant en la sorte</reg><!-- erreur -->
+                    </l>
+                    <fw type="cahier" place="bottom-right">C ij</fw>
+                    <pb/>
+                    <fw type="pageNum">4</fw>
+                    <fw>
+                        
+                        <orig>MISERES. LIV. I.</orig>
+                        <reg>MISÈRES. LIV. I.</reg>
+                    </fw>
+                    <l>
+                        <orig>Que faict la biche apres le fan qu'elle a perdu,</orig>
+                        <reg>Que fait la biche après le faon qu'elle a perdu,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Que la bouche luy ſeigne, &amp; ſon front eſperdu</orig>
+                        <reg>Que la bouche lui saigne, et son front éperdu</reg>
+                    </l>
+                    <l>
+                        <orig>Face noircir du ciel les voutes eſloignees,</orig>
+                        <reg>Face noircir du ciel les voûtes éloignées,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Qu'elle eſparpille en l’air de ſon ſang deux poignees,</orig>
+                        <reg>Qu'elle éparpille en l'air de son sang deux poignées,</reg>
+                    </l>
+                    <l>
+                        <orig>Quand eſpuiſant ſes flancs de redoubleZ ſanglots,</orig>
+                        <reg>Quand épuisant ses flancs de redoublés sanglots,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>De ſa voix enroüee elle bruira ces mots</orig>
+                        <reg>De sa voix enrouée elle bruira ces mots,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>O France deſolee! ô terre ſanguinaire !</orig>
+                        <reg>Ô France désolée! ô terre sanguinaire!</reg><!-- erreur -->
+                        
+                    </l>
+                    <l>
+                        <orig>Non pas terre, mais cendre: ô mere! ſi c’eſt mere</orig>
+                        <reg>Non pas terre, mais cendre: ô mère! Si c'est mère</reg>
+                    </l>
+                    <l>
+                        <orig>Que trahir ſes enfans aux douceurs de ſon ſein,</orig>
+                        <reg>Que trahir ses enfants aux douceurs de son sein,</reg>
+                    </l>
+                    <l>
+                        <orig>Et quand on les meurtrit les ſerrer de ſa main:</orig>
+                        <reg>Et quand on les meurtrit les serrer de sa main:</reg>
+                    </l>
+                    <l>
+                        <orig>Tu leur donnes la vie, &amp; deffous ta mammelle</orig>
+                        <reg>Tu leur donnes la vie, et dessous ta mammelle</reg>
+                    </l>
+                    <l>
+                        <orig>S’eſmeut des obstinez la ſanglante querelle:</orig>
+                        <reg>S'émeut des obstinés la sanglante querelle:</reg>
+                    </l>
+                    <l>
+                        <orig>Sur ton pis blanchiſſant ta race ſe debat,</orig>
+                        <reg>Sur ton pis blanchissant ta race se débat,</reg>
+                    </l>
+                    <l>
+                        <orig>Là le fruict de ton flanc faict le champ du combat.</orig>
+                        <reg>Là le fruit de ton flanc fait le champ de combat.</reg>
+                    </l>
+                    <l>
+                        <orig>Ie veux peindre la France une mere affligee,</orig>
+                        <reg>Je veux peindre la France une mère affligée,</reg>
+                    </l>
+                    <l>
+                        <orig>Qui eſt entre ſes bras de deux enfans chargee:</orig>
+                        <reg>Qui est entre ses bras de deux enfants chargée:</reg>
+                    </l>
+                    <l>
+                        <orig>Le plus fort orgueilleux, empoigne les deux bouts</orig>
+                        <reg>Le plus fort orgueilleux, empoigne les deux bouts</reg>
+                    </l>
+                    <l>
+                        <orig>Des tetins nourriciers, puis à force de coups,</orig>
+                        <reg>Des tétins nourriciers, puis à force de coups,</reg>
+                    </l>
+                    <l>
+                        <orig>D'ongles, de poings, de pieds il briſe le partage,</orig>
+                        <reg>D'ongles, de poings, de pieds il brise le partage,</reg>
+                    </l>
+                    <l>
+                        <orig>Dont nature donna à ſon beſoin l’uſage:</orig>
+                        <reg>Dont nature donna à son besoin l'usage:</reg>
+                    </l>
+                    <l>
+                        <orig>Ce volleur acharne, cet Eſau malheureux,</orig>
+                        <reg>Ce voleur acharné, cet Ésaü malheureux,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Faict degaſt du doux laict qui doit nourrir les deux,</orig>
+                        <reg>Fait dégât du doux lait qui doit nourrir les deux</reg>
+                    </l>
+                    <l>
+                        <orig>Si que pour arracher à ſon frere la vie,</orig>
+                        <reg>Si que pour arracher à son frère la vie,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Il meſpriſe la ſienne &amp; n'en a plus d’envie:</orig>
+                        <reg>Il méprise la sienne et n'en a plus d'envie:</reg>
+                    </l>
+                    <l>
+                        <orig>Mais ſon Iasob preſſé d’avoir jeuſné meſui,</orig>
+                        <reg>Mais son Jacob pressé d'avoir jeûné méshui</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Eſtouffant quelque temps en ſon cœur ſon ennui,</orig>
+                        <reg>Étouffant quelque temps en son cœur son ennui,</reg>
+                    </l>
+                    <l>
+                        <orig>A la fin ſe defend, &amp; ſa juſte colere</orig>
+                        <reg>À la fin se défend, et sa juste colère</reg>
+                    </l>
+                    <l>
+                        <orig>Rend à l’autre vn combat, dont le champ eſt la mere</orig>
+                        <reg>Rend à l'autre un combat, dont le champ est la mère</reg>
+                    </l>
+                    <l>
+                        <orig>Ni les fouſpirs ardents, les pitoiables cris,</orig>
+                        <reg>Ni les soupirs ardents, les pitoyables cris,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Ni les pleurs rechauffez ne calment leurs eſprit:</orig>
+                        <reg>Ni les pleurs réchauffés ne calment leurs esprits:</reg>
+                    </l>
+                <fw type="pageNum">5</fw>
+                    <fw>
+                        <orig>MISERES. LIV. I.</orig>
+                        <reg>MISÈRES. LIV. I.</reg>
+                    </fw>
+                    <l>
+                        <orig>Mais leur rage les guide &amp; leur poiſon les trouble,</orig>
+                        <reg>Mais leur rage les guide et leur poison les trouble,</reg>
+                    </l>
+                    <l>
+                        <orig>Si bien que leur courroux par leurs coups ſe redouble:</orig>
+                        <reg>Si bien que leur courroux par leurs coups se redouble:</reg>
+                    </l>
+                    <l>
+                        <orig>Leur conflict ſe r’allume, &amp; faict ſi furieux,</orig>
+                        <reg>Leur conflit se rallume, et fait si furieux,</reg>
+                    </l>
+                    <l>
+                        <orig>Que d’un gauche malheur ils ſe crevent les yeux:</orig>
+                        <reg>Que d'un gauche malheur ils se crèvent les yeux:</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Cette femme eſploree en ſa douleur plus forte,</orig>
+                        <reg>Cette femme éplorée en sa douleur plus forte,</reg>
+                    </l>
+                    <l>
+                        <orig>Succombe à la douleur mi-vivante, mi-morte,</orig>
+                        <reg>Succombe à la douleur mi-vivante, mi-morte,</reg>
+                    </l>
+                    <lb/>
+                    <l>
+                        <orig>Elle void les mutins tous deſchirez, ſanglans,</orig>
+                        <reg>Elle voit les mutins tous déchirés, sanglants,</reg>
+                    </l>
+                    <l>
+                        <orig>Qui ainſi que du cœur, des mains ſe vont cerchans,</orig>
+                        <reg>Qui ainsi que du cœur, des mains se vont cherchant,</reg>
+                    </l>
+                    <l>
+                        <orig>Quand preſſant à ſon ſein d’un' amour maternelle</orig>
+                        <reg>Quand pressant à son sein d'un amour maternelle</reg>
+                    </l>
+                    <l>
+                        <orig>Celui qui a le droit &amp; la iuſte querelle,</orig>
+                        <reg>Celui qui a le droit et la juste querelle</reg>
+                    </l>
+                    <l>
+                        <orig>Elle veut le ſauver, l’autre qui n'eſt pas las,</orig>
+                        <reg>Elle veut le sauver, l'autre qui n'est pas las,</reg>
+                    </l>
+                    <l>
+                        <orig>Viole en pourſuivant l’aſile de ſes bras:</orig>
+                        <reg>Viole en poursuivant l'asile de ses bras:</reg>
+                    </l>
+                    <l>
+                        <orig>Adont ſe perd le laict, le ſuc de ſa poictrine,</orig>
+                        <reg>Adonc se perd le lait, le suc de sa poitrine,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Puis aux derniers abois de ſa proche ruine</orig>
+                        <reg>Puis aux derniers abois de sa proche ruine</reg>
+                    </l>
+                    <l>
+                        <orig>Elle dit, vous avez, felons, enſanglante</orig>́
+                        <reg>Elle dit, vous avez, félons, ensanglanté</reg><!-- erreur -->
+                    </l>
+                    <lb/>
+                    <l>
+                        <orig>Le ſein qui vous nourrit &amp; qui vous a porté:</orig>
+                        <reg>Le sein qui vous nourrit et qui vous a porté:</reg>
+                    </l>
+                    <l>
+                        <orig>Or viveZ de venin, ſanglante geniture,</orig>
+                        <reg>Or vivez de venin, sanglante géniture,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Ie n’ai plus que du ſang pour vostre nourriture.</orig>
+                        <reg>Je n'ai plus que du sang pour votre nourriture.</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Quand languiſſant ie voi les honteuſes pitieZ</orig>
+                        <reg>Quand languissant je vois les honteuses pitiés</reg>
+                    </l>
+                    <l>
+                        <orig>Et d’un corps diviſe ́les funebres moitieZ</orig>
+                        <reg>Et d'un corps divise les funèbres moitiés</reg>
+                    </l>
+                    <l>
+                        <orig>Quand ie voi s’apprester la tragedie horrible</orig>
+                        <reg>Quand je vois s'apprêter la tragédie horrible</reg>
+                    </l>
+                    <l>
+                        <orig>Du meurtrier de ſoi-meſme, aux autres invincible,</orig>
+                        <reg>Du meurtrier de soi-même, aux autres invincible,</reg>
+                    </l>
+                    <l>
+                        <orig>Ie penſe encores voir un monſtrueux geant,</orig>
+                        <reg>Je pense encore voir un monstrueux géant,</reg>
+                    </l>
+                    <l>
+                        <orig>Qui va de braves mots les hauts Cieux outrageant,</orig><!-- erreur -->
+                        <reg>Qui va de braves mots les hauts Cieux outrageant,</reg>
+                    </l>
+                    <lb/>
+                    <l>
+                        <orig>Superbe, floriſſant, ſi brave qu’il ne treuve</orig>
+                        <reg>Superbe, florissant, si brave qu'il ne trouve</reg>
+                    </l>
+                    <l>
+                        <orig>Nul, qui de ſa valeur entreprenne la preuve:</orig>
+                        <reg>Nul, qui de sa valuer entrepenne la preuve:</reg>
+                    </l>
+                    <l>
+                        <orig>Mais lors qu’il ne peut rien rencontrer au dehors</orig>
+                        <reg>Mais lorsqu’il ne peut rien rencontrer au dehors</reg><!-- erreur -->
+                    </l>
+                    <lb/>
+                    <l>
+                        <orig>Qui de ſes bras nerveux endure les efforts,</orig>
+                        <reg>Qui de ses bras nerveux endure les efforts,</reg>
+                    </l>
+                    <l>
+                        <orig>Son corps eſt combatu, à ſoi-meſme contraire,</orig>
+                        <reg>Son corps est combattu, à soi-même contraire,</reg>
+                    </l>
+                    <l>
+                        <orig>De ſang pur a le moins: le flegme &amp; la colere</orig>
+                        <reg>De sang pur a le moins: le flegme et la colère</reg>
+                    </l>
+                    <fw type="cahier" place="bottom-right">C ij</fw>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

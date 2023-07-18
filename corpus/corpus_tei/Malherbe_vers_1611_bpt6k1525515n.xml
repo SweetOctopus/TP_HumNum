@@ -1,0 +1,728 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Correction:
+      des erreurs dans le TEIHeader
+      problèmes de structure des div
+      Le schéma des rimes ne va pas (même code pour rime différente)
+      Vous changez le texte!
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Vers à la Reine</title>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Université de Genève</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <title>Vers du Sr de Malherve à la Reine</title>
+                    <author>
+                        <persName>
+                            <forename>François</forename>
+                            <surname>de Malherbe</surname>
+                        </persName>
+                    </author>
+                    <date>1611</date>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">poésie</term>
+                    <term type="form">vers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <body> 
+            <div>
+                <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f5.item."/>
+                <fw> type="coverpage"</fw>
+                <head>
+                    <orig>VERS DV S. DE MALHERBE A LA REINE</orig>
+                    <reg>VERS DU S. DE MALHERBE À LA REINE</reg>
+                </head>
+                <ab>
+                    <orig>A PARIS,</orig>
+                    <reg>À PARIS,</reg>
+                </ab>
+                <ab>
+                    <orig>Chez ADRIAN BEYS, ruë ſainct Iaques.</orig>
+                    <reg>Chez ADRIAN BEYS, rue saint Jacques.</reg>
+                </ab>
+                <ab>
+                    <orig>Auec Privilege de ſa Majeſté.</orig>
+                    <reg>Avec Privilège de sa Majesté.</reg>
+                </ab>
+            </div>
+            <div>
+                <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f7.item"/>
+                <fw type="pageNumber" place ="top-center">3</fw>
+                <head>
+                    <orig>A LA REINE,</orig>
+                    <reg>À LA REINE,</reg>
+                </head>
+                <head>
+                    <orig>Sur les heureux ſuccés de ſa Regence.</orig>
+                    <reg>Sur les heureux succès de sa Régence.</reg>
+                </head>
+                <div>
+                    <head>
+                        <orig>ODE</orig>
+                        <reg>ODE</reg>
+                    </head>
+                    <l>
+                        <orig>NYMFE qui iamais ne ſommeilles,</orig>
+                        <reg>NYMPHE qui jamais ne sommeilles,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Et dont les meſſages diuers</orig>
+                        <reg>Et dont les messages divers</reg>
+                    </l>
+                    <l>
+                        <orig>En vn moment ſont aux oreilles</orig>
+                        <reg>En un moment sont aux oreilles</reg><!-- erreur -->
+                    </l>    
+                    <l>
+                        <orig>Des peuples de tout l’vniuers:</orig>
+                        <reg>Des peuples de tout l’univers:</reg>
+                    </l>
+                    <l>
+                        <orig>Vole viſte,&amp; de la contree</orig>
+                        <reg>Votre visite, et de la contrée</reg>
+                    </l>
+                    <l>
+                        <orig>Par où le iour fait ſon entree</orig>
+                        <reg>Par où le jour fait son entrée</reg>
+                    </l>
+                    <l>
+                        <orig>Iuſqu'au riuage de Calis,</orig>
+                        <reg>Jusqu'au rivage de Calis,</reg>
+                    </l>
+                    <l>
+                        <orig>Conte ſur la terre &amp; ſur l’onde</orig>
+                        <reg>Conte sur la terre et sur l’onde</reg>
+                    </l>            
+                    <l>
+                        <orig>Que l’honneur vnique du monde</orig>
+                        <reg>Que l’honneur unique du monde</reg>
+                    </l>
+                    <l>
+                        <orig>C'eſt la Reine des fleurs de lis.</orig>
+                        <reg>C'est la Reine des fleurs de lys.</reg>
+                    </l>
+                    <fw type="sig" place="bottom-right">A iij</fw>
+                    <pb/>
+                    <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f8.item"/>
+                    <fw type="pageNumber" place="top-center">4</fw>
+                    <l>
+                        <orig>Quand ſon Henry, de qui la gloire</orig>
+                        <reg>Quand son Henry, de qui la gloire</reg><!-- documentation -->
+                    </l>
+                    <l>
+                        <orig>Fut vne merueille à nos yeux,</orig>
+                        <reg>Fut une merveille à nos yeux,</reg>
+                    </l>
+                    <l>
+                        <orig>Loin des hommes s’en alla boire</orig>
+                        <reg>Loin des hommes s’en alla boire</reg>
+                    </l>
+                    <l>
+                        <orig>Le nectar aueques les Dieux:</orig>
+                        <reg>Le nectar auquel les Dieux:</reg>
+                    </l>
+                    <l>
+                        <orig>En ceſte auenture effroyable,</orig>
+                        <reg>En cette aventure effroyable,</reg>
+                    </l>
+                    <l>
+                        <orig>A qui ne ſembloit-il croyable</orig>
+                        <reg>À qui ne semblait-il croyable</reg>
+                    </l>
+                    
+                    <l>
+                        <orig>Qu'on alloit voir vne ſaiſon,</orig>
+                        <reg>Qu'on allait voir une saison,</reg>
+                    </l>
+                    
+                    <l>
+                        <orig>Où nos brutales perfidies</orig>
+                        <reg>Où nos brutales perfidies</reg>
+                    </l>
+                    
+                    <l>
+                        <orig>Feroient naiſtre des maladies</orig>
+                        <reg>Feraient naître des maladies</reg>
+                    </l>
+                    <l>
+                        <orig>Qui n'auroient iamais gueriſon?</orig>
+                        <reg>Qui n'auraient jamais guérison?</reg>
+                    </l>
+                    <l>
+                        <orig>Qui ne penſoit que les furies</orig>
+                        <reg>Qui ne pensait que les furies</reg>
+                    </l>
+                    <l>
+                        <orig>Viendroient des abiſmes d’enfer</orig>
+                        <reg>Viendraient des abîmes d’enfer</reg>
+                    </l>
+                    <l>
+                        <orig>En de nouuelles barbaries</orig>
+                        <reg>En de nouvelles barbaries</reg>
+                    </l>
+                    <l>
+                        <orig>Employer la flamme &amp; le fer?</orig>
+                        <reg>Employer la flamme et le fer?</reg>
+                    </l>
+                    <l>
+                        <orig>Qu'vn débordement de licence</orig>
+                        <reg>Qu'un débordement de licence</reg>
+                    </l>
+                    <l>
+                        <orig>Feroit ſouffrir à l’innocence</orig>
+                        <reg>Ferait souffrir à l’innocence</reg>
+                    </l>
+                    <l>
+                        <orig>Toute ſorte de cruautez?</orig>
+                        <reg>Toute sorte de cruautés?</reg>
+                    </l>
+                    <l>
+                        <orig>Et que nos malheurs ſeroient pires</orig>
+                        <reg>Et que nos malheurs seraient pires</reg>
+                    </l>
+                    <l>
+                        <orig>Que nagueres ſous les Buſires</orig>
+                        <reg>Que naguères sous les Busires</reg>
+                    </l>          
+                    <l>
+                        <orig>Que cet Hercule auoit donteZ?</orig>
+                        <reg>Que cet Hercule avait domptés?</reg><!-- erreur -->
+                    </l>
+                    <pb/>
+                    <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f9.item"/> 
+                    <fw type="pageNumber" place="top-center">5</fw>
+                    <l>
+                        <orig>Toutesfois depuis l’infortune</orig>
+                        <reg>Toutefois depuis l’infortune</reg>
+                    </l>
+                    <l>
+                        <orig>De ceſt abominable iour,</orig>
+                        <reg>De cet abominable jour,</reg>
+                    </l>
+                    <l>
+                        <orig>A peine la quatrieme lune</orig>
+                        <reg>À peine la quatrième lune</reg>
+                    </l>
+                    
+                    <l>
+                        <orig>Acheue de faire ſon tour:</orig>
+                        <reg>Achève de faire son tour:</reg>
+                    </l>
+                    <l>
+                        <orig>Et la France a les deſtinées</orig>
+                        <reg>Et la France a les destinées</reg>
+                    </l>
+                    <l>
+                        <orig>Pour elle tellement tournées</orig>
+                        <reg>Pour elle tellement tournées</reg>
+                    </l>
+                    
+                    <l>
+                        <orig>Contre les vents ſeditieux,</orig>
+                        <reg>Contre les vents fasditieux,</reg>
+                    </l>
+                    <l>
+                        <orig>Qu’au lieu de craindre la tépeſte,</orig>
+                        <reg>Qu’au lieu de craindre la tempête,</reg>
+                    </l>
+                    <l>
+                        <orig>Il ſemble que iamais ſa teſte</orig>
+                        <reg>Il semble que jamais sa tête</reg>
+                    </l>
+                    <l>
+                        <orig>Ne fut ſi voiſine des cieux.</orig>
+                        <reg>Ne fut si voisine des cieux.</reg>
+                    </l>
+                    <l>
+                        <orig>Au dela des bors de la Meuſe</orig>
+                        <reg>Au-delà des bords de la Meuse</reg>
+                    </l>
+                    <l>
+                        <orig>L'Alemagne a veu nos guerriers</orig>
+                        <reg>L'Allemagne a vu nos guerriers</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Par vne conqueſte fameuſe</orig>
+                        <reg>Par une conquête fameuse</reg>
+                    </l>
+                    <l>
+                        <orig>Se couurir le front de lauriers.</orig>
+                        <reg>Se couvrir le front de lauriers.</reg>
+                    </l>
+                    <l>
+                        <orig>Tout a flechy ſous leur menace:</orig>
+                        <reg>Tout à fléchi sous leur menace:</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>L'Aigle meſme leur a fait place;</orig>
+                        <reg>L'Aigle même leur a fait place;</reg>
+                    </l>
+                    <l>
+                        <orig>Et les regardant approcher,</orig>
+                        <reg>Et les regardant approcher,</reg>
+                    </l>
+                    <l>
+                        <orig>Comme lyons à qui tout cede,</orig>
+                        <reg>Comme lions à qui tout cède,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>N'a point eu de meilleur remede</orig>
+                        <reg>N'a point eu de meilleur remède</reg>
+                    </l>
+                    <l>
+                        <orig>Que de fuyr &amp; ſe cacher.</orig>
+                        <reg>Que de fuir et se cacher.</reg>
+                    </l>
+                    <fw type="sig" place="bottom-right">A iij</fw>
+                    <pb/>
+                    <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f10.item"/> 
+                    <fw type="pageNumber" place="top-center">6</fw>
+                    <l>
+                        <orig>O Reine qui pleine de charmes</orig>
+                        <reg>Ô Reine qui pleine de charmes</reg>
+                    </l>
+                    <l>
+                        <orig>Pour toute ſorte d’accidens,</orig>
+                        <reg>Pour toute ſorte d’accidents,</reg>
+                    </l>
+                    <l>
+                        <orig>As borné le flus de nos larmes</orig>
+                        <reg>As borné le flux de nos larmes</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>En ces miracles euidens:</orig>
+                        <reg>En ces miracles évidents:</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Que peut la fortune publique</orig>
+                        <reg>Que peut la fortune publique</reg>
+                    </l>
+                    <l>
+                        <orig>Te vouër d’aſſeZ magnifique</orig>
+                        <reg>Te vouer d’assez magnifique</reg>
+                    </l>
+                    <l>
+                        <orig>Si miſe au rang des immortels,</orig>
+                        <reg>Si mise au rang des immortels,</reg>
+                    </l>
+                    <l>
+                        <orig>Dont ta vertu ſuit les exemples,</orig>
+                        <reg>Dont ta vertue ſuit les exemples,</reg>
+                    </l>
+                    <l>
+                        <orig>Tu n'as auec eux dans nos temples</orig>
+                        <reg>Tu n'as avec eux dans nos temples</reg><!-- erreur -->
+                    </l>
+                    <l>                 
+                        <orig>Des images &amp; des autels?</orig>
+                        <reg>Des images et des autels?</reg>  
+                    </l>           
+                    <l>
+                        <orig>Que ſçauroit enſeigner aux princes</orig><!-- erreur -->
+                        <reg>Que saurait enseigner aux princes</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Le grand demon qui les inſtruit,</orig>
+                        <reg>Le grand démon qui les instruit,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Dont ta ſageſſe en nos prouinces</orig>
+                        <reg>Dont ta sagesse en nos provinces</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Chaque iour n’eſpande le fruit?</orig>
+                        <reg>Chaque jour n’épande le fruit?</reg>
+                    </l>
+                    <l>
+                        <orig>Et qui iustement ne peut dire,</orig>
+                        <reg>Et qui justement ne peut dire,</reg>
+                    </l>
+                    <l>
+                        <orig>A te voir regir cet empire,</orig>
+                        <reg>À te voir régir cet empire,</reg>
+                    </l>
+                    <l> 
+                        <orig>ſi ton heur eſtoit pareil</orig>
+                        <reg>Si ton heur était pareil</reg><!-- erreur -->
+                    </l>
+                    
+                    <l>
+                        <orig>A tes adorables merites,</orig>
+                        <reg>À tes adorables mérites,</reg>
+                    </l>
+                    
+                    <l>
+                        <orig>Tu ferois dedans ſes limites</orig>
+                        <reg>Tu ferais dedans ses limites</reg>
+                    </l> 
+                    
+                    <l>                
+                        <orig>Leuer &amp; coucher le ſoleil?</orig>
+                        <reg>Lever et coucher le soleil?</reg><!-- erreur -->
+                    </l>
+                    <pb/>
+                    <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f11.item"/>
+                    <fw type="pageNumber" place="top-center">7</fw>
+                    <l>
+                        <orig>Le ſoin qui reſte à nos penſees,</orig>
+                        <reg>Le soin qui reflète à nos pensées,</reg>
+                    </l>
+                    <l>
+                        <orig>O bel Aſtre, c'eſt que touſiours</orig>
+                        <reg>Ô bel Astre, c'est que toujours</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Nos feliciteZ commencees</orig>
+                        <reg>Nos félicités commencées</reg>   
+                    </l>
+                    <l>
+                        <orig>Puiſſent, continuer leur cours:</orig>
+                        <reg>Puissent, continuer leur cours:</reg>  
+                    </l>
+                    <l>
+                        <orig>Tout nous rit, &amp; noſtre nauire</orig>
+                        <reg>Tout nous rit, et notre navire</reg><!-- erreur -->
+                    </l>
+                    
+                    <l>
+                        <orig>A la bonace qu’il deſire:</orig>
+                        <reg>A la bonace qu’il désire:</reg>
+                    </l>
+                    <l>
+                        <orig>Mais ſi quelque iniure du ſort</orig>
+                        <reg>Mais si quelque injure du sort</reg>
+                    </l>
+                    <l>
+                        <orig>Prouoquoit l’ire de Neptune,</orig>
+                        <reg>Pourquoi l'ire de Neptune,</reg>
+                    </l>
+                    <l>
+                        <orig>Quel exceZ d’heureuſe fortune</orig>
+                        <reg>Quel excès d’heureuse fortune</reg>
+                    </l>         
+                    <l>
+                        <orig>Nous garantiroit de la mort?</orig>
+                        <reg>Nous garantirait de la mort?</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>AſſeZ de funeſtes batailles,</orig>
+                        <reg>Assez de funestes batailles,</reg>
+                    </l>  
+                    <l>
+                        <orig>Et de carnages inhumains</orig>
+                        <reg>Et de carnages inhumains</reg>
+                    </l>
+                    <l>
+                        <orig>Ont fait en nos propres entrailles</orig>
+                        <reg>Ont fait en nos propres entrailles</reg>
+                    </l>
+                    <l>
+                        <orig>Rougir nos deloyales mains:</orig>
+                        <reg>Rougir nos déloyales mains:</reg>
+                    </l>
+                    <l>
+                        <orig>Donne ordre que ſous ton genie</orig>
+                        <reg>Donne ordre que sous ton génie</reg>
+                    </l>
+                    <l>
+                        <orig>Se termine ceſte manie,</orig>
+                        <reg>Se termine cette manie,</reg>
+                    </l>
+                    <l>
+                        <orig>Et que las de perpetuer</orig>
+                        <reg>Et que las de perpétuer</reg>
+                    </l>
+                    <l>
+                        <orig>Vne ſi longue malueuillance,</orig>
+                        <reg>Une si longue malveillance,</reg>
+                    </l> 
+                    <l>
+                        <orig>Nous employons noſtre vaillance</orig>
+                        <reg>Nous employons notre vaillance</reg>
+                    </l>
+                    <l>
+                        <orig>Ailleurs qu'à nous entretuer.</orig>
+                        <reg>Ailleurs qu'à nous entretuer.</reg>
+                    </l>
+                    <pb/>
+                    <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f12.item"/>
+                    <fw type="pageNumber" place="top-center">8</fw>
+                    <l>
+                        <orig>La diſcorde aux crins de couleuures,</orig>
+                        <reg>La discorde aux crins de couleuvres,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Peste fatale aux potentats,</orig>
+                        <reg>Peste fatale aux potentats,</reg>
+                    </l>
+                    <l>
+                        <orig>Ne finit ſes tragiques euures</orig>
+                        <reg>Ne finit ses tragiques œuvres</reg><!-- erreur -->
+                    </l>   
+                    <l>
+                        <orig>Qu'en la fin meſme des eſtats:</orig>
+                        <reg>Qu'en la fin même des eſtats:</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>D'elle naſquit la freneſie</orig>
+                        <reg>D'elle naquit la frénésie</reg>
+                    </l>
+                    <l>
+                        <orig>De la Grece contre l’Aſie:</orig>
+                        <reg>De la Grèce contre l’Asie:</reg>
+                    </l>
+                    <l>
+                        <orig>Et d’elle prindrent, le flambeau</orig>
+                        <reg>Et d’elle prindrent, le flambeau</reg><!-- documentation -->
+                    </l>
+                    <l>
+                        <orig>Dont ils deſolerent leur terre,</orig>
+                        <reg>Dont ils désolèrent leur terre,</reg>
+                    </l>
+                    <l>
+                        <orig>Les deux freres de qui la guerre</orig>
+                        <reg>Les deux frères de qui la guerre</reg>
+                    </l>
+                    <l>
+                        <orig>Ne ceſſa point dans le tombeau.</orig>
+                        <reg>Ne cessa point dans le tombeau.</reg>
+                    </l>
+                    <l>
+                        <orig>C’eſt en la paix que toutes choſes</orig>
+                        <reg>C’est en la paix que toutes choses</reg>
+                    </l>
+                    <l>
+                        <orig>Succedent ſelon nos deſirs:</orig>
+                        <reg>Succèdent selon nos désirs:</reg>      
+                    </l>
+                    <l>
+                        <orig>Cõme au printẽs naiſſent les roſes,</orig>
+                        <reg>Comme au printemps naissent les roses,</reg>
+                    </l>
+                    <l>
+                        <orig>En la paix naiſſent les plaiſirs:</orig>
+                        <reg>En la paix naissent les plaisirs:</reg>
+                    </l>
+                    <l>
+                        <orig>Elle met les pompes aux villes,</orig>
+                        <reg>Elle met les pompes aux villes,</reg>
+                    </l>
+                    <l>
+                        <orig>Donne aux champs les moiſſons fertiles :</orig>
+                        <reg>Donne aux champs les moissons fertiles:</reg>
+                    </l>
+                    <!-- Réfléchir à ce vers isolé par le manque de rime -->
+                    <l>
+                        <orig>Et de la majeſté des lois</orig>
+                        <reg>Et de la majesté des lois</reg>
+                    </l>
+                    <l>
+                        <orig>Appuyant les pouuoirs ſupremes,</orig>
+                        <reg>Appuyant les pouvoirs suprêmes,</reg>
+                    </l>
+                    <l>
+                        <orig>Fait demeurer les diademes</orig>
+                        <reg>Fait demeurer les diadèmes</reg>
+                    </l>
+                    <l>
+                        <orig>Fermes ſur la teſte des Rois.</orig>
+                        <reg>Fermes sur la tête des Rois.</reg>
+                    </l>
+                    <!-- Réfléchir à ce vers isolé par le manque de rime -->
+                    <fw type="catch" place="bottom-right">Ce</fw>
+                    <pb/>
+                    <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f13.item"/>
+                    <fw type="pageNumber" place="top-center">9</fw>
+                    <l>
+                        <orig>Ce ſera deſſous ceſte ægide</orig>
+                        <reg>Ce sera dessous cette égide</reg>
+                    </l>
+                    <l>
+                        <orig>Qu'inuincible de tous coſteZ</orig>
+                        <reg>Qu'invincible de tous côtés</reg><!-- erreur -->
+                    </l>    
+                    <l>
+                        <orig>Tu verras les peuples ſans bride</orig>
+                        <reg>Tu verras les peuples sans bride</reg>
+                    </l>
+                    <l>
+                        <orig>Obeyr à tes volonteZ:</orig>
+                        <reg>Obéir à tes volontés:</reg>
+                    </l>
+                    <l>
+                        <orig>Et ſurmontant leur eſperance,</orig>
+                        <reg>Et surmontant leur espérance,</reg>
+                    </l>
+                    <l>
+                        <orig>Remettras en telle aſſeurance</orig>
+                        <reg>Remettras en telle assurance</reg>
+                    </l>
+                    <l>
+                        <orig>Leur ſalut qui fut deploré,</orig>
+                        <reg>Leur ſalut qui fut déploré,</reg><!-- erreur -->
+                    </l>
+                    <l>
+                        <orig>Que viure au ſiecle de Marie,</orig>
+                        <reg>Que vivre au siècle de Marie,</reg>
+                    </l>
+                    <l>
+                        <orig>Sans menſonge &amp; ſans flaterie,</orig>
+                        <reg>Sans mensonge et sans flatterie,</reg> 
+                    </l>
+                    <l>
+                        <orig>Sera viure au ſiecle doré.</orig>
+                        <reg>Sera vivre au siècle doré.</reg>
+                    </l>
+                    <l>
+                        <orig>Les Muſes, les neuf belles fées</orig>
+                        <reg>Les Muses, les neuf belles fées</reg>
+                    </l>
+                    <l>
+                        <orig>Dont les bois ſuiuent les chanſons,</orig>
+                        <reg>Dont les bois suivent les chansons,</reg>
+                    </l>
+                    <l>
+                        <orig>Rempliront de nouueaux Orfées</orig>
+                        <reg>Rempliront de nouveaux Orfées</reg>
+                    </l>
+                    <l>
+                        <orig>La trouppe de leurs nourriſſons:</orig>
+                        <reg>La troupe de leurs nourrissons:</reg>
+                    </l>
+                    <l>
+                        <orig>Tous leurs veux ſerõt de te plaire:</orig>
+                        <reg>Tous leurs vœux seront de te plaire:</reg>
+                    </l>
+                    <l>
+                        <orig>Et ſi ta faueur tutelaire</orig>
+                        <reg>Et si ta faveur tutélaire</reg>
+                    </l>
+                    <l>
+                        <orig>Fait ſigne de les auouer,</orig>
+                        <reg>Fait signe de les avouer,</reg>
+                    </l>
+                    <l>
+                        <orig>Iamais ne partit de leurs veilles</orig>
+                        <reg>Jamais ne partit de leurs veilles</reg>
+                    </l>
+                    <l>
+                        <orig>Rien qui ſe copare aux merueilles</orig>
+                        <reg>Rien qui se compare aux merveilles</reg>
+                    </l>
+                    <l>
+                        <orig>Qu'elles feront pour te louer.</orig>
+                        <reg>Qu'elles feront pour te louer.</reg>
+                    </l>
+                    <fw type="sig" place="bottom-right">B</fw>
+                    
+                    <pb/>
+                    <pb facs="https://gallica.bnf.fr/ark:/12148/bpt6k1525515n/f14.item"/>
+                    <fw type="pageNumber" place="top-center">10</fw>
+                    
+                    <l>
+                        <orig>En ceſte hautaine entrepriſe,</orig>
+                        <reg>En cette hautaine entreprise,</reg>
+                    </l>          
+                    <l>
+                        <orig>Commune à tous les beaux eſprits,</orig>
+                        <reg>Commune à tous les beaux esprits,</reg>
+                    </l>           
+                    <l>
+                        <orig>Plus ardent qu'vn atlete à Piſe,</orig><!-- erreur -->
+                        <reg>Plus ardent qu'un athlète à Pise,</reg>
+                    </l>      
+                    <l>
+                        <orig>Ie me feray quitter le pris.</orig>
+                        <reg>Je me ferai quitter le prix.</reg><!-- erreur -->
+                    </l>              
+                    <l>
+                        <orig>Et quand i’auray peint tõ image,</orig>
+                        <reg>Et quand j’aurai peint ton image,</reg><!-- erreur -->
+                    </l>        
+                    <l>
+                        <orig>Quiconque verra mon ouurage,</orig>
+                        <reg>Quiconque verra mon courage,</reg>
+                    </l>            
+                    <l>
+                        <orig>Auoüra que Fontainebleau</orig>
+                        <reg>Avouera que Fontainebleau</reg><!-- erreur -->
+                    </l><l>
+                        <orig>Le Louure, ny les Tuileries</orig>
+                        <reg>Le Louvre, ni les Tuileries</reg>
+                    </l>           
+                    <l>
+                        <orig>En leurs ſuperbes galeries</orig>
+                        <reg>En leurs superbes galeries</reg>
+                    </l>       
+                    <l>
+                        <orig>N’ont point vn ſi riche tableau.</orig>
+                        <reg>N’ont point un si riche tableau.</reg>
+                    </l>          
+                    <l>
+                        <orig>Apollon à portes ouuertes</orig>
+                        <reg>Apollon à portes ouvertes</reg>
+                    </l>           
+                    <l>
+                        <orig>Laiſſe indifferemment, cueillir</orig>
+                        <reg>Laisse indifféremment, cueillir</reg>   
+                    </l>
+                    <l>
+                        <orig>Les belles feuilles touſiours vertes</orig>
+                        <reg>Les belles feuilles toujours vertes</reg>
+                    </l>
+                    <l>
+                        <orig>Qui gardent les noms de vieillir:</orig>
+                        <reg>Qui gardent les noms de vieillir:</reg> 
+                    </l>
+                    <l>
+                        <orig>Mais l’art d’en faire les courõnes</orig>
+                        <reg>Mais l’art d’en faire les couronnes</reg>
+                    </l>
+                    <l>
+                        <orig>N'’eſt pas ſceu de toutes perſonnes:</orig>
+                        <reg>N'est pas celui de toutes personnes:</reg>
+                    </l> 
+                    <l>
+                        <orig>Et trois ou quatre ſeulement,</orig>
+                        <reg>Et trois ou quatre seulement,</reg>
+                    </l>
+                    <l>
+                        <orig>Au nombre deſquels on me range,</orig>
+                        <reg>Au nombre desquels on me range,</reg>
+                    </l>
+                    <l>
+                        <orig>Peuuent donner vne louange</orig>
+                        <reg>Peuvent donner une louange</reg>
+                    </l>
+                    <l>
+                        <orig>Qui demeure eternellement.</orig>
+                        <reg>Qui demeure éternellement.</reg>
+                    </l>
+                    <trailer>FIN.</trailer>
+                    <pb/> 
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

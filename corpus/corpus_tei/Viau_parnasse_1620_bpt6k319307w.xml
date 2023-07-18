@@ -1,0 +1,644 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+   schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- Correction:
+   des erreurs dans le titre
+   des très grosses erreurs de normalisation   (le sieur-> la sœur??? longueur->langueur)
+   Beaucoup de fautes de transcription, qui semble ne pas avoir été corrigée
+   Il n'y a pas la page de titre
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+      <titleStmt>
+         <title>Le Parnasse satyrique</title>
+         <author>Théophile de Viau</author>
+      </titleStmt>
+      <publicationStmt>
+         <authority>Université de Genève</authority>
+         <availability>
+            <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+         </availability>
+      </publicationStmt>
+      <sourceDesc>
+         <bibl>
+            <title>Le Parnasse satyrique</title>
+            <author>
+            <persName>
+               <forename>Théophile de</forename>
+               <surname>Viau</surname>
+            </persName>
+            </author>
+            <date>1620</date>
+         </bibl>
+      </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+      <textClass>
+         <keywords>
+            <term type="genre">poésie</term>
+            <term type="form">vers</term>
+         </keywords>
+      </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+      <div type="Recueil_de_poemes">
+         <head>
+            <choice>
+                <orig>LE PARNASSE DES POETES SATYRIQUES</orig><!-- erreur -->
+                <reg>LE PARNASSE DES POÈTES SATYRIQUES</reg><!-- erreur -->
+            </choice>
+            <choice>
+                <orig>Dernier Recueil des vers picquans &amp; gaillards de noſtre temps.</orig>
+                <reg>Dernier Recueil des vers piquants et gaillards de notre temps.</reg><!-- erreur -->
+            </choice>
+         </head>
+         <!-- erreur.-->
+         <div type="poeme">
+            <head rend="center"><choice>
+            <orig>SONNET</orig>
+            <reg>SONNET</reg>
+            </choice>
+            <choice>
+               <orig>Par le ſieur Théophile.</orig>
+               <reg>Par le sieur Théophile.</reg><!-- erreur -->
+            </choice>
+            </head>
+            <lg>
+            <l n="1">
+                  <orig>PHylis tout eſt ... outu, ie meurs de la verolle,</orig><!-- erreur -->
+                  <reg>PHylis tout est ...outu, je meurs de la vérole,</reg><!-- erreur -->
+            </l>
+            <l n="2">
+                  <orig>Elle exerce ſur moy ſa derniere rigueur.</orig>
+                  <reg>Elle excerce sur moi la dernière rigueur.</reg>
+            </l>
+            <l n="3">
+                  <orig>Mon V. baiſſe la teſte &amp; n'a point de vigueur</orig>
+                  <reg>Mon V. baisse la tête et n'a point de vigueur</reg><!-- erreur -->
+            </l>
+            <l n="4"><!-- erreur -->
+               <orig>Vn vlcere puant a gaſté ma parole.</orig>
+               <reg>Un ulcère puant a gâté ma parole.</reg>
+            </l>
+            <l>
+               <orig>I'ay ſué trente iours, i'ay vomy de la colle</orig><!-- erreur -->
+               <reg>J'ai sué trente jours, j'ai vomi de la colle</reg><!-- erreur -->
+            </l>
+            <l n="5">
+              <orig>Iamais de ſi grands maux n'eurent tant de longueur</orig><!-- erreur -->
+              <reg>Jamais de si grands maux n'eurent tant de longueur</reg><!-- erreur -->
+            </l>
+            <pb/>
+            <fw type="sig">A</fw>
+            <fw type="runningTitle" place="top-centre">
+               <orig>LE PARNASSE</orig>
+               <reg>LE PARNASSE</reg>
+            </fw>
+            <fw type="pageNum" place="top-left">2</fw>
+            <l n="6">
+              <orig>L'eſprit le plus conſtant fut mort à ma langueur,</orig>
+              <reg>L'esprit le plus constant fut mort à ma langueur,</reg><!-- erreur -->
+            </l>
+            <l n="7">
+              <orig>Et mon affliction n'a rien qui la conſole,</orig>
+              <reg>Et mon affliction n'a rien qui la console,</reg><!-- erreur -->
+            </l>
+            <l n="8">
+              <orig>Mes amis plus ſecrets ne m'oſent approcher,</orig>
+              <reg>Mes amis plus secrets ne m'osent approcher,</reg><!-- erreur -->
+            </l>
+            <l n="9">
+              <orig>Moy-meſme en ceſt eſtat ie ne m'oſe toucher,</orig>
+              <reg>Moi-même en cet état je ne m'ose toucher,</reg>
+            </l>
+            <l n="10">
+              <orig>Philis le mal me vient de vous auoir ...tuë.</orig>
+              <reg>Philis le mal me vient de vous avoir ...tue.</reg><!-- erreur -->
+            </l>
+            <l n="11">
+              <orig>Mon Dieu ie me repens d'auoir ſi mal veſcu:</orig>
+              <reg>Mon Dieu je me repens d'avoir si mal vécu:</reg><!-- erreur -->
+            </l>
+            <l n="12">
+              <orig>Et ſi voſtre courroux à ce coup ne me tuë</orig>
+              <reg>Et si votre courroux à ce coup ne me tue,</reg>
+            </l>
+            <l n="13">
+              <orig>Je fais veu deſormais de ne ...tre qu'en cu.</orig>
+              <reg>Je fais vœu désormais de ne ...tre qu'en cu.</reg><!-- erreur -->
+            </l>
+            </lg>
+         <div type="poeme">
+            <head rend="center">
+            <orig>EPIGRAMME.</orig>
+            <reg>EPIGRAMME.</reg>
+            </head>
+            <lg>
+            <l n="14">
+               <orig>Vous qui cenſurez la Satyre,</orig>
+               <reg>Vous qui censurez la Satyre,</reg><!-- erreur -->
+            </l>
+            <l n="15">
+               <orig>Bien que pour vous la faire lire</orig><!-- erreur -->
+               <reg>Bien que pour vous la faire lire</reg>
+            </l>
+            <l n="16">
+               <orig>On a tant de difficulté,</orig>
+               <reg>On a tant de difficulté,</reg><!-- erreur -->
+            </l>
+            <l n="17">
+               <orig>Ne donnez vous pas vn indice</orig>
+               <reg>Ne donnez vous pas un indice</reg>
+            </l>
+            <l n="18">
+               <orig>En fuyant le blaſme du vice,</orig>
+               <reg>En fuyant le blâme du vice,</reg>
+            </l>
+            <l n="19">
+               <orig>Que vous aymez l'impieté.</orig>
+               <reg>Que vous aimez l'impiété.</reg><!-- erreur -->
+            </l>
+            </lg>
+         </div>
+         <div type="poeme">
+            <head rend="center">
+            <orig>EPIGRAMME.</orig>
+            <reg>EPIGRAMME.</reg>
+            </head>
+            <lg>
+            <l n="20">
+               <orig>Nos vers ſont plains d'inſtruction</orig>
+               <reg>Nos vers sont pleins d'instruction</reg><!-- erreur -->
+            </l>
+            <l n="21">
+               <orig>Blaſmans la ſalle affection,</orig>
+               <reg>Blâmant la sale affection</reg><!-- erreur -->
+            </l>
+            <l n="22">
+               <orig>Mais ne les liſez pas mes Dames,</orig>
+               <reg>Mais ne les lisez pas mesdames,</reg>
+            </l>
+            <l n="23">
+               <orig>Pour attiſer dedans vos cœurs</orig>
+               <reg>Pour attiser dedans vos cœurs</reg>
+            </l>
+            <l n="24">
+               <orig>Ces trop illegitimes flames,</orig>
+               <reg>Ces trop illégitimes flammes,</reg><!-- erreur -->
+            </l>
+            <l n="25">
+               <orig>Argumens de nos vers mocqueurs,</orig>
+               <reg>Arguments de nos vers moqueurs,</reg><!-- erreur -->
+            </l>
+            <l n="26">
+               <orig>Autrement vos intemperances</orig>
+               <reg>Autrement vos intempérances</reg>
+            </l>
+            <l n="27">
+               <choice>
+                  <orig>Vous faiſant iuſtement mocquer,</orig>
+                  <reg>Vous faisant justement moquer,</reg><!-- erreur -->
+               </choice>
+            </l>
+            <pb/>
+            <fw type="runningTitle" place="top-centre">
+               <orig>SATYRIQVE.</orig>
+               <reg>SATYRIQUE.</reg><!-- erreur -->
+            </fw>
+            <fw type="pageNum" place="top-right">3</fw>          
+            <l n="28">
+               <choice>
+                  <orig>Viendroient contre vous prouoquer</orig>
+                  <reg>Viendraient contre vous provoquer</reg>
+               </choice>
+            </l>
+            <l n="29">
+               <orig>Nos plus gaillardes mediſances.</orig>
+               <reg>Nos plus gaillardes médisances.</reg>
+            </l>
+            </lg>
+         </div>
+         <div type="poeme">
+            <head rend="center">
+            <orig>Les Amoureux reſſuſcitez aux Dames</orig><!-- erreur -->
+            <reg>Les Amoureux ressucités aux Dames</reg><!-- erreur -->
+            </head>
+            <lg>
+            <l n="30">
+               <orig>PVis que voſtre Ame fut d'eſpouuante ſuiuie,</orig>
+               <reg>PUisque votre Âme fut d'épouvante suivie,</reg><!-- erreur -->
+            </l>
+            <l n="31">
+               <orig>Belles de qui les yeux nous tiennent aſſeruis,</orig><!-- erreur -->
+               <reg>Belles de qui les yeux nous tiennent asservis,</reg><!-- erreur -->
+            </l>
+            <l n="32">
+               <choice>
+                  <orig>A preſent que l'Amour nous redonne la vie,</orig>
+                  <reg>À présent que l'amour nous redonne le vie</reg><!-- erreur -->
+               </choice>
+            </l>
+            <l n="33">
+               <orig>Approchez prés de nous, afin que l'on publie,</orig>
+               <reg>Approchez près de nous, afin que l'on publie,</reg>
+            </l>
+            <l n="34">
+               <orig>Si vous fuyez les morts que vous cherchez les vis.</orig><!-- erreur -->
+               <reg>Si vous fuyez les morts que vous cherchez les vis.</reg><!-- erreur -->
+            </l>
+            </lg>
+         </div>
+         <div type="Dialogue">
+            <head rend="center">
+                <orig>Chançon en Dialogue.</orig><!-- erreur -->
+                <reg>Chanson en Dialogue.</reg><!-- erreur -->
+            </head>
+            <sp who="Dem">
+            <speaker>
+          <orig>Dem.</orig>
+          <reg>Dem.</reg>
+        </speaker>
+            <l n="35">
+               <orig>QVelle fieure auez-vous Paſquette</orig>
+               <reg>QUelle fièvre avez-vous Pasquette</reg><!-- erreur -->
+            </l>
+            <l n="36">
+               <orig>Qui vous rend le teint ſi deffait.</orig>
+               <reg>Qui vous rend le teint si défait.</reg>
+            </l>
+            </sp>
+            <sp who="Reſp">
+            <speaker>
+          <orig>Reſp.</orig>
+          <reg>Reſp.</reg>
+        </speaker>
+            <l n="37">
+               <orig>C'eſt le deſir d'vne brayette,</orig>
+               <reg>C'est le désir d'une brayette,</reg>
+            </l>
+            <l n="38">
+               <orig>Dont ie ne puis auoir l'effet.</orig>
+               <reg>Dont je ne puis avoir l'effet.</reg>
+            </l>
+            </sp>
+            <sp who="Dem">
+            <speaker>
+          <orig>Dem.</orig>
+          <reg>Dem.</reg>
+        </speaker>
+            <l n="39">
+               <orig>Certes vous eſtes maigre &amp; iaune</orig>
+               <reg>Certes vous êtes maigre et jaune</reg><!-- erreur -->
+            </l>
+            <l n="40">
+               <choice>
+                  <orig>Ie ne ſçay pas que demandez.</orig>
+                  <reg>Je ne sais pas que demandez.</reg><!-- erreur -->
+               </choice>
+            </l>
+            </sp>
+            <sp who="Reſp">
+            <speaker>
+          <orig>Reſp.</orig>
+          <reg>Reſp.</reg>
+        </speaker>
+            <l n="41">
+            	<orig>Vn gros V. long comme vn quart d'aune,</orig><!-- erreur -->
+               <reg>Un gros V. long comme un quart d'aune,</reg><!-- erreur -->
+            </l>
+            <l n="42">
+               <orig>Preſtez-le moy ſi vous l'auez.</orig>
+               <reg>Prêtez-le moi si vous l'avez.</reg><!-- erreur -->
+            </l>
+            </sp>
+            <sp who="Dem">
+            <l n="43">
+               <orig>Mais quoy vous n'eſtes point honteuſe,</orig>
+               <reg>Mais quoi vous n'êtes point honteuse,</reg><!-- erreur -->
+            </l>
+            <l n="44">
+               <choice>
+                  <orig>De dire ainſi Voſtre apetit,</orig>
+                  <reg>De dire ainsi Votre appétit,</reg><!-- erreur -->
+               </choice>
+            </l>
+            </sp>
+          <sp who="Reſp">
+         <speaker>
+          <orig>Reſp.</orig>
+          <reg>Reſp.</reg>
+        </speaker>
+         <l n="45">
+          <orig>Homme goulu, femme f..teuſe.</orig><!-- erreur -->
+          <reg>Homme goulu, femme f..teuse.</reg><!-- erreur -->
+         </l>
+         <l n="46">
+          <orig>Ne deſire rien de petit.</orig>
+          <reg>Ne désire rien de petit.</reg><!-- erreur -->
+         </l>
+          </sp>
+          <sp who="Dem">
+         <speaker>
+          <orig>Dem.</orig>
+          <reg>Dem.</reg>
+        </speaker>
+         <l n="47">
+          <orig>Si vous voyez quelque V. mince,</orig><!-- erreur -->
+          <reg>Si vous voyez quelque V. mince,</reg><!-- erreur -->
+         </l>
+         <l n="48">
+          <orig>Voudriez vous bien l'approcher.</orig>
+          <reg>Voudriez-vous bien l'approcher.</reg><!-- erreur -->
+         </l>
+          </sp>
+          <sp who="Reſp">
+         <speaker/>
+         <l n="49">
+          <orig>Quand ce ſeroit celuy d'vn Prince,</orig><!-- erreur -->
+          <reg>Quant ce serait celui d'un Prince,</reg><!-- erreur -->
+         </l>
+         <l n="50">
+          <orig>Ie ne voudrois pas le toucher.</orig>
+          <reg>Je ne voudrais pas le toucher.</reg>
+         </l>
+          </sp>
+          <fw type="sig">A iij</fw>
+          <pb/>
+          <fw type="runningTitle" place="top-centre">
+         <orig>LE PARNASSE</orig>
+         <reg>LE PARNASSE</reg>
+          </fw>
+          <fw type="pageNum" place="top-left">4</fw>
+          <sp who="Dem">
+         <speaker>
+          <orig>Dem.</orig>
+          <reg>Dem.</reg>
+        </speaker>
+         <l n="51">
+          <orig>>De quelque valet l'accointance,</orig>
+          <reg>>De quelque valet l'accointance,</reg>
+         </l>
+         <l n="52">
+          <orig>Seroit-ce bien voſtre deſir.</orig>
+          <reg>Serait-ce bien votre désir.</reg><!-- erreur -->
+         </l>
+          </sp>
+          <sp who="Reſp">
+         <speaker>
+          <orig>Reſp.</orig>
+          <reg>Reſp.</reg>
+        </speaker>
+         <l n="53">
+          <orig>Ouy, s'il le fait d'obeyſſance,</orig>
+          <reg>Oui, s'il le fait d'obéissance,</reg><!-- erreur -->
+         </l>
+         <l n="54">
+          <orig>Et le refait pour le plaiſir.</orig><!-- erreur -->
+          <reg>Et le refait pour le plaisir.</reg><!-- erreur -->
+         </l>
+          </sp>
+          <sp who="Dem">
+         <speaker>
+          <orig>Dem.</orig>
+          <reg>Dem.</reg>
+        </speaker>
+         <l n="55">
+          <orig>Vous auez la feſſe ſoudaine</orig>
+          <reg>Vous avez la fesse soudaine</reg>
+         </l>
+         <l n="56">
+          <orig>Alors qu'on vous preſſe le flanc</orig>
+          <reg>Alors qu'on vous presse le flanc</reg>
+         </l>
+          </sp>
+          <sp who="Reſp">
+         <speaker>
+          <orig>Reſp.</orig>
+          <reg>Reſp.</reg>
+        </speaker>
+         <l n="57">
+          <orig>Le Cul ſans ceſſe me demaine</orig><!-- erreur -->
+          <reg>Le Cul sans cesse me démène</reg><!-- erreur -->
+         </l>
+         <l n="58">
+          <orig>Comme l'eſguille d'vn Cadranc.</orig>
+          <reg>Comme l'aiguille d'un Cadran.</reg><!-- erreur -->
+         </l>
+          </sp>
+          <sp who="Dem">
+         <speaker>
+          <orig>Dem.</orig>
+          <reg>Dem.</reg>
+        </speaker>
+         <l n="59">
+          <orig>Qui vous voit la mine ſi froide.</orig>
+          <reg>Qui vous voit la mine si froide.</reg>
+         </l>
+         <l n="60">
+          <orig>Ne vous croit point le cul ſi haut,</orig>
+          <reg>Ne vous croit point le cul si haut,</reg><!-- erreur -->
+         </l>
+          </sp>
+          <sp who="Reſp">
+         <speaker>
+          <orig>Reſp.</orig>
+          <reg>Reſp.</reg>
+        </speaker><!-- erreur -->
+         <l n="61">
+          <orig>C'eſt au C. qu'il faut vn V. roide,</orig>
+          <reg>C'est au C. qu'il faut un V. raide,</reg>
+         </l>
+         <l n="62">
+          <orig>Ce n'eſt point au front qu'il le faut.</orig>
+          <reg>Ce n'est point au front qu'il le faut.</reg>
+         </l>
+          </sp>
+         </div>
+         <div type="poeme">
+          <head rend="center">
+         <orig>EPIGRAMME.</orig>
+         <reg>EPIGRAMME.</reg>
+          </head>
+            <lg>
+            <l n="63">
+             <orig>IE ne vis onc femme ſi froide</orig><!-- erreur -->
+             <reg>JE ne vis onc femme si froide</reg><!-- erreur -->
+            </l>
+            <l n="64">
+             <orig>Et ie croy qu'on n'en ſçauroit voir,</orig><!-- erreur -->
+             <reg>Et je crois qu'on n'en saurait voir,</reg><!-- erreur -->
+            </l>
+            <l n="65">
+             <orig>Vous luy monſtrez voſtre V. roide</orig>
+            	<reg>Vous lui montrez votre V. raide</reg><!-- erreur -->
+            </l>
+            <l n="66">
+               <choice>
+                  <orig>Et la ..utez ſans l'eſmouuoir.</orig>
+                  <reg>Et la ..utez sans l'émouvoir.</reg>
+               </choice>
+            </l>
+            </lg>
+         </div>
+         <div type="poeme">
+          <head rend="center">
+         <choice>
+          <orig>SVR VNE IOVYSSANCE.</orig><!-- erreur -->
+          <reg>SUR UNE JOUISSANCE.</reg><!-- erreur -->
+         </choice>
+         <choice>
+          <orig>STANCES</orig><!-- erreur -->
+          <reg>STANCES</reg><!-- erreur -->
+         </choice>
+          </head>
+            <lg>
+            <l n="67">
+             <orig>EN fin i'ay ſurmonté l'exceßiue</orig>
+             <reg>Enfin j'ai surmonté l'excessive</reg><!-- erreur -->
+            </l>
+            <l n="68">
+             <orig>De celle qui tenoit mon eſprit en langueur,</orig>
+             <reg>De celle qui tenait mon esprit en longueur,</reg><!-- erreur -->
+            </l>
+            <l n="69">
+             <orig>Graces à mon deſtin ie l'ay longe-temps tenuë</orig>
+             <reg>Grâce à mon destin je l'ai longtemps tenue</reg><!-- erreur -->
+            </l>
+            <l n="70">
+             <orig>Dans ſon lict toute nuë.</orig>
+             <reg>Dans son lit toute nue.</reg><!-- erreur -->
+            </l>
+            <l n="71">
+             <orig>L'Aurore n'euſt pluſtoſt amené le beau iour</orig>
+             <reg>L'Aurore n'eût plutôt amené le beau jour</reg><!-- erreur -->
+            </l>
+            <l n="72">
+               <choice>
+                  <orig>Que voulant appaiſer le feu de mon amour</orig>
+                  <reg>Que voulant apaiser le feu de mon amour</reg>
+               </choice>
+            </l>
+            <fw type="runningTitle" place="top-centre">
+             <orig>LE PARNASSE</orig>
+             <reg>LE PARNASSE</reg>
+            </fw>
+            <l n="73">
+             <orig>Et donner quelque treue à ma peine cruelle,</orig>
+             <reg>Et donner quelque trève à ma peine cruelle,</reg><!-- erreur -->
+            </l>
+            <l n="74">
+             <orig>I'allay voir cette belle.</orig>
+             <reg>J'allai voir cette belle.</reg><!-- erreur -->            
+            </l>
+            <l n="75">
+             <orig>Si toſt qu'elle me vid ſon aimable paleur,</orig>
+             <reg>Sitôt qu'elle me vit son aimable pâleur,</reg><!-- erreur -->
+            </l>
+            <l n="76">
+             <orig>Signe d'vn feu ſecret, prit vne autre couleur,</orig><!-- erreur -->
+             <reg>Signe d'un feu secret, prit une autre couleur,</reg><!-- erreur -->
+            </l>
+            <l n="77">
+             <orig>Les beaux lys de ſon teint ſe changerent en roſes</orig>
+             <reg>Les beaux lys de son teint se changèrent en roses</reg><!-- erreur -->
+            </l>
+            <l n="78">
+             <orig>Nouuellement ecloſes.</orig>
+             <reg>Nouvellement écloses.</reg>
+            </l>
+            <l n="79">
+             <orig>Ses beaux yeux languiſſant me firent croire außi</orig>
+             <reg>Ses beaux yeux languissant me firent croire aussi</reg><!-- erreur -->
+            </l>
+            <l n="80">
+             <orig>Que rien ne l'agitoit qu'vn amoureux ſoucy.</orig>
+             <reg>Que rien ne l'agitait qu'un amoureux souci.</reg><!-- erreur -->
+            </l>
+            <l n="81">
+             <orig>Et que dedans ſa couche vne cruelle flame</orig>
+             <reg>Et que dedans sa couche une cruelle flamme</reg>
+            </l>
+            <l n="82">
+             <orig>Bruſloit alors ſon ame.</orig><!-- erreur -->
+             <reg>Brûlait alors son âme.</reg><!-- erreur -->
+            </l>
+            <l n="83">
+             <orig>Ie m'approche aupres d'elle &amp; luy dis à l'inſtant,</orig>
+             <reg>Je m'approche auprès d'elle et lui dis à l'instant,</reg><!-- erreur -->
+            </l>
+            <l n="84">
+             <orig>Beauté pour qui touſiours ie veux eſtre conſtant</orig>
+             <reg>Beauté pour qui toujours je veux être constant</reg>
+            </l>
+            <l n="85">
+             <orig>Ceſſez de m'affliger, n'eſtes vous point laßée</orig>
+             <reg>Cessez de m'affliger, n'êtes vous point lassée</reg><!-- erreur -->
+            </l>
+            <l n="86">
+             <orig>De ma peine paßée?</orig>
+             <reg>De ma peine passée?</reg>
+            </l>
+            <l n="87">
+             <orig>Depuis que le Soleil eſclaire dans les Cieux,</orig>
+             <reg>Depuis que le Soleil éclaire dans les Cieux,</reg><!-- erreur -->
+            </l>
+            <l n="88">
+             <orig>Il n'a peu voir encor dans l'enclos de ces lieux</orig>
+             <reg>Il n'a pu voir encore dans l'enclos de ces lieux</reg>
+            </l>
+            <l n="89">
+             <orig>Vn amant qui iamais ait eu tant de martyre</orig>
+             <reg>Un amant qui jamais ait eu tant de martyre</reg>
+            </l>
+            <l n="90">
+             <orig>Sous l'amoureux Empire.</orig>
+             <reg>Sous l'amoureux Empire.</reg>
+            </l>
+            <l n="91">
+             <orig>Alors en me loüant de ma ferme amitié,</orig>
+             <reg>Alors en me louant de ma ferme amitié,</reg><!-- erreur -->
+            </l>
+          <l n="92">
+            <orig>Et voiant mes ennuis en eut tant de pitié,</orig>
+            <reg>Et voyant mes ennuis en eut tant de pitié,</reg>
+          </l>
+            <l n="93">
+             <orig>Que mal-gré la pudeur qui luy couuroit la face,</orig>
+             <reg>Que malgré la pudeur qui lui courrait la face,</reg>
+            </l>
+            <l n="95">
+             <orig>Dafnis mon cher Dafnis, ce me dit-elle alors,</orig>
+             <reg>Dafnis mon cher Dafnis, ce me dit-elle alors,</reg>
+            </l>
+            <l n="96">
+             <orig>Seul ſoulas de mon cœur, ie cede à tes efforts:</orig>
+             <reg>Seul soulas de mon cœur,je cède à tes efforts:</reg><!-- erreur -->
+            </l>
+            <l n="97">
+             <orig>D'vn meſme mal que toy, ie te parle ſans feinte,</orig>
+             <reg>D'un même mal que toi, je te parle sans feinte,</reg><!-- erreur -->
+            </l>
+            <l n="98">
+             <orig>Ma pauure ame eſt atteinte.</orig>
+             <reg>Ma pauvre âme est atteinte.</reg>
+            </l>
+            <l n="99">
+             <orig>Ne croy que deſormais ie reſiſte à ce Dieu,</orig>
+             <reg>Ne crois que désormais je résiste à ce Dieu,</reg><!-- erreur -->
+            </l>
+            <l n="100">
+             <orig>Doux Tyran de nos cœurs, qui commande en tout lieu</orig>
+             <reg>Doux Tyran de nos cœurs, qui commande en tout lieu</reg>
+            </l>
+          <fw type="sig">A iij</fw>
+            </lg>
+         </div>
+         </div>
+      </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+    schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Correction
+      La modernisation est partielle: pourquoi?
+      Très nombreuses erreurs de copies et de mauvaises transcriptions
+      erreurs d'encodage (fw)
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Contes et nouvelles</title>
+            <author>Jean de la Fontaine</author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+            </availability>
+         </publicationStmt>     
+         <sourceDesc>
+            <bibl>
+               <author>M. la Fontaine</author>
+               <editor>François Foppens</editor>
+               <title>Contes et nouvelles en vers</title>
+               <date>1669</date>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genre">conte</term>
+               <term type="form">vers</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+      <body>
+         <div type="titre">
+            <pb n="1"/>
+            <head>
+               <orig>CONTES ET NOUVELLES EN VERS De Mr. DE LA FONTAINE.</orig>
+               <reg>CONTES ET NOUVELLES EN VERS De Mr. DE LA FONTAINE</reg>
+            </head>
+            <ab>
+               <orig>Nouvelles Edition reveuë &amp; augmentée de pluſieurs Contes du meſme Auteur, &amp; d'une Diſſertation ſur la Joconde.</orig>
+               <reg>Nouvelles Édition revue et augmentée de plusieurs Contes du même Auteur, et d'une Dissertation sur la Joconde.</reg>
+            </ab>
+            <ab>
+               <orig>A LEYDE, Chez Jean Sambix le jeune,</orig>
+               <reg>A LEYDE, Chez Jean Sambix le jeune,</reg>
+            </ab>
+            <ab>
+               <orig>M.DC.LXIX.</orig>
+               <reg>M.DC.LXIX.</reg>
+            </ab>
+         </div>
+         <div type="conte" n="1">
+            <pb n="7" facs="bandeau"/>
+            <head>
+               <orig>MAZET DE LAMPORECHIO.</orig><!-- erreur -->
+               <reg>MAZET DE LAMPORECHIO.</reg>
+            </head>
+
+            <head type="italic">
+               <orig>Nouvelle tirée de Bocace</orig>
+               <reg>Nouvelle tirée de Boccace</reg>
+            </head>
+            <l n="1">
+               <orig>LE voile n'eſt le rempart le plus ſur</orig>
+               <reg>LE voile n'est le rempart le plus sûr</reg>
+            </l>
+            <l n="2">
+               <orig>Contre l’amour, ny le moins acceſſible,</orig>
+               <reg>Contre l’amour, ni le moins accessible,</reg>
+            </l>
+            <l n="3">
+               <orig>Un bon mary mieux que grille ny mur,</orig>
+               <reg>Un bon mari mieux que grille ni mur,</reg><!-- erreur -->
+            </l>
+            <l n="4">
+               <orig>Y pourvoira, ſi pourvoir eſt poſſible.</orig>
+               <reg>Y pourvoira, si pourvoir est possible.</reg>
+            </l>
+            <l n="5">
+               <orig>C’eſt à mon ſens une erreur trop viſible</orig>
+               <reg>C’est à mon sens une erreur trop visible</reg>
+            </l>
+            <l n="6">
+               <orig>A des Parens, pour ne dire autrement,</orig>
+               <reg>À des Parents, pour ne dire autrement,</reg>
+            </l>
+            <l n="7">
+               <orig>De preſumer, aprés qu’une perſonne,</orig>
+               <reg>De présumer, après qu’une personne,</reg>
+            </l>
+            <l n="8">
+               <orig>Bon gré, mal gré, s’eſt miſe en un Convent,</orig>
+               <reg>Bon gré, mal gré, s’est mise en un Couvent,</reg>
+            </l>
+            <l n="9">
+               <orig>Que Dieu prendra ce qu’ainſi l’on luy donne.</orig>
+               <reg>Que Dieu prendra ce qu'ainsi l’on lui donne.</reg><!-- erreur -->
+            </l>
+            <l n="10">
+               <orig>Abus, abus, je tiens que le malin,</orig>
+               <reg>Abus, abus, je tiens que le malin,</reg>
+            </l>
+            <l n="11">
+               <orig>N’a revenu plus clair &amp; plus certain.</orig>
+               <reg>N’a revenu plus clair et plus certain.</reg>
+            </l>
+            <l n="12">
+               <orig>(Sauf toutefois l’assistance Divine.</orig>
+               <reg>(Sauf toutefois l’assistance Divine.</reg>
+            </l>
+            <l n="13">
+               <orig>Encore un coup ne faut qu’on s’imagine,</orig>
+               <reg>Encore un coup ne faut qu’on s’imagine,</reg>
+            </l>
+            <l n="14">
+               <orig>Que d’eſtre pure &amp; nette de peché,</orig>
+               <reg>Que d’être pure et nette de péché,</reg>
+            </l>
+            <l n="15">
+               <orig>Soit privilege à la guimpe attaché.</orig>
+               <reg>Soit privilège à la guimpe attaché.</reg>
+            </l>
+            <l n="16">
+               <orig>Nenny da, non; je pretens qu’au contraire,</orig>
+               <reg>Nenni da, non; je prétends qu’au contraire,</reg>
+            </l>
+            <l n="17">
+               <orig>Filles du monde ont toûjours plus de peur,</orig>
+               <reg>Filles du monde ont toujours plus de peur,</reg>
+            </l>
+            <l n="18">
+               <orig>Que l’on ne donne atteinte à leur honneur,</orig>
+               <reg>Que l’on ne donne atteinte à leur honneur,</reg>
+            </l>
+            <l n="19">
+               <orig>La raiſon eſt, qu’elles en ont à faire,</orig>
+               <reg>La raiſon est, qu’elles en ont à faire,</reg>
+            </l>
+            <l n="20">
+               <orig>Moins d’ennemis attaquent leur pudeur.</orig>
+               <reg>Moins d’ennemis attaquent leur pudeur.</reg>
+            </l>
+            <l n="21">
+               <orig>Les autres n’ont pour un ſeul adverſaire.</orig>
+               <reg>Les autres n’ont pour un seul adversaire.</reg>
+            </l>
+            <fw>
+               <orig>A 4 Ten-</orig>
+               <reg>A 4 Ten-</reg>
+            </fw>
+            <pb n="8"/>
+            <fw style="italic">
+               <orig>Contes &amp; nouvelles</orig>
+               <reg>Contes et nouvelles</reg>
+            </fw>
+            <l n="22">
+               <orig>Tentation, fille d’oiſiveté,</orig><!-- erreur -->
+               <reg>Tentation, fille d’oisiveté,</reg><!-- erreur -->
+            </l>
+            <l n="23">
+               <orig>Ne manque pas d’agir de ſon coſté,</orig>
+               <reg>Ne manque pas d’agir de son côté,</reg><!-- erreur -->
+            </l>
+            <l n="24">
+               <orig>Puis le deſir, enfant de la contrainte:</orig>
+               <orig>Puis le désir, enfant de la contrainte:</orig>
+            </l>
+            <l n="25">
+               <orig>Ma fille eſt Nonne, Ergo, c’eſt une Sainte,</orig>
+               <reg>Ma fille est Nonne, Ergo, c’est une Sainte,</reg>
+            </l>
+            <l n="26">
+               <orig>Mal raiſonner. Des quatre parts les trois,</orig>
+               <reg>Mal raisonner. Des quatre parts les trois,</reg>
+            </l>
+            <l n="27">
+               <orig>En ont regret &amp; ſe mordent les doigts;</orig>
+               <reg>En ont regret et se mordent les doigts;</reg>
+            </l>
+            <l n="28">
+               <orig>Font ſouvent pis, au moins l’ay-je ouy dire,</orig>
+               <reg>Font souvent pis, au moins l’ai-je ouï dire,</reg>
+            </l>
+            <l n="29">
+               <orig>Car pour ce point je parle ſans ſçavoir,</orig>
+               <reg>Car pour ce point je parle sans savoir,</reg><!-- erreur -->
+            </l>
+            <l n="30">
+               <orig>Bocace en fait certain conte pour rire,</orig>
+               <reg>Boccace en fait certain conte pour rire,</reg>
+            </l>
+            <l n="31">
+               <orig>Que j’ay rimé comme vousallez voir.</orig>
+               <reg>Que j’ai rimé comme vous allez voir.</reg>
+            </l>
+            <lb/><l n="31">
+               <orig>Un bon Vieillard en un Convent de filles</orig>
+               <reg>Un bon Vieillard en un Couvent de filles</reg>
+            </l>
+            <l n="32">
+               <orig>Autrefois fut, labouroit le jardin,</orig>
+               <reg>Autrefois fut, labourait le jardin,</reg>
+            </l>
+            <l n="33">
+               <orig>Elles eſtoient toutes aſſez gentilles,</orig>
+               <reg>Elles étaient toutes assez gentilles,</reg>
+            </l>
+            <l n="34">
+               <orig>Et volontiers jaſoient dés le matin.</orig>
+               <reg>Et volontiers jasaient dès le matin.</reg>
+            </l>
+            <l n="35">
+               <orig>Tant ne ſongeoient au ſervice divin,</orig>
+               <reg>Tant ne songeaient au ſervice divin,</reg>
+            </l>
+            <l n="36">
+               <orig>Qu’à ſe montrer au Parloir aguimpées,</orig>
+               <reg>Qu’à se montrer au Parloir aguimpées,</reg>
+            </l>
+            <l n="37">
+               <orig>Bien blanchement comme droites poupées.</orig>
+               <reg>Bien blanchement comme droites poupées.</reg>
+            </l>
+            <l n="38">
+               <orig>Preſte chacune à tenir coup aux gens;</orig>
+               <reg>Prêtes chacune à tenir coup aux gens;</reg>
+            </l>
+            <l n="39">
+               <orig>Et n’eſtoit jour qu’on ne trouvât leans</orig>
+               <reg>Et n’était jour qu’on ne trouvât léans</reg><!-- erreur -->
+            </l>
+            <l n="40">
+               <orig>Fille qui n’eût dequoy rendre le change</orig>
+               <reg>Fille qui n’eût de quoi rendre le change</reg>
+            </l>
+            <l n="41">
+               <orig>Sans s’envoyer l’une à l’autre l’éteuf.</orig>
+               <reg>Sans s’envoyer l’une à l’autre l’éteuf.</reg>
+            </l>
+            <l n="42">
+               <orig>Huit Sœurs eſtoient &amp; l’Abeſſe ſont neuf,</orig>
+               <reg>Huit Sœurs étaient et l’Abesse sont neuf,</reg><!-- erreur -->
+            </l>
+            <l n="43">
+               <orig>Si mal d’accord que c’eſtoit choſe étrange.</orig>
+               <reg>Si mal d’accord que c’était choſe étrange.</reg>
+            </l>
+            <l n="44">
+               <orig>De la beauté la pluſpart en avoient,</orig>
+               <reg>De la beauté la plupart en avaient,</reg><!-- erreur -->
+            </l>
+            <l n="45">
+               <orig>De la jeuneſſe elles en avoient toutes:</orig>
+               <reg>De la jeunesse elles en avaient toutes:</reg>
+            </l>
+            <l n="46">
+               <orig>En cettuy lieu beaux peres frequentoient</orig>
+               <reg>En cettui lieu beaux pères frequentaient</reg><!-- documentation -->
+            </l>
+            <l n="47">
+               <orig>Comme on peut croire; &amp;tant bien ſupputoient</orig>
+               <reg>Comme on peut croire; &amp;tant bien supputaient</reg>
+            </l>
+            <l n="48">
+               <orig>Qu’ils ne manquoient à tomber ſur leurs routes</orig>
+               <reg>Qu’ils ne manquaient à tomber ſur leurs routes</reg>
+            </l>
+            <lb/><l n="49">
+               <orig>Le bon hommeau jardinier deſſus dit,</orig>
+               <reg>Le bon hommeau jardinier dessus dit,</reg>
+            </l>
+            <l n="50">
+               <orig>Prés de ces Sœurs perdoit preſque l’eſprit,</orig>
+               <reg>Près de ces Sœurs perdait preſque l’eſprit,</reg><!-- erreur -->
+            </l>
+            <l n="51">
+               <orig>A leur caprice il ne pouvoit ſuffire.</orig>
+               <reg>À leur caprice il ne pouvait suffire.</reg>
+            </l>
+            <l n="52">
+               <orig>Toutes vouloient au vieillard commander,</orig>
+               <reg>Toutes voulaient au vieillard commander,</reg>
+            </l>
+            <l n="53">
+               <orig>Dont ne pouvant entre elles s’accorder,</orig>
+               <reg>Dont ne pouvant entre elles s’accorder,</reg>
+            </l>
+            <pb n="9"/>
+            <fw style="italic"><!-- erreur-->
+               <orig>de Monſieur de la Fontaine.</orig>
+               <reg>de Monsieur de la Fontaine.</reg>
+            </fw>
+            <l n="54">
+               <orig>Il ſouffroit plus que l'on ne ſçauroit dire</orig>
+               <reg>Il ſouffrait plus que l'on ne saurait dire</reg>
+            </l>
+            <lb/><l n="55">
+               <orig>Force luy fut de quitter la maiſon,</orig>
+               <reg>Force lui fut de quitter la maison,</reg>
+            </l>
+            <l n="56">
+               <orig>Il en ſortit de la meſme faço</orig>
+               <reg>Il en sortit de la même façon</reg>
+            </l>
+            <l n="57">
+               <orig>Qu’eſtoit entré là dedans le pauvre homme,</orig>
+               <reg>Qu’était entré là-dedans le pauvre homme,</reg><!-- erreur -->
+            </l>
+            <l n="58">
+               <orig>Sans croix ny pile &amp; n’ayant rien en ſomme</orig>
+               <reg>Sans croix ni pile &amp; n’ayant rien en somme</reg>
+            </l>
+            <l n="59">
+               <orig>Qu’un vieil habit. Certain jeune garçon</orig>
+               <reg>Qu’un vieil habit. Certain jeune garçon</reg>
+            </l>
+            <l n="60">
+               <orig>De Lamporech, ſi j’ay bonne memoire,</orig>
+               <reg>De Lamporech, si j’ai bonne mémoire,</reg>
+            </l>
+            <l n="61">
+               <orig>Dit au vieillard un beau jour aprés boire,</orig>
+               <reg>Dit au vieillard un beau jour après boire,</reg>
+            </l>
+            <l n="62">
+               <orig>Et raiſonnant ſur le fait des Nonnains.</orig>
+               <reg>Et raisonnant sur le fait des Nonnains.</reg>
+            </l>
+            <l n="63">
+               <orig>Qu’il paſſeroit bien volontiers ſa vie</orig>
+               <reg>Qu’il passerait bien volontiers sa vie</reg>
+            </l>
+            <l n="64">
+               <orig>Prés de ces Sœeurs; &amp; qu’il avoit envie</orig>
+               <reg>Près de ces Sœeurs; &amp; qu’il avait envie</reg><!-- erreur -->
+            </l>
+            <l n="65">
+               <orig>De leur offrir ſon travail &amp; ſes mains,</orig>
+               <reg>De leur offrir son travail et ses mains,</reg>
+            </l>
+            <l n="66">
+               <orig>Sans demander recompenſe ny gages.</orig>
+               <reg>Sans demander récompenses ni gages.</reg>
+            </l>
+            <l n="67">
+               <orig>Le compagnon ne viſoit à l’argent,</orig>
+               <reg>Le compagnon ne visait à l’argent,</reg>
+            </l>
+            <l n="68">
+               <orig>Trop bien croyoit ces Sœurs eſtant peu ſages,</orig>
+               <reg>Trop bien croyait ces Sœurs étant peu ſages,</reg>
+            </l>
+            <l n="69">
+               <orig>Qu’il en pourroit croquer une en paſſant,</orig>
+               <reg>Qu’il en pourrait croquer une en paſſant,</reg>
+            </l>
+            <l n="70">
+               <orig>Et puis une autre, &amp; puis toute la troupe.</orig>
+               <reg>Et puis une autre, et puis toute la troupe.</reg>
+            </l>
+            <l n="71">
+               <orig>Nuto, luy dit, c’eſt le nom du vieillard,</orig>
+               <reg>Nuto, lui dit, c’est le nom du vieillard,</reg>
+            </l>
+            <l n="72">
+               <orig>Croy moy, Mazet, mets toy quelque autre part,</orig>
+               <reg>Crois-moi, Mazet, mets-toi quelque autre part,</reg><!-- erreur -->
+            </l>
+            <l n="73">
+               <orig>J’aimerois mieux eſtre ſans pain ny ſoupe,</orig>
+               <reg>J’aimerais mieux être sans pain ni soupe,</reg><!-- erreur -->
+            </l>
+            <l n="74">
+               <orig>Que d’employer en ce lieu mon travail,</orig>
+               <reg>Que d’employer en ce lieu mon travail,</reg>
+            </l>
+            <l n="75">
+               <orig>Les Nonnes ſont un étrange beſtail,</orig>
+               <reg>Les Nonnes sont un étrange bétail,</reg>
+            </l>
+            <l n="76">
+               <orig>Qui n’a taſté de cette marchandiſe,</orig>
+               <reg>Qui n’a tâté de cette marchandise,</reg>
+            </l>
+            <l n="77">
+               <orig>Ne ſçait encor ce que c’eſt que tourment</orig>
+               <reg>Ne sait encore ce que c’est que tourment</reg>
+            </l>
+            <l n="78">
+               <orig>Je te le dis, laiſſe-là ce Convent;</orig>
+               <reg>Je te le dis, laisse-là ce Couvent;</reg>
+            </l>
+            <l n="79">
+               <orig>Car d’eſperer les ſervir à leur guiſe,</orig>
+               <reg>Car d’espérer les servir à leur guiſe,</reg>
+            </l>
+            <l n="80">
+               <orig>C’eſt un abus; l’une voudra du mou,</orig>
+               <reg>C’est un abus; l’une voudra du mou,</reg>
+            </l>
+            <l n="81">
+               <orig>L’autre du dur, parquoy je te tien fou,</orig>
+               <reg>L’autre du dur, par quoi je te tiens fou,</reg>
+            </l>
+            <l n="82">
+               <orig>D’autant plus fou que ces filles ſont ſottes,</orig>
+               <reg>D’autant plus fou que ces filles sont sottes,</reg>
+            </l>
+            <l n="83">
+               <orig>Tu n’auras pas œuvre faite entre nous;</orig>
+               <reg>Tu n’auras pas œuvre faite entre nous;</reg>
+            </l>
+            <l n="84">
+               <orig>L’une voudra que tu plantes des choux,</orig>
+               <reg>L’une voudra que tu plantes des choux,</reg>
+            </l>
+            <l n="85">
+               <orig>L’autre voudra que ce ſoit des carrottes.</orig>
+               <reg>L’autre voudra que ce soit des carrottes.</reg>
+            </l>
+            <l n="86">
+               <orig>Mazet reprit, ce n’eſt pas là le point,</orig>
+               <reg>Mazet reprit, ce n’est pas là le point,</reg>
+            </l>
+            <fw>
+               <orig>A 5 Voy-</orig>
+               <reg>A 5 Voy-</reg>
+            </fw>
+            <pb n="10"/>
+            <fw style="italic">
+               <orig>Contes &amp; nouvelles</orig>
+               <reg>Contes et nouvelles</reg>
+            </fw>
+               <l n="87">
+                  <orig>Voy-tu Nuto, je ne ſuis qu’une beſte,</orig>
+                  <reg>Vois-tu Nuto, je ne ſuis qu’une bête,</reg>
+               </l>
+               <l n="88">
+                  <orig>Mais dans ce lieu tu ne me verras point</orig>
+                  <reg>Mais dans ce lieu tu ne me verras point</reg>
+               </l>
+               <l n="89">
+                  <orig>Un mois entier, ſans qu’on m’y faſſe feſte.</orig>
+                  <reg>Un mois entier, sans qu’on m’y fasse fête.</reg>
+               </l>
+               <l n="90">
+                  <orig>La raiſon eſt, que je n’ay que vingt ans</orig>
+                  <reg>La raison est, que je n’ai que vingt ans</reg>
+               </l>
+               <l n="91">
+                  <orig>Et comme toy je n’ay pas fait mon temps.</orig>
+                  <reg>Et comme toi je n’ai pas fait mon temps.</reg>
+               </l>
+               <l n="92">
+                  <orig>Je leur ſuis propre, &amp; ne demande en ſomme</orig>
+                  <reg>Je leur suis propre, et ne demande en somme</reg>
+               </l>
+               <l n="93">
+                  <orig>Que d’eſtre admis. Lors luy dit le bon homme,</orig>
+                  <reg>Que d’être admis. Lors lui dit le bon homme,</reg>
+               </l>
+               <l n="94">
+                  <orig>Au Fac-totum tu n’as qu’à t’adreſſer;</orig>
+                  <reg>Au Factotum tu n’as qu’à t’adreſſer;</reg>
+               </l>
+               <l n="95">
+                  <orig>Allons nous-en de ce pas luy parler?</orig>
+                  <reg>Allons-nous-en de ce pas lui parler?</reg><!-- erreur -->
+               </l>
+               <l n="96">
+                  <orig>Allons dit l’autre. Il me vient une choſe</orig>
+                  <reg>Allons dit l’autre. Il me vient une chose</reg>
+               </l>
+               <l n="97">
+                  <orig>Dedans l’eſprit, je feray le müet</orig><!-- erreur -->
+                  <reg>Dedans l’esprit, je ferai le muet</reg>
+               </l>
+               <l n="98">
+                  <orig>Et l’idiot. Je penſe qu’en effet</orig>
+                  <reg>Et l’idiot. Je pense qu’en effet</reg>
+               </l>
+               <l n="99">
+                  <orig>Reprit Nuto, cela peut eſtre cauſe</orig>
+                  <reg>Reprit Nuto, cela peut être cause</reg>
+               </l>
+               <l n="100">
+                  <orig>Que le Pater avec le Fac-totum,</orig>
+                  <reg>Que le Pater avec le Factotum,</reg>
+               </l>
+               <l n="101">
+                  <orig>N’auront de toy ny crainte ny ſoupçon.</orig>
+                  <reg>N’auront de toi ni crainte ni soupçon</reg>
+               </l>
+               <l n="102">
+                  <orig>La choſe alla comme ils l’avoient preveuë</orig>
+                  <reg>La choſe alla comme ils l’avaient prévue</reg>
+               </l>
+               <l n="103">
+                  <orig>Voilà Mazet, à qui pour bien venue</orig>
+                  <reg>Voilà Mazet, à qui pour bienvenue</reg>
+               </l>
+               <l n="104">
+                  <orig>L’on fait beſcher la moitié du jardin.</orig>
+                  <reg>L’on fait bêcher la moitié du jardin.</reg>
+               </l>
+               <l n="105">
+                  <orig>Il contre fait le ſot &amp; le badin,</orig>
+                  <reg>Il contrefait le dot et le badin,</reg>
+               </l>
+               <l n="106">
+                  <orig>Et cependant laboure comme un ſire.</orig>
+                  <reg>Et cependant laboure comme un sire.</reg>
+               </l>
+               <l n="107">
+                  <orig>Autour de luy les Nonnesalloient rire.</orig>
+                  <reg>Autour de lui les Nonnes allaient rire.</reg>
+               </l>
+               <lb/><l n="108">
+                  <orig>Un certain jour le compagnon dormant,</orig>
+                  <reg>Un certain jour le compagnon dormant,</reg>
+               </l>
+               <l n="109">
+                  <orig>Ou bien feignant de dormir, il n’importe,</orig>
+                  <reg>Ou bien feignant de dormir, il n’importe,</reg>
+               </l>
+               <l n="110">
+                  <orig>Bocace dit qu’il en faiſoit ſemblant.</orig>
+                  <reg>Bocace dit qu’il en faiſait ſemblant.</reg>
+               </l>
+               <l n="111">
+                  <orig>Deux des Nonains le voyant de la ſorte</orig>
+                  <reg>Deux des Nonnains le voyant de la sorte</reg>
+               </l>
+               <l n="112">
+                  <orig>Seul au jardin; car ſur le haut du jour,</orig>
+                  <reg>Seul au jardin; car sur le haut du jour,</reg>
+               </l>
+               <l n="113">
+                  <orig>Nulle des Sœurs ne faiſoit long ſejour</orig>
+                  <reg>Nulle des Sœurs ne faisait long séjour</reg>
+               </l>
+               <l n="114">
+                  <orig>Hors le logis, le tout crainte du haſle.</orig>
+                  <reg>Hors le logis, le tout crainte du hâle.</reg>
+               </l>
+               <l n="115">
+                  <orig>De ces deux donc, l’une approchant Mazet</orig>
+                  <reg>De ces deux donc, l’une approchant Mazet</reg>
+               </l>
+               <l n="116">
+                  <orig>Dit à ſa Sœur, dedans ce cabinet</orig>
+                  <reg>Dit à ſa Sœur, dedans ce cabinet</reg>
+               </l>
+               <l n="117">
+                  <orig>Menons ce ſot; Mazet eſtoit beau maſle,</orig><!-- erreur -->
+                  <reg>Menons ce sot; Mazet était beau mâle,</reg>
+               </l>
+               <l n="118">
+                  <orig>Et la galande à le conſiderer</orig>
+                  <reg>Et la galande à le conſidérer</reg>
+               </l>
+               <l n="119">
+                  <orig>Avoit pris gouſt, pourquoy ſans diferer</orig>
+                  <reg>Avait pris goût, pourquoi sans différer</reg>
+               </l>
+            <fw>
+               <orig>Amou</orig>
+               <reg>Amou</reg>
+            </fw>
+            <pb n="11"/>
+            <fw style="italic">
+               <orig>de Monſieur de la Fontaine.</orig>
+               <reg>de Monsieur de la Fontaine.</reg>
+            </fw>
+            <l n="120">
+               <orig>Amour luy fit propoſer cette affaire.</orig>
+               <reg>Amour lui fit proposer cette affaire.</reg>
+            </l>
+            <l n="121">
+               <orig>L’autre reprit, là dedans, hé quoy faire?</orig>
+               <reg>L’autre reprit, là-dedans, hé quoi faire?</reg>
+            </l>
+            <l n="122">
+               <orig>Quoy dit la Sœur, je ne ſçay, l’on verra</orig>
+               <reg>Quoi dit la Sœur, je ne sais, l’on verra</reg>
+            </l>
+            <l n="123">
+               <orig>Ce que l’on fait alors qu’on en eſt là,</orig>
+               <reg>Ce que l’on fait alors qu’on en est là,</reg>
+            </l>
+            <l n="124">
+               <orig>Ne dit-on pas qu’il ſe fait quelque choſe?</orig>
+               <reg>Ne dit-on pas qu’il se fait quelque chose?</reg>
+            </l>
+            <l n="125">
+               <orig>JESUS, reprit l’autre Sœur, ſe ſignant,</orig>
+               <reg>JÉSUS, reprit l’autre Sœur, se signant,</reg>
+            </l>
+            <l n="126">
+               <orig>Que dis-tu là? noſtre Regle defend</orig>
+               <reg>Que dis-tu là? notre Règle défend</reg>
+            </l>
+            <l n="127">
+               <orig>De tels penſers. S’il nous fait un enfant.</orig>
+               <reg>De tels pensers. S’il nous fait un enfant.</reg>
+            </l>
+            <l n="128">
+               <orig>Si l’on nous void. Tu t’en vas eſtre cauſe</orig>
+               <reg>Si l’on nous voit. Tu t’en vas être cause</reg>
+            </l>
+            <l n="129">
+               <orig>De quelque mal? On ne nous verra point,</orig>
+               <reg>De quelque mal? On ne nous verra point,</reg>
+            </l>
+            <l n="130">
+               <orig>Dit la premiere; &amp; quant à l’autre point</orig>
+               <reg>Dit la première; et quant à l’autre point</reg>
+            </l>
+            <l n="131">
+               <orig>C’eſt s’allarmer avant que le coup vienne.</orig>
+               <reg>C’est s’alarmer avant que le coup vienne.</reg>
+            </l>
+            <l n="132">
+               <orig>Uſons du temps ſans nous tant mettre en peine,</orig>
+               <reg>Usons du temps sans nous tant mettre en peine,</reg>
+            </l>
+            <l n="133">
+               <orig>Et ſans prevoir les choſes de ſi loing.</orig>
+               <reg>Et ſans prévoir les choſes de si loin.</reg>
+            </l>
+            <l n="134">
+               <orig>Nul n’eſt icy, nous avons tout à point</orig>
+               <reg>Nul n’est ici, nous avons tout à point</reg>
+            </l>
+            <l n="135">
+               <orig>L’heure, &amp; le lieu ſi toufu, que la veüe</orig>
+               <reg>L’heure, et le lieu si touffu, que la vue</reg><!-- erreur -->
+            </l>
+            <l n="136">
+               <orig>N’y peut paſſer: Et puis ſur la venue</orig>
+               <reg>N’y peut passer: Et puis sur la venue</reg>
+            </l>
+            <l n="137">
+               <orig>Je ſuis d’avis qu’une faſſe le guet:</orig>
+               <reg>Je suis d’avis qu’une fasse le guet:</reg>
+            </l>
+            <l n="138">
+               <orig>Tandis que l’autre eſtant avec Mazet,</orig>
+               <reg>Tandis que l’autre étant avec Mazet,</reg>
+            </l>
+            <l n="139">
+               <orig>A ſon bel aiſe aura lieu de s’inſtruire:</orig>
+               <reg>À Son bel aiSe aura lieu de s’instruire:</reg>
+            </l>
+            <l n="140">
+               <orig>Il eſt muet &amp; n’en pourra rien dire.</orig>
+               <reg>Il est muet et n’en pourra rien dire.</reg>
+            </l>
+            <l n="141">
+               <orig>Soit fait dit l’autre; il faut à ton deſir</orig>
+               <reg>Soit fait dit l’autre; il faut à ton désir</reg>
+            </l>
+            <l n="142">
+               <orig>Acquieſcer &amp; te faire plaiſir.</orig>
+               <reg>Acquiescer et te faire plaiſir.</reg>
+            </l>
+            <l n="143">
+               <orig>Je paſſeray ſi tu veux la premiere</orig>
+               <reg>Je paſſerai si tu veux la première</reg>
+            </l>
+            <l n="144">
+               <orig>Pour t’obliger? au moins à ton loiſir</orig>
+               <reg>Pour t’obliger? au moins à ton loisir</reg>
+            </l>
+            <l n="145">
+               <orig>Tu t’ébatras puis aprés de maniere</orig>
+               <reg>Tu t’ébattras puis après de manière</reg>
+            </l>
+            <l n="146">
+               <orig>Qu’il ne ſera beſoin d’y retourner;</orig>
+               <reg>Qu’il ne sera besoin d’y retourner;</reg>
+            </l>
+            <l n="147">
+               <orig>Ce que j’en dis, n’eſt que pour t’obliger.</orig>
+               <reg>Ce que j’en dis, n’est que pour t’obliger.</reg>
+            </l>
+            <l n="148">
+               <orig>Je le voy bien, dit l’autre plus ſincere,</orig>
+               <reg>Je le vois bien, dit l’autre plus sincère,</reg>
+            </l>
+            <l n="149">
+               <orig>Tu ne voudrois ſans cela commencer</orig>
+               <reg>Tu ne voudrais sans cela commencer</reg>
+            </l>
+            <l n="150">
+               <orig>Aſſurement; &amp; tu ſerois honteuſe.</orig>
+               <reg>Assurément; et tu serais honteuse.</reg>
+            </l>
+            <l n="151">
+               <orig>Tant y reſta cette Sœur ſcrupuleuſe,</orig>
+               <reg>Tant y resta cette Sœur scrupuleuse,</reg>
+            </l>
+            <l n="152">
+               <orig>Qu’à la fin l’autre allant la dégager</orig>
+               <reg>Qu’à la fin l’autre allant la dégager</reg>
+            </l>
+            <fw>
+               <orig>A 6 De</orig>
+               <reg>A 6 De</reg>
+            </fw>
+         </div>
+      </body>
+   </text>
+</TEI>

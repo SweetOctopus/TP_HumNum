@@ -1,0 +1,786 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Les Fleurs du mal</title>
+                <author>Charles Baudelaire</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Université de Genève</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Charles Baudelaire</author>
+                    <title>Les Fleurs du mal</title>
+                    <pubPlace>Paris</pubPlace>
+                    <date>1857</date>
+                    <publisher>Poulet-Malassis et De Broise</publisher>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">poésie</term>
+                    <term type="form">vers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text> 
+        <body>
+            <div type="poetry">
+                <pb n="1" facs="#premiereimage"/>
+                <head rend="center"> 
+                    <orig>LES FLEURS DU MAL PAR CHARLES BAUDELAIRE</orig>
+                    <reg>LES FLEURS DU MAL PAR CHARLES BAUDELAIRE</reg>
+                </head>
+                <quote>
+                    <lg type="sizain" rhyme="aabbcc">
+                        <l>
+                            <orig>On dit qu'il faut couler les execrables choses</orig>
+                            <reg>On dit qu'il faut couler les exécrables choses</reg>
+                        </l>
+                        <l>
+                            <orig>Dans le puits de l'oubli et au sepulchre encloses,</orig>
+                            <reg>Dans le puits de l'oubli et au sepulchre encloses,</reg>
+                        </l>
+                        <l>
+                            <orig>Et que par les escrits le mal resuscité</orig>
+                            <reg>Et que par les escrits le mal resuscité</reg>
+                        </l>
+                        <l>
+                            <orig>Infectera les mœurs de la postérité;</orig>
+                            <reg>Infectera les mœurs de la postérité;</reg>
+                        </l> 
+                        <l>
+                            <orig>Mais le vice n'a point pour mère la science,</orig><!-- erreur -->
+                            <reg>Mais le vice n'a point pour mère la science,</reg>
+                        </l>
+                        <l>
+                            <orig>Et la vertu n'est pas fille de l'ignorance.</orig>
+                            <reg>Et la vertu n'est pas fille de l'ignorance.</reg>
+                        </l>
+                    </lg>
+                    <ab>
+                        <orig>THÉODORE AGRIPPA D'AUBIGNÉ, Les Tragiques liv. II</orig><!-- VP ? -->
+                        <reg>THÉODORE AGRIPPA D'AUBIGNÉ, Les Tragiques liv. II</reg>
+                    </ab>
+                </quote>
+                <ab>
+                    <orig>PARIS, POULET-MALASSIS ET DE BROISE, LIBRAIRES-ÉDITEURS 4, rue de Buci.</orig><!-- VP ? -->
+                    <reg>PARIS, POULET-MALASSIS ET DE BROISE, LIBRAIRES-ÉDITEURS 4, rue de Buci.</reg>
+                </ab>
+                <ab type="date">
+                    <orig>1857</orig>
+                    <reg>1857</reg>
+                </ab>
+                <div type="poem">
+                    <head place="top-center">
+                        <orig>AU LECTEUR</orig>
+                        <reg>AU LECTEUR</reg>
+                    </head>
+                    <div type="poem">
+                        <lg type="quatrain" rhyme="abba">
+                            <l>
+                                <orig>La sottise, l'erreur, le péché, la lésine,</orig>
+                                <reg>La sottise, l'erreur, le péché, la lésine,</reg>
+                            </l>
+                            <l>
+                                <orig>Occupent nos esprits et travaillent nos corps,</orig>
+                                <reg>Occupent nos esprits et travaillent nos corps,</reg>
+                            </l>
+                            <l>
+                                <orig>Et nous alimentons nos aimables remords,</orig>
+                                <reg>Et nous alimentons nos aimables remords,</reg>
+                            </l>
+                            <l>
+                                <orig>Comme les mendiants nourrissent leur vermine.</orig>
+                                <reg>Comme les mendiants nourrissent leur vermine.</reg>
+                            </l>
+                        </lg>
+                        <lg type ="quatrain" rhyme="abba">
+                            <l>
+                                <orig>Nos péchés sont têtus, nos repentirs sont lâches;</orig>
+                                <reg>Nos péchés sont têtus, nos repentirs sont lâches;</reg>
+                            </l>
+                            <l>
+                                <orig>Nous nous faisons payer grassement nos aveux,</orig>
+                                <reg>Nous nous faisons payer grassement nos aveux,</reg>
+                            </l>
+                            <l>
+                                <orig>Et nous rentrons gaiement dans le chemin bourbeux,</orig>
+                                <reg>Et nous rentrons gaiement dans le chemin bourbeux,</reg>
+                            </l>
+                            <l>
+                                <orig>Croyant par de vils pleurs laver toutes nos taches.</orig>
+                                <reg>Croyant par de vils pleurs laver toutes nos taches.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <l>
+                                <orig>Sur l'oreiller du mal c'est Satan Trismégiste</orig>
+                                <reg>Sur l'oreiller du mal c'est Satan Trismégiste</reg>
+                            </l>
+                            <l>
+                                <orig>Qui berce longuement notre esprit enchanté,</orig>
+                                <reg>Qui berce longuement notre esprit enchanté,</reg>
+                            </l>
+                            <l>
+                                <orig>Et le riche métal de notre volonté</orig>
+                                <reg>Et le riche métal de notre volonté</reg>
+                            </l>
+                            <l>
+                                <orig>Est tout vaporisé par ce savant chimiste.</orig>
+                                <reg>Est tout vaporisé par ce savant chimiste.</reg>
+                            </l>
+                        </lg>
+                    </div>
+                    <pb n="3" facs="#troisiemeimage"/>
+                    
+                    <div type="poem">
+                        <head>
+                            <fw type="pageNum" place="topleft">6</fw>
+                            <fw type="RunningTittle" place="topcenter">LES FLEURS DU MAL</fw>
+                        </head>
+                        <lg type="quatrain" rhyme="abba">    
+                            <l>
+                                <orig>C'est le Diable qui tient les fils qui nous remuent!</orig>
+                                <reg>C'est le Diable qui tient les fils qui nous remuent!</reg>
+                            </l>
+                            <l>
+                                <orig>Aux objets répugnants nous trouvons des appas;</orig>
+                                <reg>Aux objets répugnants nous trouvons des appas;</reg>
+                            </l>
+                            <l>
+                                <orig>Chaque jour vers l'Enfer nous descendons d'un pas,</orig>
+                                <reg>Chaque jour vers l'Enfer nous descendons d'un pas,</reg>
+                            </l>
+                            <l>
+                                <orig>Sans horreur, à travers des ténèbres qui puent.</orig>
+                                <reg>Sans horreur, à travers des ténèbres qui puent.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">
+                            <l>
+                                <orig>Ainsi qu'un débauché pauvre qui baise et mange</orig>
+                                <reg>Ainsi qu'un débauché pauvre qui baise et mange</reg>
+                            </l>
+                            <l>
+                                <orig>Le sein martyrisé d'une antique catin,</orig>
+                                <reg>Le sein martyrisé d'une antique catin,</reg>
+                            </l>
+                            <l>
+                                <orig>Nous volons au passage un plaisir clandestin</orig>
+                                <reg>Nous volons au passage un plaisir clandestin</reg>
+                            </l>
+                            <l>
+                                <orig>Que nous pressons bien fort comme une vieille orange.</orig>
+                                <reg>Que nous pressons bien fort comme une vieille orange.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">   
+                            <l>
+                                <orig>Serré, fourmillant, comme un million d'helminthes,</orig>
+                                <reg>Serré, fourmillant, comme un million d'helminthes,</reg>
+                            </l>
+                            <l>
+                                <orig>Dans nos cerveaux ribote un peuple de Démons,</orig>
+                                <reg>Dans nos cerveaux ribote un peuple de Démons,</reg>
+                            </l>
+                            <l>
+                                <orig>Et, quand nous respirons, la Mort dans nos poumons</orig>
+                                <reg>Et, quand nous respirons, la Mort dans nos poumons</reg>
+                            </l>
+                            <l>
+                                <orig>Descend, fleuve invisible, avec de sourdes plaintes.</orig>
+                                <reg>Descend, fleuve invisible, avec de sourdes plaintes.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">  
+                            <l>
+                                <orig>Si le viol, le poison, le poignard, l'incendie,</orig>
+                                <reg>Si le viol, le poison, le poignard, l'incendie,</reg>
+                            </l>
+                            <l>
+                                <orig>N'ont pas encor brodé de leurs plaisants dessins</orig>
+                                <reg>N'ont pas encor brodé de leurs plaisants dessins</reg>
+                            </l>
+                            <l>
+                                <orig>Le canevas banal de nos piteux destins,</orig>
+                                <reg>Le canevas banal de nos piteux destins,</reg>
+                            </l>
+                            <l>
+                                <orig>C'est que notre âme, hélas! n'est pas assez hardie.</orig>
+                                <reg>C'est que notre âme, hélas! n'est pas assez hardie.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba"> 
+                            <l>
+                                <orig>Mais parmi les chacals, les panthères, les lices,</orig>
+                                <reg>Mais parmi les chacals, les panthères, les lices,</reg>
+                            </l>
+                            <l>
+                                <orig>Les singes, les scorpions, les vautours, les serpents,</orig>
+                                <reg>Les singes, les scorpions, les vautours, les serpents,</reg>
+                            </l>
+                            <l>
+                                <orig>Les monstres glapissants, hurlants, grognants, rampants,</orig>
+                                <reg>Les monstres glapissants, hurlants, grognants, rampants,</reg>
+                            </l>
+                            <l>
+                                <orig>Dans la ménagerie infâme de nos vices,</orig>
+                                <reg>Dans la ménagerie infâme de nos vices,</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abba">  
+                            <l>
+                                <orig>II en est un plus laid, plus méchant, plus immonde!</orig>
+                                <reg>II en est un plus laid, plus méchant, plus immonde!</reg>
+                            </l>
+                            <l>
+                                <orig>Quoiqu'il ne pousse ni grands gestes ni grands cris,</orig>
+                                <reg>Quoiqu'il ne pousse ni grands gestes ni grands cris,</reg>
+                            </l>
+                            <l>
+                                <orig>Il ferait volontiers de la terre un débris</orig>
+                                <reg>Il ferait volontiers de la terre un débris</reg>
+                            </l>
+                            <l>
+                                <orig>Et dans un bâillement avalerait le monde;</orig>
+                                <reg>Et dans un bâillement avalerait le monde;</reg>
+                            </l>
+                        </lg>
+                        <pb n="4" facs="#quatriemeimage"/>
+                        
+                        <lg type="quatrain" rhyme="abba">  
+                            <head>
+                                <fw type="pageNum" place="top-right">
+                                    <orig>7</orig>
+                                    <reg>7</reg>
+                                </fw>
+                                <fw type="RunningTittle" place="top-center">
+                                    <orig>LES FLEURS DU MAL</orig>
+                                    <reg>LES FLEURS DU MAL</reg>
+                                </fw>
+                            </head>
+                            <l>
+                                <orig>C'est l'Ennui! L'œil chargé d'un pleur involontaire,</orig>
+                                <reg>C'est l'Ennui! L'œil chargé d'un pleur involontaire,</reg>
+                            </l>
+                            <l>
+                                <orig>Il rêve d'échafauds en fumant son houka.</orig>
+                                <reg>Il rêve d'échafauds en fumant son houka.</reg>
+                            </l>
+                            <l>
+                                <orig>Tu le connais, lecteur, ce monstre délicat,</orig>
+                                <reg>Tu le connais, lecteur, ce monstre délicat,</reg>
+                            </l>
+                            <l>
+                                <orig>- Hypocrite lecteur, - mon semblable, - mon frère</orig>
+                                <reg>- Hypocrite lecteur, - mon semblable, - mon frère</reg>
+                            </l> 
+                        </lg>
+                    </div>
+                </div>
+                <pb n="5" facs="#cinquiemeimage"/>
+                <div type="poem">
+                    <head type="numero_du_poeme" place="top-center">
+                        <orig>I</orig>
+                        <reg>I</reg>
+                    </head> 
+                    <head place="center">
+                        <orig>BÉNÉDICTION</orig>
+                        <reg>BÉNÉDICTION</reg>
+                    </head>
+                    <div type="poem">
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Lorsque, par un décret des puissances suprêmes,</orig>
+                                <reg>Lorsque, par un décret des puissances suprêmes,</reg>
+                            </l>
+                            <l>
+                                <orig>Le Poète apparaît en ce monde ennuyé,</orig>
+                                <reg>Le Poète apparaît en ce monde ennuyé,</reg>
+                            </l>
+                            <l>
+                                <orig>Sa mère épouvantée et pleine de blasphèmes</orig>
+                                <reg>Sa mère épouvantée et pleine de blasphèmes</reg>
+                            </l>
+                            <l>
+                                <orig>Crispe ses poings vers Dieu, qui la prend en pitié:</orig>
+                                <reg>Crispe ses poings vers Dieu, qui la prend en pitié:</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>« — Ah! que n'ai-je mis bas tout un nœud de vipères,</orig>
+                                <reg>« — Ah! que n'ai-je mis bas tout un nœud de vipères,</reg>
+                            </l>
+                            <l>
+                                <orig>Plutôt que de nourrir cette dérision!</orig>
+                                <reg>Plutôt que de nourrir cette dérision!</reg>
+                            </l>
+                            <l>
+                                <orig>Maudite soit la nuit aux plaisirs éphémères</orig>
+                                <reg>Maudite soit la nuit aux plaisirs éphémères</reg>
+                            </l>
+                            <l>
+                                <orig>Où mon ventre a conçu mon expiation!</orig>
+                                <reg>Où mon ventre a conçu mon expiation!</reg>
+                            </l>
+                        </lg>
+                        <pb n="6" facs="#sixiemepage"/>
+                        <fw type="pageNum" place="top-left">
+                            <orig>12</orig>
+                            <reg>12</reg>
+                        </fw>
+                        <fw type="RunningTittle" place="top-center">
+                            <orig>LES FLEURS DU MAL</orig>
+                            <reg>LES FLEURS DU MAL</reg>
+                        </fw>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Puisque tu m'as choisie entre toutes les femmes</orig>
+                                <reg>Puisque tu m'as choisie entre toutes les femmes</reg>
+                            </l>
+                            <l>
+                                <orig>Pour être le dégoût de mon triste mari,</orig>
+                                <reg>Pour être le dégoût de mon triste mari,</reg>
+                            </l>
+                            <l>
+                                <orig>Et que je ne puis pas rejeter dans les flammes,</orig>
+                                <reg>Et que je ne puis pas rejeter dans les flammes,</reg>
+                            </l>
+                            <l>
+                                <orig>Comme un billet d'amour, ce monstre rabougri,</orig>
+                                <reg>Comme un billet d'amour, ce monstre rabougri,</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Je ferai rejaillir ta haine qui m'accable</orig>
+                                <reg>Je ferai rejaillir ta haine qui m'accable</reg>
+                            </l>
+                            <l>
+                                <orig>Sur l'instrument maudit de tes méchancetés,</orig>
+                                <reg>Sur l'instrument maudit de tes méchancetés,</reg>
+                            </l>
+                            <l>
+                                <orig>Et je tordrai si bien cet arbre misérable,</orig>
+                                <reg>Et je tordrai si bien cet arbre misérable,</reg>
+                            </l>
+                            <l>
+                                <orig>Qu'il ne pourra pousser ses boutons empestés! »</orig>
+                                <reg>Qu'il ne pourra pousser ses boutons empestés! »</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Elle ravale ainsi l'écume de sa haine,</orig>
+                                <reg>Elle ravale ainsi l'écume de sa haine,</reg>
+                            </l>
+                            <l>
+                                <orig>Et, ne comprenant pas les desseins éternels,</orig>
+                                <reg>Et, ne comprenant pas les desseins éternels,</reg>
+                            </l>
+                            <l>
+                                <orig>Elle-même prépare au fond de la Géhenne</orig>
+                                <reg>Elle-même prépare au fond de la Géhenne</reg>
+                            </l>
+                            <l>
+                                <orig>Les bûchers consacrés aux crimes maternels.</orig>
+                                <reg>Les bûchers consacrés aux crimes maternels.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Pourtant, sous la tutelle invisible d'un Ange,</orig>
+                                <reg>Pourtant, sous la tutelle invisible d'un Ange,</reg>
+                            </l>
+                            <l>
+                                <orig>L'Enfant déshérité s'enivre de soleil,</orig>
+                                <reg>L'Enfant déshérité s'enivre de soleil,</reg>
+                            </l>
+                            <l>
+                                <orig>Et dans tout ce qu'il boit et dans tout ce qu'il mange</orig>
+                                <reg>Et dans tout ce qu'il boit et dans tout ce qu'il mange</reg>
+                            </l>
+                            <l>
+                                <orig>Retrouve l'ambroisie et le nectar vermeil.</orig>
+                                <reg>Retrouve l'ambroisie et le nectar vermeil.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Il joue avec le vent, cause avec le nuage</orig>
+                                <reg>Il joue avec le vent, cause avec le nuage</reg>
+                            </l>
+                            <l>
+                                <orig>Et s'enivre en chantant du chemin de la croix;</orig>
+                                <reg>Et s'enivre en chantant du chemin de la croix;</reg>
+                            </l>
+                            <l>
+                                <orig>Et l'Esprit qui le suit dans son pèlerinage</orig>
+                                <reg>Et l'Esprit qui le suit dans son pèlerinage</reg>
+                            </l>
+                            <l>
+                                <orig>Pleure de le voir gai comme un oiseau des bois.</orig>
+                                <reg>Pleure de le voir gai comme un oiseau des bois.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Tous ceux qu'il veut aimer l'observent avec crainte,</orig>
+                                <reg>Tous ceux qu'il veut aimer l'observent avec crainte,</reg>
+                            </l>
+                            <l>
+                                <orig>Ou bien, s'enhardissant de sa tranquillité,</orig>
+                                <reg>Ou bien, s'enhardissant de sa tranquillité,</reg>
+                            </l>
+                            <l>
+                                <orig>Cherchent à qui saura lui tirer une plainte,</orig>
+                                <reg>Cherchent à qui saura lui tirer une plainte,</reg>
+                            </l>
+                            <l>
+                                <orig>Et font sur lui l'essai de leur férocité.</orig>
+                                <reg>Et font sur lui l'essai de leur férocité.</reg>
+                            </l>
+                        </lg>
+                        <pb n="7" facs="#septiemepage"/>
+                        <fw type="pageNum" place="top-right">
+                            <orig>13</orig>
+                            <reg>13</reg>
+                        </fw>
+                        <fw type="RunningTittle" place="top-center">
+                            <orig>LES FLEURS DU MAL</orig>
+                            <reg>LES FLEURS DU MAL</reg>
+                        </fw>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Dans le pain et le vin destinés à sa bouche</orig>
+                                <reg>Dans le pain et le vin destinés à sa bouche</reg>
+                            </l>
+                            <l>
+                                <orig>Ils mêlent de la cendre avec d'impurs crachats;</orig>
+                                <reg>Ils mêlent de la cendre avec d'impurs crachats;</reg>
+                            </l>
+                            <l>
+                                <orig>Avec hypocrisie ils jettent ce qu'il touche,</orig>
+                                <reg>Avec hypocrisie ils jettent ce qu'il touche,</reg>
+                            </l>
+                            <l>
+                                <orig>Et s'accusent d'avoir mis leurs pieds dans ses pas.</orig>
+                                <reg>Et s'accusent d'avoir mis leurs pieds dans ses pas.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Sa femme va criant sur les places publiques:</orig>
+                                <reg>Sa femme va criant sur les places publiques:</reg>
+                            </l>
+                            <l>
+                                <orig>« — Puisqu'il me trouve assez belle pour m'adorer,</orig>
+                                <reg>« — Puisqu'il me trouve assez belle pour m'adorer,</reg>
+                            </l>
+                            <l>
+                                <orig>Je ferai le métier des idoles antiques,</orig>
+                                <reg>Je ferai le métier des idoles antiques,</reg>
+                            </l>
+                            <l>
+                                <orig>Et comme elles je veux me faire redorer;</orig>
+                                <reg>Et comme elles je veux me faire redorer;</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Et je me soûlerai de nard, d'encens, de myrrhe,</orig>
+                                <reg>Et je me soûlerai de nard, d'encens, de myrrhe,</reg>
+                            </l>
+                            <l>
+                                <orig>De génuflexions, de viandes et de vins,</orig>
+                                <reg>De génuflexions, de viandes et de vins,</reg>
+                            </l>
+                            <l>
+                                <orig>Pour savoir si je puis dans un cœur qui m'admire</orig>
+                                <reg>Pour savoir si je puis dans un cœur qui m'admire</reg>
+                            </l>
+                            <l>
+                                <orig>Usurper en riant les hommages divins!</orig>
+                                <reg>Usurper en riant les hommages divins!</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Et, quand je m'ennuîrai de ces farces impies,</orig>
+                                <reg>Et, quand je m'ennuîrai de ces farces impies,</reg>
+                            </l>
+                            <l>
+                                <orig>Je poserai sur lui ma frêle et forte main;</orig>
+                                <reg>Je poserai sur lui ma frêle et forte main;</reg>
+                            </l>
+                            <l>
+                                <orig>Et mes ongles, pareils aux ongles des harpies,</orig>
+                                <reg>Et mes ongles, pareils aux ongles des harpies,</reg>
+                            </l>
+                            <l>
+                                <orig>Sauront jusqu'à son cœur se frayer un chemin.</orig>
+                                <reg>Sauront jusqu'à son cœur se frayer un chemin.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Comme un tout jeune oiseau qui tremble et qui palpite,</orig>
+                                <reg>Comme un tout jeune oiseau qui tremble et qui palpite,</reg>
+                            </l>
+                            <l>
+                                <orig>J'arracherai ce cœur tout rouge de son sein,</orig>
+                                <reg>J'arracherai ce cœur tout rouge de son sein,</reg>
+                            </l>
+                            <l>
+                                <orig>Et, pour rassasier ma bête favorite,</orig>
+                                <reg>Et, pour rassasier ma bête favorite,</reg>
+                            </l>
+                            <l>
+                                <orig>Je le lui jetterai par terre avec dédain! »</orig>
+                                <reg>Je le lui jetterai par terre avec dédain! »</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Vers le Ciel, où son œil voit un trône splendide,</orig>
+                                <reg>Vers le Ciel, où son œil voit un trône splendide,</reg>
+                            </l>
+                            <l>
+                                <orig>Le Poète serein lève ses bras pieux,</orig>
+                                <reg>Le Poète serein lève ses bras pieux,</reg>
+                            </l>
+                            <l>
+                                <orig>Et les vastes éclairs de son esprit lucide</orig>
+                                <reg>Et les vastes éclairs de son esprit lucide</reg>
+                            </l>
+                            <l>
+                                <orig>Lui dérobent l'aspect des peuples furieux:</orig>
+                                <reg>Lui dérobent l'aspect des peuples furieux:</reg>
+                            </l>
+                        </lg>
+                        <pb n="8" facs="#huitiemeimage"/>
+                        <fw type="pageNum" place="top-left">
+                            <orig>14</orig>
+                            <reg>14</reg>
+                        </fw>
+                        <fw type="RunningTittle" place="top-center">
+                            <orig>LES FLEURS DU MAL</orig>
+                            <reg>LES FLEURS DU MAL</reg>
+                        </fw>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>« — Soyez béni, mon Dieu, qui donnez la souffrance</orig>
+                                <reg>« — Soyez béni, mon Dieu, qui donnez la souffrance</reg>
+                            </l>
+                            <l>
+                                <orig>Comme un divin remède à nos impuretés</orig>
+                                <reg>Comme un divin remède à nos impuretés</reg>
+                            </l>
+                            <l>
+                                <orig>Et comme la meilleure et la plus pure essence</orig>
+                                <reg>Et comme la meilleure et la plus pure essence</reg>
+                            </l>
+                            <l>
+                                <orig>Qui prépare les forts aux saintes voluptés!</orig>
+                                <reg>Qui prépare les forts aux saintes voluptés!</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Je sais que vous gardez une place au Poète</orig>
+                                <reg>Je sais que vous gardez une place au Poète</reg>
+                            </l>
+                            <l>
+                                <orig>Dans les rangs bienheureux des saintes Légions,</orig>
+                                <reg>Dans les rangs bienheureux des saintes Légions,</reg>
+                            </l>
+                            <l>
+                                <orig>Et que vous l'invitez à l'éternelle fête</orig>
+                                <reg>Et que vous l'invitez à l'éternelle fête</reg>
+                            </l>
+                            <l>
+                                <orig>Des Trônes, des Vertus, des Dominations.</orig>
+                                <reg>Des Trônes, des Vertus, des Dominations.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Je sais que la douleur est la noblesse unique</orig>
+                                <reg>Je sais que la douleur est la noblesse unique</reg>
+                            </l>
+                            <l>
+                                <orig>Où ne mordront jamais la terre et les enfers,</orig>
+                                <reg>Où ne mordront jamais la terre et les enfers,</reg>
+                            </l>
+                            <l>
+                                <orig>Et qu'il faut pour tresser ma couronne mystique</orig>
+                                <reg>Et qu'il faut pour tresser ma couronne mystique</reg>
+                            </l>
+                            <l>
+                                <orig>Imposer tous les temps et tous les univers.</orig>
+                                <reg>Imposer tous les temps et tous les univers.</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Mais les bijoux perdus de l'antique Palmyre,</orig>
+                                <reg>Mais les bijoux perdus de l'antique Palmyre,</reg>
+                            </l>
+                            <l>
+                                <orig>Les métaux inconnus, les perles de la mer,</orig>
+                                <reg>Les métaux inconnus, les perles de la mer,</reg>
+                            </l>
+                            <l>
+                                <orig>Par votre main montés, ne pourraient pas suffire</orig>
+                                <reg>Par votre main montés, ne pourraient pas suffire</reg>
+                            </l>
+                            <l>
+                                <orig>A ce beau diadème éblouissant et clair;</orig>
+                                <reg>A ce beau diadème éblouissant et clair;</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="abab">
+                            <l>
+                                <orig>Car il ne sera fait que de pure lumière,</orig>
+                                <reg>Car il ne sera fait que de pure lumière,</reg>
+                            </l>
+                            <l>
+                                <orig>Puisée au foyer saint des rayons primitifs,</orig>
+                                <reg>Puisée au foyer saint des rayons primitifs,</reg>
+                            </l>
+                            <l>
+                                <orig>Et dont les yeux mortels, dans leur splendeur entière,</orig>
+                                <reg>Et dont les yeux mortels, dans leur splendeur entière,</reg>
+                            </l>
+                            <l>
+                                <orig>Ne sont que des miroirs obscurcis et plaintifs! »</orig>
+                                <reg>Ne sont que des miroirs obscurcis et plaintifs! »</reg>
+                            </l>
+                        </lg>
+                    </div>
+                </div>
+                <pb n="9" facs="#neuviemeimage"/>
+                <div type="poem">
+                    <head type="num" place="top-center">
+                        <orig>II</orig>
+                        <reg>II</reg>
+                    </head> 
+                    <head place="center">
+                        <orig>LE SOLEIL</orig>
+                        <reg>LE SOLEIL</reg>
+                    </head>
+                    <div type="poem">
+                        <lg type="octave" rhyme="aabbccdd">
+                            <l>
+                                <orig>Le long du vieux faubourg, où pendent aux masures</orig>
+                                <reg>Le long du vieux faubourg, où pendent aux masures</reg>
+                            </l>
+                            <l>
+                                <orig>Les persiennes, abri des secrètes luxures,</orig>
+                                <reg>Les persiennes, abri des secrètes luxures,</reg>
+                            </l>
+                            <l>
+                                <orig>Quand le soleil cruel frappe à traits redoublés</orig>
+                                <reg>Quand le soleil cruel frappe à traits redoublés</reg>
+                            </l>
+                            <l>
+                                <orig>Sur la ville et les champs, sur les toits et les blés,</orig>
+                                <reg>Sur la ville et les champs, sur les toits et les blés,</reg>
+                            </l>
+                            <l>
+                                <orig>Je vais m'exercer seul à ma fantasque escrime,</orig>
+                                <reg>Je vais m'exercer seul à ma fantasque escrime,</reg>
+                            </l>
+                            <l>
+                                <orig>Flairant dans tous les coins les hasards de la rime,</orig>
+                                <reg>Flairant dans tous les coins les hasards de la rime,</reg>
+                            </l>
+                            <l>
+                                <orig>Trébuchant sur les mots comme sur les pavés,</orig>
+                                <reg>Trébuchant sur les mots comme sur les pavés,</reg>
+                            </l>
+                            <l>
+                                <orig>Heurtant parfois des vers depuis longtemps rêvés.</orig>
+                                <reg>Heurtant parfois des vers depuis longtemps rêvés.</reg>
+                            </l>
+                        </lg>
+                        <pb n="10" facs="#dixiemeimage"/>
+                        <fw type="pageNum" place="top-left">
+                            <orig>17</orig>
+                            <reg>17</reg>
+                        </fw>
+                        <fw type="RunningTittle" place="top-center">
+                            <orig>LES FLEURS DU MAL</orig>
+                            <reg>LES FLEURS DU MAL</reg>
+                        </fw>
+                        <lg type="octave" rhyme="aabbccdd">
+                            <l>
+                                <orig>Ce père nourricier, ennemi des chloroses,</orig>
+                                <reg>Ce père nourricier, ennemi des chloroses,</reg>
+                            </l>
+                            <l>
+                                <orig>Eveille dans les champs les vers comme les roses;</orig>
+                                <reg>Eveille dans les champs les vers comme les roses;</reg>
+                            </l>
+                            <l>
+                                <orig>Il fait s'évaporer les soucis vers le ciel,</orig>
+                                <reg>Il fait s'évaporer les soucis vers le ciel,</reg>
+                            </l>
+                            <l>
+                                <orig>Et remplit les cerveaux et les ruches de miel.</orig>
+                                <reg>Et remplit les cerveaux et les ruches de miel.</reg>
+                            </l>
+                            <l>
+                                <orig>C'est lui qui rajeunit les porteurs de béquilles</orig>
+                                <reg>C'est lui qui rajeunit les porteurs de béquilles</reg>
+                            </l>
+                            <l>
+                                <orig>Et les rend gais et doux comme des jeunes filles,</orig>
+                                <reg>Et les rend gais et doux comme des jeunes filles,</reg>
+                            </l>
+                            <l>
+                                <orig>Et commande aux moissons de croître et de mûrir</orig>
+                                <reg>Et commande aux moissons de croître et de mûrir</reg>
+                            </l>
+                            <l>
+                                <orig>Dans le cœur immortel qui toujours veut fleurir!</orig>
+                                <reg>Dans le cœur immortel qui toujours veut fleurir!</reg>
+                            </l>
+                        </lg>
+                        <lg type="quatrain" rhyme="aabb">
+                            <l>
+                                <orig>Quand, ainsi qu'un poète, il descend dans les villes,</orig>
+                                <reg>Quand, ainsi qu'un poète, il descend dans les villes,</reg>
+                            </l>
+                            <l>
+                                <orig>Il ennoblit le sort des choses les plus viles,</orig>
+                                <reg>Il ennoblit le sort des choses les plus viles,</reg>
+                            </l>
+                            <l>
+                                <orig>Et s'introduit en roi, sans bruit et sans valets,</orig>
+                                <reg>Et s'introduit en roi, sans bruit et sans valets,</reg>
+                            </l>
+                            <l>
+                                <orig>Dans tous les hôpitaux et dans tous les palais.</orig>
+                                <reg>Dans tous les hôpitaux et dans tous les palais.</reg>
+                            </l>
+                        </lg>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,677 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+	schematypens="http://purl.oclc.org/dsdl/schematron"?>
+
+<!-- Correction:
+      traitement irrégulier des majuscules
+      des coquilles (ici bas)
+-->
+
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+   <teiHeader>
+      <fileDesc>
+         <titleStmt>
+            <title>Panégyrique de la paix</title>
+            <author>
+               <persName>
+                  <forename>Georges</forename>
+                  <surname>de Brébeuf</surname>
+               </persName>
+            </author>
+         </titleStmt>
+         <publicationStmt>
+            <authority>Université de Genève</authority>
+            <availability>
+               <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+            </availability>
+         </publicationStmt>
+         <sourceDesc>
+            <bibl>
+               <author>
+                  <persName>
+                     <forename>Georges</forename>
+                     <surname>de Brébeuf</surname>
+                  </persName>
+               </author>
+               <title>Panégyrique de la paix en vers françois, par Mr. de Brébeuf</title>
+               <pubPlace>Paris</pubPlace>
+               <editor>
+                  <persName>
+                     <forename>Antoine</forename>
+                     <surname>de Sommaville</surname>
+                  </persName>
+               </editor>
+               <date>1660</date>
+               <ptr type="gallica" target="https://gallica.bnf.fr/ark:/12148/bpt6k55788204/f4"/>
+            </bibl>
+         </sourceDesc>
+      </fileDesc>
+      <profileDesc>
+         <textClass>
+            <keywords>
+               <term type="genre">poésie</term>
+               <term type="form">vers</term>
+            </keywords>
+         </textClass>
+      </profileDesc>
+   </teiHeader>
+   <text>
+<!-- ============ Page de titre ============ -->
+      <front>
+         <titlePage>
+         <docTitle>
+            <titlePart rend="center">
+               <orig>PANEGYRIQVE DE LA PAIX EN VERS FRANÇOIS</orig>
+               <reg>PANÉGYRIQUE DE LA PAIX EN VERS FRANÇAIS</reg>
+            </titlePart>
+         </docTitle>
+            <byline>
+               <lb/><hi rend="italic">
+                  <orig>Par Mr de BREBEVF.</orig>
+                  <reg>Par M. de BRÉBEUF.</reg>
+               </hi>
+            </byline>
+            <figure/>
+            <docImprint>
+               <orig>A PARIS,Chez Antoine de Sommaville, au Palais, ſur le ſecond Perron montant à la Sainte Chapelle,à l'Eſcu de France.</orig>
+               <reg>À PARIS, chez Antoine de Sommaville, au Palais, sur le second perron montant à la Sainte Chapelle, à l'Écu de France.</reg>
+            </docImprint>
+            <docDate>M. DC. LX.</docDate>
+            <imprimatur>
+               <hi rend="italic">
+                  <orig>AVEC PRIVILEGE DV ROY.</orig>
+                  <reg>AVEC PRIVILÈGE DU ROI.</reg>
+               </hi>
+            </imprimatur>
+         </titlePage>
+      </front>
+      <body>
+         <div type="panégyrique">
+<!-- ============Titraille ============ -->
+            <pb n="1" rend="top-right"/>
+            <fw type="pageNum">1</fw>
+            <figure type="bandeau"/>
+            <salute>
+               <orig>A MONSEIRINEVR LE CARDINAL MAZARINI.</orig>
+               <reg>À MONSEIGNEUR LE CARDINAL MAZARINI.</reg>
+            </salute>
+            <head>
+               <orig>PANEGYRIQVE DE LA PAIX. EN VERS FRANCOIS.</orig>
+               <reg>PANÉGYRIQUE DE LA PAIX. EN VERS FRANÇAIS.</reg>
+            </head>
+<!-- ============ Début du panégyrique, page 1 ============ -->
+            <div type="prose">
+               <gb n="A" rend="bot-right"/>
+               <lg n="1">
+                  <l n="1">
+                     <orig>ENFIN, Peuples enfin, la Diſcorde eſtonnée</orig>
+                     <reg>ENFIN, peuples enfin, la Discorde étonnée</reg>
+                  </l>
+                  <l n="2">
+                     <orig>Void ſa force captive &amp; ſa rage enchaiſnée,</orig>
+                     <reg>Voit sa force captive et sa rage enchaînée,</reg>
+                  </l>
+                  <l n="3">
+                     <orig>Et ce Monſtre alteré de carnage &amp; d’horreur</orig>
+                     <reg>Et ce Monstre altéré de carnage et d'horreur</reg>
+                  </l>
+                  <l n="4">
+                     <orig>Va porter aux Enfers ſa honte &amp; ſa fureur.</orig>
+                     <reg>Va porter aux Enfers sa honte et sa fureur.</reg>
+                  </l>
+<!-- ============ page 2 ============ -->
+                  <pb n="2" rend="top-left"/>
+                  <fw type="runningTitle" place="top-center">PANEGYRIQUE</fw>
+                  <l n="5">
+                     <orig>Lors qu'un triſte aſcendant ſembloit contre la Terre</orig>
+                     <reg>Lorsqu'un triste ascendant flambait contre la Terre</reg>
+                  </l>
+                  <l n="6">
+                     <orig>Armer plus que iamais &amp; le trouble &amp; la Guerre,</orig>
+                     <reg>Armer plus que jamais et le trouble et la Guerre,</reg>
+                  </l>
+                  <l n="7">
+                     <orig>Et qu’un nouveau nuage errant parmy les Airs</orig>
+                     <reg>Et qu'un nouveau nuage errant parmi les Airs</reg>
+                  </l>
+                  <l n="8">
+                     <orig>Eſtoit preſt d’enfanter l’orage &amp; les éclairs:</orig>
+                     <reg>Était prêt d'enfanter l'orage et les éclairs :</reg>
+                  </l>
+                  <l n="9">
+                     <orig>Vn Eſprit auſsi haut que les intelligences</orig>
+                     <reg>Un esprit aussi haut que les intelligences</reg>
+                  </l>
+                  <l n="10">
+                     <orig>Des Aſtres conjurez force les influences,</orig>
+                     <reg>Des Astres conjurés force les influences,</reg>
+                  </l>
+                  <l n="11">
+                     <orig>En un aſpect propice il change leur couroux,</orig>
+                     <reg>En un aspect propice il change leur courroux,</reg>
+                  </l>
+                  <l n="12">
+                     <orig>Et leur regard funeſte en un regard plus doux.</orig>
+                     <reg>Et leur regard funeste en un regard plus doux.</reg>
+                  </l>
+                  <l n="13">
+                     <orig>Oüy, les ſoins genereux de cét Ange viſible</orig>
+                     <reg>Oui, les soins généreux de cet Ange visible</reg>
+                  </l>
+                  <l n="14">
+                     <orig>Se font contre nos maux un rempart invincible:</orig>
+                     <reg>Se font contre nos maux un rempart invincible :</reg>
+                  </l>
+                  <l n="15">
+                     <orig>Ils arreſtent le cours de ces torrens divers,</orig>
+                     <reg>Ils arrêtent le cours de ces torrents divers</reg>
+                  </l>
+                  <l n="16">
+                     <orig>Qu'on alloit voir bien-toſt inonder l’Vnivers;</orig>
+                     <reg>Qu'on allait voir bientôt inonder l'Univers ;</reg>
+                  </l>
+                  <l n="17">
+                     <orig>Le Sort cede ſans honte à ce puiſſant obſtacle,</orig>
+                     <reg>Le sort cède sans honte à ce puissant obstacle,</reg>
+                  </l>
+                  <l n="18">
+                     <orig>Cette force à ſes yeux eſt un pompeux ſpectacle,</orig>
+                     <reg>Cette force à ses yeux est un pompeux spectacle,</reg>
+                  </l>
+                  <l n="19">
+                     <orig>Il void avec plaiſir ce Heros glorieux</orig>
+                     <reg>Il voit avec plaisir ce Héros glorieux</reg>
+                  </l>
+                  <l n="20">
+                     <orig>Mettre la Terre enfin d’accord avec les Cieux.</orig>
+                     <reg>Mettre la Terre enfin d'accord avec les Cieux.</reg>
+                  </l>
+                  <l n="21">
+                     <orig>Ces Globes eternels, qui roulent ſur nos teſtes,</orig>
+                     <reg>Ces Globes éternels, qui roulent sur nos têtes,</reg>
+                  </l>
+                  <l n="22">
+                     <orig>Au gré de ces ſouhaits deſarment les tempeſtes;</orig>
+                     <reg>Au gré de ces souhaits désarment les tempêtes ;</reg>
+                  </l>
+                  <l n="23">
+                     <orig>Au lieu que ſous l’horreur des plus triſtes frimas,</orig>
+                     <reg>Au lieu que sous l'horreur des plus tristes frimas,</reg>
+                  </l>
+                  <l n="24">
+                     <orig>Souvent ils ſe cachoient aux fureurs d’icy bas,</orig>
+                     <reg>Souvent ils se cachaient aux fureurs d'ici-bas,</reg>
+                  </l>
+                  <l n="25">
+                     <orig>Ces flambeaux reveſtus de toute leur lumiere</orig>
+                     <reg>Ces flambeaux revêtus de toute leur lumière</reg>
+                  </l>
+                  <l n="26">
+                     <orig>Semblent en ſa faveur prolonger leur carriere,</orig>
+                     <reg>Semblent en sa faveur prolonger leur carrière,</reg>
+                  </l>
+                  <l n="27">
+                     <orig>Et parez à l’envy de leurs plus purs rayons</orig>
+                     <reg>Et parés à l'envie de leurs plus purs rayons</reg>
+                  </l>
+                  <l n="28">
+                     <orig>Contempler cette Paix qu’il rend aux Nations.</orig>
+                     <reg>Contempler cette Paix qu'il rend aux Nations.</reg>
+                  </l>
+               </lg>
+               <lg n="2">
+                  <l n="29" rend="indent">
+                     <orig>Grand &amp; ſage Heros, ferme &amp; puiſſant Genie,</orig>
+                     <reg>Grand et sage Héros, ferme et puissant Génie,</reg>
+                  </l>
+                  <l n="30">
+                     <orig>Par qui nous revoyons cette illuſtre Bannie:</orig>
+                     <reg>Par qui nous revoyons cette illustre Bannie:</reg>
+                  </l>
+<!-- ============ page 3 ============ -->
+                  <pb n="3" rend="top-right"/>
+                  <fw type="runningTitle" place="top-center">DE LA PAIX</fw>
+                  <l n="31">
+                     <orig>IVLE, qui d’entre nous peut meſme concevoir</orig>
+                     <reg>JULES, qui d'entre nous peut même concevoir</reg>
+                  </l>
+                  <l n="32">
+                     <orig>Dans un pouvoir humain un ſi vaſte pouvoir?</orig>
+                     <reg>Dans un pouvoir humain un si vaste pouvoir?</reg>
+                  </l>
+                  <l n="33">
+                     <orig>Quelle eſt cette vigueur, ou quel eſt ce courage,</orig>
+                     <reg>Quelle est cette vigueur, ou quel est ce courage,</reg>
+                  </l>
+                  <l n="34">
+                     <orig>Qui maiſtriſe les Vents &amp; commande à l’orage,</orig>
+                     <reg>Qui maîtrise les Vents et commande à l'orage,</reg>
+                  </l>
+                  <l n="35">
+                     <orig>Qui reduit la Nature à reſpecter tes Loix,</orig>
+                     <reg>Qui réduit la Nature à respecter tes Lois,</reg>
+                  </l>
+                  <l n="36">
+                     <orig>Et force les Deſtins d’obeir à ta Voix?</orig>
+                     <reg>Et force les Destins d'obéir à ta Voix?</reg>
+                  </l>
+                  <l n="37">
+                     <orig>O que l’heureuſe fin qu'ont par Toy nos deſaſtres,</orig>
+                     <reg>Ô que l'heureuse fin qu'ont par Toi nos désastres,</reg>
+                  </l>
+                  <l n="38">
+                     <orig>Fait bien voir que le Sage eſt au deſſus des Aſtres!</orig>
+                     <reg>Fait bien voir que le Sage est au-dessus des Astres!</reg>
+                  </l>
+                  <l n="39">
+                     <orig>Le Ciel que tes Vertus ont ſans doute appaiſe,</orig>
+                     <reg>Le Ciel que tes vertus ont sans doute apaisé,</reg>
+                  </l>
+                  <l n="40">
+                     <orig>Te rend tout favorable, &amp; te rend tout aiſé;</orig>
+                     <reg>Te rend tout favorable, et te rend tout aisé;</reg>
+                  </l>
+                  <l n="41">
+                     <orig>Son amour aux mortels redonnant l’allegreſſe,</orig>
+                     <reg>Son amour aux mortels redonnant l'allégresse,</reg>
+                  </l>
+                  <l n="42">
+                     <orig>Fait paſſer par tes mains ce don de ſa tendreſſe,</orig>
+                     <reg>Fait passer par tes mains ce don de sa tendresse,</reg>
+                  </l>
+                  <l n="43">
+                     <orig>Et ſon pouuoir conſent que le trouble eſtonné</orig>
+                     <reg>Et son pouvoir consent que le trouble étonné</reg>
+                  </l>
+                  <l n="44">
+                     <orig>Diſparoiſſe außi-toſt que ton ordre eſt donné.</orig>
+                     <reg>Disparaisse aussitôt que ton ordre est donné.</reg>
+                  </l>
+                  <l n="45">
+                     <orig>Fais parler ta prudence, il n'eſt plus dans le Monde</orig>
+                     <reg>Fais parler ta prudence, il n'est plus dans le Monde</reg>
+                  </l>
+                  <l n="46">
+                     <orig>Ou de Vent qui menace, ou de Foudre qui gronde:</orig>
+                     <reg>Ou de vent qui menace, ou de foudre qui gronde:</reg>
+                  </l>
+                  <l n="47">
+                     <orig>Fais parler ta ſageſſe, il n'eſt plus dans les Cieux</orig>
+                     <reg>Fais parler ta sagesse, il n'est plus dans les Cieux</reg>
+                  </l>
+                  <l n="48">
+                     <orig>D’aſcendant qui ſoit triſte, ou ſoit pernicieux.</orig>
+                     <reg>D'ascendant qui soit triste, ou soit pernicieux.</reg>
+                  </l>
+               </lg>
+               <lg n="3">
+                  <l n="49" rend="indent">
+                     <orig>C’eſt ainſi qu’autrefois un Hebreu plein de zele,</orig>
+                     <reg>C'est ainsi qu'autrefois un Hébreu plein de zèle,</reg>
+                  </l>
+                  <l n="50">
+                     <orig>Pour deffaire à loiſir une race infidelle,</orig>
+                     <reg>Pour défaire à loisir une race infidèle,</reg>
+                  </l>
+                  <l n="51">
+                     <orig>Contraignit par ſa voix l’Aſtre qui fait les iours,</orig>
+                     <reg>Contraignit par sa voix l'Astre qui fait les jours,</reg>
+                  </l>
+                  <l n="52">
+                     <orig>De retenir ſon Char au milieu de ſon cours:</orig>
+                     <reg>De retenir son Char au milieu de son cours:</reg>
+                  </l>
+                  <l n="53">
+                     <orig>Il l’oſa diſpenſer de cette loy conſtante,</orig>
+                     <reg>Il l'osa dispenser de cette loi constante,</reg>
+                  </l>
+                  <l n="54">
+                     <orig>Qui rend ſes feux errants, &amp; ſa clarté mouvante,</orig>
+                     <reg>Qui rend ses feux errants, et sa clarté mouvante,</reg>
+                  </l>
+                  <l n="55">
+                     <orig>Et le Maiſtre des Cieux, de la Terre, &amp; des Flots,</orig>
+                     <reg>Et le Maître des Cieux, de la Terre et des Flots,</reg>
+                  </l>
+                  <l n="56">
+                     <orig>Obeït en ce iour à la voix d’un Heros.</orig>
+                     <reg>Obéit en ce jour à la voix d'un Héros.</reg>
+                  </l>
+               </lg>
+<!-- ============ page 4 ============ -->
+               <pb n="4" rend="top-left"/>
+               <fw type="runningTitle" place="top-center">PANEGYRIQUE</fw>
+               <lg n="4">
+                  <l n="57" rend="indent">
+                     <orig>C’eſt là d’un Zele ardant, &amp; d’un merite extrême</orig>
+                     <reg>C'est là d'un Zèle ardant, et d'un mérite extrême</reg>
+                  </l>
+                  <l n="58">
+                     <orig>L’eſſor imperieux &amp; le haut ſtratagême;</orig>
+                     <reg>L'essor impérieux et le haut stratagème ;</reg><!-- erreur -->
+                  </l>
+                  <l n="59">
+                     <orig>Leur pouuoir eſt ſi grand que l’Arbitre du ſort</orig>
+                     <reg>Leur pouvoir est si grand que l'Arbitre du fort</reg>
+                  </l>
+                  <l n="60">
+                     <orig>Ne peut meſme tenir contre tout leur effort.</orig>
+                     <reg>Ne peut même tenir contre tout leur effort.</reg>
+                  </l>
+               </lg>
+               <lg n="5">
+                  <l n="61" rend="indent">
+                     <orig>Sans doute au vif éclat d’une vertu ſi pure</orig>
+                     <reg>Sans doute au vif éclat d'une vertu si pure</reg>
+                  </l>
+                  <l n="62">
+                     <orig>IVLE doit les reſpects que luy rend la Nature,</orig>
+                     <reg>JULES doit les respects que lui rend la Nature,</reg>
+                  </l>
+                  <l n="63">
+                     <orig>Il doit à l’équité, dont il s’eſt fait l’appuy,</orig>
+                     <reg>Il doit à l'équité, dont il s'est fait l'appui,</reg>
+                  </l>
+                  <l n="64">
+                     <orig>Cét amour ſi fecond, que les Cieux ont pour luy,</orig>
+                     <reg>Cet amour si second, que les Cieux ont pour lui,</reg>
+                  </l>
+                  <l n="65">
+                     <orig>Pourroient-ils refuſer leur plus ample largeſſe</orig>
+                     <reg>Pourraient-ils refuser leur plus ample largesse</reg>
+                  </l>
+                  <l n="66">
+                     <orig>A ces vives ſplendeurs, dont brille ſa ſageſſe?</orig>
+                     <reg>À ces vives splendeurs, dont brille sa sagesse?</reg>
+                  </l>
+                  <l n="67">
+                     <orig>Pourroient-ils ſe reſoudre à ne pas couronner</orig>
+                     <reg>Pourraient-ils se résoudre à ne pas couronner</reg>
+                  </l>
+                  <l n="68">
+                     <orig>Ce grand Art de bien vivre &amp; de bien gouverner,</orig>
+                     <reg>Ce grand Art de bien vivre et de bien gouverner,</reg>
+                  </l>
+                  <l n="69">
+                     <orig>D’aymer leurs intereſts, ſans negliger les noſtres,</orig>
+                     <reg>D'aimer leurs intérêts, sans négliger les nôtres,</reg>
+                  </l>
+                  <l n="70">
+                     <orig>De donner tout aux uns, ſans rien oſter aux autres,</orig>
+                     <reg>De donner tout aux uns, sans rien ôter aux autres,</reg>
+                  </l>
+                  <l n="71">
+                     <orig>Et d’accorder ſi bien des ſoins ſi differens,</orig>
+                     <reg>Et d'accorder si bien des soins si différents,</reg>
+                  </l>
+                  <l n="72">
+                     <orig>Qu'il puiſſe à tous les deux ſuffire en meſme temps?</orig>
+                     <reg>Qu'il puisse à tous les deux suffire en même temps?</reg>
+                  </l>
+                  <l n="73">
+                     <orig>Que ne peut obtenir cette ame grande &amp; belle,</orig>
+                     <reg>Que ne peut obtenir cette âme grande et belle,</reg>
+                  </l>
+                  <l n="74">
+                     <orig>Qui poſſede ſans faſte une gloire immortelle,</orig>
+                     <reg>Qui possède sans faste une gloire immortelle,</reg>
+                  </l>
+                  <l n="75">
+                     <orig>Et qui s’enfle außi peu, pour des biens paſſagers,</orig>
+                     <reg>Et qui s'enfle aussi peu, pour des biens passagers</reg>
+                  </l>
+                  <l n="76">
+                     <orig>Qu'elle ſçait peu s’abbatre au plus fort des dangers?</orig>
+                     <reg>Qu'elle sait peu s'abattre au plus fort des dangers? </reg>
+                  </l>
+                  <l n="77">
+                     <orig>Sur tout les Cieux ont deu ſignaler leur iuſtice,</orig>
+                     <reg>Surtout les Cieux ont dû signaler leur justice,</reg><!-- erreur -->
+                  </l>
+                  <l n="78">
+                     <orig>A payer ce beau don, &amp; ce grand Sacrifice,</orig>
+                     <reg>À payer ce beau don, et ce grand sacrifice,</reg>
+                  </l>
+                  <l n="79">
+                     <orig>Que IVLE vient de faire au repos des Humains,</orig>
+                     <reg>Que JULES vient de faire au repos des Humains,</reg>
+                  </l>
+                  <l n="80">
+                     <orig>De cent Lauriers nouveaux, qui s’offroient à ſes mains.</orig>
+                     <reg>De cent lauriers nouveaux, qui s'offraient à ses mains.</reg>
+                  </l>
+               </lg>
+               <lg n="6">
+                  <l n="81" rend="indent">
+                     <orig>Peuples vous le ſçavez, ſon zele &amp; ſa prudence</orig>
+                     <reg>Peuples vous le savez, son zèle et sa prudence</reg>
+                  </l>
+                  <l n="82">
+                     <orig>Avecque la victoire eſtoient d’intelligence :</orig>
+                     <reg>Avecque la victoire étaient d'intelligence :</reg>
+                  </l>
+                  <fw>De</fw>
+<!-- ============ page 5 ============ -->
+                  <gb n="B" rend="bot-right"/>
+                  <pb n="5" rend="top-right"/>
+                  <fw type="runningTitle" place="top-center">DE LA PAIX.</fw>
+                  <l n="83">
+                     <orig>De ſes Sages deſſeins l’inviſible reſſort</orig>
+                     <reg>De ses sages desseins l'invisible renfort</reg>
+                  </l>
+                  <l n="84">
+                     <orig>Au party de LOVYS avoit rangé le Sort.</orig>
+                     <reg>Au parti de LOUIS avait rangé le Sort.</reg>
+                  </l>
+                  <l n="85">
+                     <orig>Il voyoit ſes Conſeils renverſer des murailles,</orig>
+                     <reg>Il voyait ses Conseils renverser des murailles,</reg>
+                  </l>
+                  <l n="86">
+                     <orig>Foudroyer des remparts, &amp; gagner des batailles:</orig>
+                     <reg>Foudroyer des remparts, et gagner des batailles:</reg>
+                  </l>
+                  <l n="87">
+                     <orig>Il voyoit la Fortune aſſervie à ſes vœux</orig>
+                     <reg>Il voyait la Fortune asservie à ses vœux</reg>
+                  </l>
+                  <l n="88">
+                     <orig>Changer tous ſes travaux en des exploits fameux.</orig>
+                     <reg>Changer tous ses travaux en des exploits fameux.</reg>
+                  </l>
+                  <l n="89">
+                     <orig>Certes tant de progrés, tant d’actions ſi belles</orig>
+                     <reg>Certes tant de progrès, tant d'actions si belles</reg>
+                  </l>
+                  <l n="90">
+                     <orig>Luy reſpondoient aſſez de cent palmes nouvelles,</orig>
+                     <reg>Lui répondaient assez de cent palmes nouvelles,</reg>
+                  </l>
+                  <l n="91">
+                     <orig>Et bien-toſt ce grand homme eût pû voir ſes beaux-faits,</orig>
+                     <reg>Et bientôt ce grand homme eût pu voir ses beaux faits,</reg>
+                  </l>
+                  <l n="92">
+                     <orig>Deuenir un paſſage à de plus hauts projets.</orig>
+                     <reg>Devenir un passage à de plus hauts projets.</reg>
+                  </l>
+                  <l n="93">
+                     <orig>Nous voyons cependant, qu’au milieu de ſa gloire</orig>
+                     <reg>Nous voyons cependant qu'au milieu de sa gloire</reg>
+                  </l>
+                  <l n="94">
+                     <orig>Ce Vainqueur genereux renonce à la victoire,</orig>
+                     <reg>Ce Vainqueur généreux renonce à la victoire,</reg>
+                  </l>
+                  <l n="95">
+                     <orig>Et ſemble ſe laſſer des applaudiſſemens</orig>
+                     <reg>Et semble se lasser des applaudissements</reg>
+                  </l>
+                  <l n="96">
+                     <orig>Oue ſa rare vertu s’attire à tous momens.</orig>
+                     <reg>Que sa rare vertu s'attire à tous moments.</reg>
+                  </l>
+                  <l n="97">
+                     <orig>Ouy, ſouvent il gemit du bon-heur de nos armes,</orig>
+                     <reg>Oui, souvent il gémit du bonheur de nos armes,</reg>
+                  </l>
+                  <l n="98">
+                     <orig>Qui couſte aux heureux meſme, &amp; du ſang, &amp; des larmes;</orig>
+                     <reg>Qui coûte aux heureux même, et du sang, et des larmes;</reg>
+                  </l>
+                  <l n="99">
+                     <orig>Où pluſtoſt ce grand cœur voudroit voir nos guerriers,</orig>
+                     <reg>Où plutôt ce grand cœur voudrait voir nos guerriers,</reg>
+                  </l>
+                  <l n="100">
+                     <orig>En d’autres regions moiſſonner des lauriers.</orig>
+                     <reg>En d'autres régions moissonner des lauriers.</reg>
+                  </l>
+                  <l n="101">
+                     <orig>Pendant que ſes beaux ſoins font triompher la France,</orig>
+                     <reg>Pendant que ses beaux soins font triompher la France,</reg>
+                  </l>
+                  <l n="102">
+                     <orig>Des peuples abbatus il reſſent la ſouffrance,</orig>
+                     <reg>Des peuples abattus il ressent la souffrance,</reg>
+                  </l>
+                  <l n="103">
+                     <orig>Et deteſte en ſecret ces debats infinis,</orig>
+                     <reg>Et déteste en secret ces débats infinis,</reg>
+                  </l>
+                  <l n="104">
+                     <orig>Qui diviſent des cœurs, qui doivent eſtre unis.</orig>
+                     <reg>Qui divisent des cœurs, qui doivent être unis.</reg>
+                  </l>
+                  <l n="105">
+                     <orig>C’eſt par les ſaincts conſeils d’une douleur ſi belle,</orig>
+                     <reg>C'est par les saints conseils d'une douleur si belle,</reg>
+                  </l>
+                  <l n="106">
+                     <orig>Qu'il s’exhorte luy-meſme à trancher leur querelle,</orig>
+                     <reg>Qu'il s'exhorte lui-même à trancher leur querelle,</reg>
+                  </l>
+                  <l n="107">
+                     <orig>Et de l’honneur acquis ſon cœur eſt ſi content,</orig>
+                     <reg>Et de l'honneur acquis son cœur est si content,</reg>
+                  </l>
+                  <l n="108">
+                     <orig>Qu'il s'oſe refuſer à l’honneur qui l’attend.</orig>
+                     <reg>Qu'il s'ose refuser à l'honneur qui l'attend.</reg>
+                  </l>
+<!-- ============ page 6 ============-->
+                  <pb n="6" rend="top-left"/>
+                  <fw type="runningTitle" place="top-center">PANEGYRIQUE</fw>
+                  <l n="109">
+                     <orig>Au lieu de projetter de nouvelles conqueſtes;</orig>
+                     <reg>Au lieu de projeter de nouvelles conquêtes;</reg>
+                  </l>
+                  <l n="110">
+                     <orig>Il m'eſpriſe en Heros des palmes toutes preſtes,</orig>
+                     <reg>Il méprise en Héros des palmes toutes prêtes,</reg>
+                  </l>
+                  <l n="111">
+                     <orig>Il deſdaigne l’eſclat de tant d’exploits divers,</orig>
+                     <reg>Il dédaigne l'éclat de tant d'exploits divers,</reg>
+                  </l>
+                  <l n="112">
+                     <orig>Et l’immole auec joye au bien de l'Vnivers.</orig>
+                     <reg>Et l'immole avec joie au bien de l'Univers.</reg>
+                  </l>
+                  <l n="113">
+                     <orig>Quel excez de courage, ou quel excez de force</orig>
+                     <reg>Quel excès de courage, ou quel excès de force</reg>
+                  </l>
+                  <l n="114">
+                     <orig>Peut le deprendre ainſi d’une ſi douce amorce?</orig>
+                     <reg>Peut le déprendre ainsi d'une si douce amorce?</reg>
+                  </l>
+                  <l n="115">
+                     <orig>Que l’ame eſt genereuſe, &amp; que le cœur eſt grand,</orig>
+                     <reg>Que l'âme est généreuse, et que le cœur est grand,</reg>
+                  </l>
+                  <l n="116">
+                     <orig>Qui s’eſleve au deſſus d’un charme ſi puiſſant!</orig>
+                     <reg>Qui s'élève au-dessus d'un charme si puissant!</reg>
+                  </l>
+                  <l n="117">
+                     <orig>Quelques brillants honneurs, que puiſſe offrir la guerre,</orig>
+                     <reg>Quelques brillants honneurs, que puisse offrir la guerre,</reg>
+                  </l>
+                  <l n="118">
+                     <orig>IVLE ayme beaucoup mieux le repos de la Terre,</orig>
+                     <reg>JULES aime beaucoup mieux le repos de la Terre,</reg>
+                  </l>
+                  <l n="119">
+                     <orig>Et croid ſe voir enfin au comble de ſes vœux,</orig>
+                     <reg>Et croit se voir enfin au comble de ses vœux,</reg>
+                  </l>
+                  <l n="120">
+                     <orig>S’il rend le Sort plus doux, &amp; nos iours plus heureux.</orig>
+                     <reg>S'il rend le sort plus doux, et nos jours plus heureux.</reg>
+                  </l>
+               </lg>
+               <lg n="7">
+                  <l n="121" rend="indent">
+                     <orig>Des eſprits agitez, d’un orgueil ſans meſure</orig>
+                     <reg>Des esprits agités, d'un orgueil sans mesure</reg>
+                  </l>
+                  <l n="122">
+                     <orig>Avoient borné leurs ſoins à troubler la nature:</orig>
+                     <reg>Avaient borné leurs soins à troubler la nature:</reg>
+                  </l>
+                  <l n="123">
+                     <orig>Depuis trente moiſſons ces Artiſans d’horreur</orig>
+                     <reg>Depuis trente moissons ces Artisans d'horreur</reg>
+                  </l>
+                  <l n="124">
+                     <orig>Avoient ſemé par tout la haine &amp; la fureur;</orig>
+                     <reg>Avaient semé partout la haine et la fureur;</reg>
+                  </l>
+                  <l n="1">
+                     <orig>Leurs hautes qualitez, &amp; leurs talents ſublimes</orig>
+                     <reg>Leurs hautes qualités et leurs talents sublimes</reg>
+                  </l>
+                  <l n="125">
+                     <orig>Sembloient ne leur ſervir, qu’à tenter les grands crimes,</orig>
+                     <reg>Semblaient ne leur servir, qu'à tenter les grands crimes,</reg>
+                  </l>
+                  <l n="126">
+                     <orig>Ils s’embloient n’aſpirer, qu'à punir les Humains</orig>
+                     <reg>Ils semblaient n'aspirer, qu'à punir les Humains</reg>
+                  </l>
+                  <l n="127">
+                     <orig>Du pouvoir que le Ciel avoit mis en leurs mains.</orig>
+                     <reg>Du pouvoir que le Ciel avait mis en leurs mains.</reg>
+                  </l>
+                  <l n="128">
+                     <orig>Cent inſolents projets de puiſſance &amp; de gloire,</orig>
+                     <reg>Cent insolents projets de puissance et de gloire,</reg>
+                  </l>
+                  <l n="129">
+                     <orig>De conſacrer un iour leurs noms, &amp; leur memoire,</orig>
+                     <reg>De consacrer un jour leurs noms, et leur mémoire,</reg>
+                  </l>
+                  <l n="130">
+                     <orig>A l’orgueil effrene, qui revoltoit leurs ſens,</orig>
+                     <reg>À l'orgueil effréné, qui révoltait leurs sens,</reg>
+                  </l>
+                  <l n="131">
+                     <orig>Avoient ſacrifié cent peuples differens;</orig>
+                     <reg>Avaient sacrifié cent peuples différents ;</reg>
+                  </l>
+                  <l n="132">
+                     <orig>Du ſang des Nations ils avoient fait leur proye,</orig>
+                     <reg>Du sang des Nations ils avaient fait leur proie,</reg>
+                  </l>
+                  <l n="133">
+                     <orig>Fait mourir en tout lieu la concorde &amp; la joye,</orig>
+                     <reg>Fait mourir en tout lieu la concorde et la joie,</reg>
+                  </l>
+               </lg>
+            </div>
+         </div>
+      </body>
+   </text>
+</TEI>

@@ -1,0 +1,590 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<!-- 
+  Le TEI header n'est pas bon
+  L'encodage est totalement faux
+  Vous n'avez pas encodé la page de titre
+  La normalisation linguistique n'est pas juste, et je vous ai donné un texte dont la normalisation est disponible en ligne!
+  L'OCR n'est pas corrigé
+  Vous avez retiré les notes, qui ne sont pas encodées
+-->
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+  <teiHeader>
+    <fileDesc>
+      <titleStmt>
+        <title>Dialogue ou Satire X. Du Sieur D***</title>
+        <author>Nicolas Boileau</author>
+      </titleStmt>
+      <publicationStmt>
+        <authority>Université de Genève</authority>
+        <availability>
+          <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+        </availability>
+      </publicationStmt>
+      <sourceDesc>
+        <bibl>
+          <author>Nicolas Boileau</author>
+          <title>Dialogue ou Satire X. Du Sieur D***</title>
+          <pubPlace>Paris</pubPlace>
+          <publisher>Denys Thierry</publisher>
+          <date when="1694">1694</date>
+          <ptr target="https://catalogue.bnf.fr/ark:/12148/bpt6k5526312v"/>
+        </bibl>
+      </sourceDesc>
+    </fileDesc>
+    <profileDesc>
+      <textClass>
+        <keywords>
+          <term type="genre">poésie</term>
+          <term type="form">vers</term>
+        </keywords>
+      </textClass>
+    </profileDesc>
+  </teiHeader>
+  <text> 
+      <body>
+        <fw>
+          <orig>1</orig>
+          <reg>1</reg>
+        </fw>
+         <head>
+           <orig>SATIRE X</orig>
+           <reg>SATIRE X</reg>
+         </head>
+         <div>
+            <l>
+              <orig>ENFIN bornant le cours de ses galanteries,</orig>
+              <reg>ENFIN bornant le cours de ses galanteries,</reg>
+            </l>
+            <l>
+              <orig>Alcippe, il eſt donc vray, dans peu tu te maries.</orig>
+              <reg>Alcippe, il est donc vrai, dans peu tu te maries.</reg>
+            </l>
+            <l>
+              <orig>Sur l'argent, c'eſt tout dire, on eſt déjà d'accord</orig>
+              <reg>Sur l'argent, c'est tout dire, on est déjà d'accord</reg>
+            </l>
+           <l>
+               <orig>Ton Beaupere futur vuide ſon coffre fort:</orig>
+               <reg>Ton Beau-père futur vide son coffre-fort:</reg>
+           </l>
+            <l>
+              <orig>Et déjà le Notaire a, d'un stile energique</orig>
+              <reg>Et déjà le Notaire a, d'un style énergique</reg>
+            </l>
+            <l>
+              <orig>Griffonné de ton joug l'instrument authentique,</orig>
+              <reg>Griffonné de ton joug l'instrument authentique,</reg>
+            </l>
+            <l>
+              <orig>C'eſt bien fait. Il eſt temps de fixer tes déſirs.</orig>
+              <reg>C'est bien fait. Il est temps de fixer tes désirs.</reg>
+            </l>
+            <l>
+              <orig>Ainsi que ſes chagrins l'Hymen a ſes plaiſirs.</orig>
+              <reg>Ainsi que ses chagrins l'Hymen a ses plaisirs.</reg>
+            </l> 
+            <l>
+              <orig>Quelle joye en effet; Quelle douceur extrême!</orig>
+              <reg>Quelle joie en effet; Quelle douceur extrême!</reg>
+            </l>
+            <l>
+              <orig>De ſe voir careſſer d'une Epousequ'on aime:</orig>
+              <reg>De se voir caresser d'une Épouse qu'on aime:</reg>
+            </l>
+            <l>
+              <orig>De s'entendre appeller petit Cœur, ou mon Bon;</orig>
+              <reg>De s'entendre appeller petit Cœur, ou mon Bon;</reg>
+            </l>
+            <l>
+              <orig>De voir autour de ſoi croiſtre dans ſa maiſon,</orig>
+              <reg>De voir autour de soi croître dans sa maison,</reg>
+            </l>
+            <l>
+              <orig>Sous les paiſibles loix d'une agreable Mere,</orig>
+              <reg>Sous les paisibles lois d'une agréable Mère,</reg>
+            </l>
+            <l>
+              <orig>De petits citoyens dont on croit eſtre Pere!</orig>
+              <reg>De petits citoyens dont on croit être Père!</reg>
+            </l>
+            <l>
+              <orig>Quel charme! au moindre mal qui vient menacer,</orig>
+              <reg>Quel charme! au moindre mal qui vient menacer,</reg>
+            </l>
+            <l><orig>De la voir auβi-toſt accourir, s'empreſſer,</orig>
+              <reg>De la voir aussitôt accourir, s'empresser,</reg>
+            </l>
+           <fw>
+             <orig>A</orig>
+             <reg>A</reg>
+           </fw>        
+           <pb/>
+           <fw>
+             <orig>SATIRE.</orig>
+             <reg>SATIRE.</reg>
+           </fw>
+           <fw>
+             <orig>2</orig>
+             <reg>2</reg>
+           </fw>         
+           <l>
+             <orig>S’effrayer d’un peril qui n'a point d’apparence,</orig>
+             <reg>S’effrayer d’un péril qui n'a point d’apparence,</reg>
+           </l>
+           <l>
+             <orig>Et ſouvent de douleur ſe paſmer par avance.</orig>
+             <reg>Et souvent de douleur se pâmer par avance.</reg>
+           </l>
+           <l>
+             <orig>Car tu ne ſeras point de ces Jaloux affreux,</orig>
+             <reg>Car tu ne seras point de ces Jaloux affreux,</reg>
+           </l>
+           <l>
+             <orig>Habiles à ſe rendre inquiets, malheureux,</orig>
+             <reg>Habiles à se rendre inquiets, malheureux,</reg>
+           </l>
+           <l>
+             <orig>Qui tandis qu'une Epouſe à leurs yeux ſe deſole,</orig>
+             <reg>Qui tandis qu'une Épouse à leurs yeux se désole,</reg>
+           </l>
+           <l>
+             <orig>Penſent toûjours qu'un autre en ſecret la conſole.</orig>
+             <reg>Pensent toujours qu'un autre en secret la console.</reg>
+           </l>
+           <l></l>
+           <l>
+             <orig>Mais quoy, je voy deja que ce diſcours t’aigrit.</orig>
+             <reg>Mais quoi, je vois déjà que ce discours t’aigrit.</reg>
+           </l>
+           <l>
+             <orig>Charmé de Juvenal *, &amp; plein de ſon esprit</orig>
+             <reg>Charmé de Juvénal *, et plein de son eſprit</reg>
+           </l>
+           <note>
+             <orig>Juvenal a fait une Satire contre les Femmes qui eſt ſon plus bel ouvrage.</orig>
+             <reg>Juvénal a fait une Satire contre les Femmes qui est son plus bel ouvrage.</reg>
+           </note>
+           <l>
+             <orig>Venez-vous, diras-tu, dans une piece outrée,</orig>
+             <reg>Venez-vous, diras-tu, dans une pièce outrée,</reg>
+           </l>
+           <l>
+             <orig>Comme lui nous chanter: * Que dés le temps de Rhée</orig>
+             <reg>Comme lui nous chanter: * Que dès le temps de Rhée</reg>
+           </l>
+           <note>
+             <orig>Paroles du commencement de la Satire de Juvenal.</orig>
+             <reg>Paroles du commencement de la Satire de Juvénal.</reg>
+           </note>
+           <l>
+             <orig>La Chaſteté déja, la rougeur ſur le front,</orig>
+             <reg>La Chasteté déjà, la rougeur sur le front,</reg>
+           </l>
+           <l>
+             <orig>Avoit chés les Humains receu plus d’un affront:</orig>
+             <reg>Avait chez les Humains reçu plus d’un affront:</reg>
+           </l>
+           <l>
+             <orig>Qu'on vid avec le fer naiſtre les Injuſtices,</orig>
+             <reg>Qu'on vit avec le fer naître les Injustices,</reg>
+           </l>
+           <l>
+             <orig>L'Impieté, l’Orgueil,&amp; tous les autres Vices,</orig>
+             <reg>L'Impiété, l’Orgueil, et tous les autres vices,</reg>
+           </l>
+           <l>
+             <orig>Mais que la Bonne foy dans l’amour conjugal</orig>
+             <reg>Mais que la Bonne foi dans l’amour conjugal</reg>
+           </l>
+           <l>
+             <orig>N’alla point juſqu’au temps du troiſiéme Metal?</orig>
+             <reg>N’alla point jusqu’au temps du troisième Métal?</reg></l>
+           <l>
+             <orig>Ces mots ont dans ſa bouche une emphaze admirable:</orig>
+             <reg>Ces mots ont dans sa bouche une emphase admirable:</reg>
+           </l>
+           <l>
+             <orig>Mais je vous diray, moi, ſans alleguer la fable:</orig>
+             <reg>Mais je vous dirai, moi, sans alléguer la fable:</reg>
+           </l>
+           <l>
+             <orig>Que ſi ſous Adam meſme &amp; loin avant Noë,</orig>
+             <reg>Que si sous Adam même et loin avant Noé,</reg>
+           </l>          
+           <l>
+             <orig>Le Vice audacieux des Hommes avoué</orig>
+             <reg>Le Vice audacieux des Hommes avoué</reg>
+           </l>           
+           <l>
+             <orig>Il demeura pourtant de l’honneur ſur la Terre:</orig>
+             <reg>Il demeura pourtant de l’honneur sur la Terre:</reg>
+           </l>           
+           <l>
+             <orig>Qu'aux temps les plus feconds en Phrynés, en Lays</orig>
+             <reg>Qu'aux temps les plus féconds en Phrynés, en Laïs</reg>
+           </l>             
+           <l>
+             <orig>Plus d’une Penelope honora ſon pays,</orig>
+             <reg>Plus d’une Pénélope honora son pays,</reg>
+           </l>
+           <l>
+             <orig>Et que meſme aujourd'hui, ſur ces fameux modeles,</orig>
+             <reg>Et que même aujourd'hui, sur ces fameux modèles,</reg>
+           </l>
+           <l>
+             <orig>On peut trouver encor quelques Femmes fideles.</orig>
+             <reg>On peut trouver encor quelques femmes fidèles.</reg>
+           </l>
+         <pb/>
+           <fw>
+             <orig>SATIRE.</orig>
+             <reg>SATIRE.</reg>
+           </fw>
+           <fw>
+             <orig>3</orig>
+             <reg>3</reg>
+           </fw>
+           <l>
+             <orig>Sans doute, &amp; dans Paris, ſi je ſçay bien compter,</orig>
+             <reg>Sans doute, et dans Paris, si je sais bien compter,</reg>
+           </l>
+           <l>
+             <orig>Il en eſt juſqu'à trois que je pourois citer.</orig>
+             <reg>Il en est jusqu'à trois que je pourais citer.</reg>
+           </l>
+           <l>
+             <orig>Ton Epouſe dans peu ſera la quatriéme.</orig>
+             <reg>Ton Épouse dans peu sera la quatrième.</reg>
+           </l>
+           <l>
+             <orig>Je le veux croire ainſi: Mais la Chaſteté meſme</orig>
+             <reg>Je le veux croire ainsi: Mais la Chasteté même</reg>
+           </l>
+           <l>
+             <orig>Sous ce beau nom d'Epouſe entraſt-elle chés toy,</orig>
+             <reg>Sous ce beau nom d'Épouse entrât-t-elle chez toi,</reg>
+           </l>
+           <l>
+             <orig>De retour d’un voiage, en arrivant, croy moy,</orig>
+             <reg>De retour d’un voyage, en arrivant, crois-moi,</reg>
+           </l>
+           <l>
+             <orig>Fais toûjours du logis avertir la maiſtreſſe.</orig>
+             <reg>Fais toujours du logis avertir la maîtresse.</reg>
+           </l>
+           <l>
+             <orig>Tel partit tout baigné des pleurs de ſa Lucreſſe,</orig>
+             <reg>Tel partit tout baigné des pleurs de sa Lucresse,</reg>
+           </l>
+           <l>
+             <orig>Qui faute d’avoir pris ce ſoin judicieux,</orig>
+             <reg>Qui faute d’avoir pris ce soin judicieux,</reg>
+           </l>
+           <l>
+             <orig>Trouva. Tu ſçais... Je ſçay que d’un conte odieux</orig>
+             <reg>Trouva. Tu sais... je sais que d’un conte odieux</reg>
+           </l>
+           <l>
+             <orig>Vous avés comme moy ſali voſtre memoire.</orig>
+             <reg>Vous avez comme moi sali votre mémoire.</reg>
+           </l>
+           <l>
+             <orig>Mais laissons-là, dis-tu, Joconde &amp; ſon hiſtoire.</orig>
+             <reg>Mais laissons là, dis-tu, Joconde et son histoire.</reg>
+           </l>
+           <l>
+             <orig>Du projet d’un Hymen déja fort avancé,</orig>
+             <reg>Du projet d’un Hymen déjà fort avancé,</reg>
+           </l>
+           <l>
+             <orig>Devant vous aujourd'hui criminel denoncé,</orig>
+             <reg>Devant vous aujourd'hui criminel denoncé,</reg>
+           </l>
+           <l>
+             <orig>Et mis ſur la ſellette aux piés de la Critique,</orig>
+             <reg>Et mis sur la sellette aux pieds de la Critique,</reg>
+           </l>
+           <l>
+             <orig>Je voy bien tout de bon qu’il faut que je m'explique.</orig>
+             <reg>Je vois bien tout de bon qu’il faut que je m'explique.</reg>
+           </l>
+           <l>
+             <orig>Jeune autrefois par vous dans le monde conduit</orig>
+             <reg>Jeune autrefois par vous dans le monde conduit</reg>
+           </l>
+           <l>
+             <orig>J'ay trop bien profité, pour n'eſtre pas inſtruit</orig>
+             <reg>J'ai trop bien profité, pour n'être pas instruit</reg>
+           </l>
+           <l>
+             <orig>A quels diſcours malins le Mariage expoze.</orig>
+             <reg>À quels discours malins le mariage expose.</reg>
+           </l>
+           <l>
+             <orig>Je ſçai, que c’eſt un texte où chacun fait ſa gloze:</orig>
+             <reg>Je sais, que c’est un texte où chacun fait sa glose:</reg>
+           </l>
+           <l>
+             <orig>Que de Maris trompés tont rit dans l'Univers,</orig>
+             <reg>Que de Maris trompés tont rit dans l'Univers,</reg>
+           </l>
+           <l>
+             <orig>Epigrammes, Chanſons, Rondeaux, Fables en vers,</orig>
+             <reg>>Épigrammes, Chansons, Rondeaux, Fables en vers,</reg>
+           </l>
+           <l>
+             <orig>Satire, Comedie, &amp; ſur cette matiere,</orig>
+             <reg>Satire, Comédie, et sur cette matière,</reg>
+           </l>
+           <l>
+             <orig>J'ay veû tout ce qu’ont fait La Fontaine &amp; Moliere,</orig>
+             <reg>J'ai vu tout ce qu’ont fait La Fontaine et Molière,</reg>
+           </l>
+           <l>
+             <orig>J'ay leû tout ce qu'ont dit Villon, &amp; Saint Gelais,</orig>
+             <reg>J'ai lu tout ce qu'ont dit Villon, et Saint Gelais,</reg>
+           </l>
+           <l>
+             <orig>Arioſte, Marot, Bocace, Rabelais,</orig>
+             <reg>Arioste, Marot, Boccace, Rabelais,</reg>
+           </l>           
+          <pb/>
+           <fw>
+             <orig>SATIRE.</orig>
+             <reg>SATIRE.</reg>
+           </fw>
+           <fw>
+             <orig>4</orig>
+             <reg>4</reg>
+           </fw>
+           <l>
+             <orig>Et tous ces vieux Recueils de Satires naives</orig>
+             <reg>Et tous ces vieux Recueils de Satires naïves</reg>
+           </l>
+           <l>
+             <orig>Des malices du Sexe immortelles archives.</orig>
+             <reg>Des malices du Sexe immortelles archives.</reg>
+           </l>
+           <l>
+             <orig>Mais, tout bien balancé, j’ay pourtant reconnu,</orig>
+             <reg>Mais, tout bien balancé, j’ai pourtant reconnu,</reg>
+           </l>       
+           <l>
+             <orig>Que de ces contes vains le monde entretenu</orig>
+             <reg>Que de ces contes vains le monde entretenu</reg>
+           </l>
+           <l>
+             <orig>N'en a pas de l’Hymen moins veû fleurir l’uſage;</orig>
+             <reg>N'en a pas de l’Hymen moins vu fleurir l’usage;</reg>
+           </l> 
+           <l>
+             <orig>Que ſous ce joug moqué tout à la fin s’engage:</orig>
+             <reg>Que ſous ce joug moqué tout à la fin s’engage:</reg>
+           </l>
+           <l>
+             <orig>Qu'à ce commun filet les Railleurs meſmes pris</orig>
+             <reg>Qu'à ce commun filet les Railleurs mêmes pris</reg>
+           </l>
+           <l>
+             <orig>Ont eſté tres-ſouvent de commodes Maris,</orig>
+             <reg>Ont été très-souvent de commodes Maris,</reg>
+           </l>
+           <l>
+             <orig>Et que pour eſtre heureux ſous ce joug ſalutaire</orig>
+             <reg>Et que pour être heureux sous ce joug salutaire</reg>
+           </l>
+           <l></l>
+           <l>
+             <orig>Tout depend en un mot du bon choix qu’on ſçait faire.</orig>
+             <reg>Tout dépend en un mot du bon choix qu’on sait faire.</reg>
+           </l>
+           <l></l>
+           <l>
+             <orig>Enfin, Il faut ici parler de bonne foy,</orig>
+             <reg>Enfin, il faut ici parler de bonne foi,</reg>
+           </l>
+           <l></l>
+           <l>
+             <orig>Je vieillis, &amp; ne puis regarder ſans effroy,</orig>
+             <reg>Je vieillis, et ne puis regarder sans effroi,</reg>
+           </l>
+           <l>
+             <orig>Ces Neveux affamés, dont l’importun viſage</orig>
+             <reg>Ces Neveux affamés, dont l’importun visage</reg>
+           </l>             
+           <l>
+             <orig>De mon bien à mes yeux fait deja le partage.</orig>
+             <reg>De mon bien à mes yeux fait déjà le partage.</reg>
+           </l>
+           <l>
+             <orig>Je croy déja les voir, au moment annoncé</orig>
+             <reg>Je crois déjà les voir, au moment annoncé</reg>
+           </l> 
+           <l>
+             <orig>Qu'a la fin, ſans retour, leur cher Oncle eſt paßé,</orig>
+             <reg>Qu'à la fin, sans retour, leur cher oncle est passé,</reg>
+           </l>
+           <l>
+             <orig>Sur quelques pleurs forcés, qu’ils auront ſoin qu'on voye,</orig>
+             <reg>Sur quelques pleurs forcés, qu’ils auront soin qu'on voie,</reg>
+           </l> 
+           <l>
+             <orig>Se faire conſoler du ſujet de leur joye.</orig>
+             <reg>Se faire consoler du sujet de leur joie.</reg>
+           </l>
+           <l>
+             <orig>Je me fais un plaiſir, à ne vous rien celer,</orig>
+             <reg>Je me fais un plaisir, à ne vous rien celer,</reg>
+           </l>
+           <l>
+             <orig>De pouvoir, moi vivant, dans peu les deſoler,</orig>
+             <reg>De pouvoir, moi vivant, dans peu les désoler,</reg>
+           </l>
+           <l>
+             <orig>Et trompant un eſpoir pour eux ſi plein de charmes,</orig>
+             <reg>Et trompant un espoir pour eux si plein de charmes,</reg>
+           </l>          
+           <l>
+             <orig>Arracher de leurs yeux de veritables larmes.</orig>
+             <reg>Arracher de leurs yeux de véritables larmes.</reg>
+           </l>          
+           <l>
+             <orig>Vous dirai-je encor plus? Soit foibleſſe, ou raiſon,</orig>
+             <reg>Vous dirai-je encore plus? Soit faiblesse, ou raison,</reg>
+           </l> 
+           <l>
+             <orig>Je ſuis las de me voir les ſoirs en ma maiſon</orig>
+             <reg>Je suis las de me voir les soirs en ma maison</reg>
+           </l> 
+           <l>
+             <orig>Seul avec des Valets ſouvent voleurs &amp; traiſtres,</orig>
+             <reg>Seul avec des Valets souvent voleurs et traitres,</reg>
+           </l>
+           <l>
+             <orig>Et toûjours à coup ſeur ennemis de leurs Maiſtres.</orig>
+             <reg>Et toujours à coup sueur ennemis de leurs Maîtres.</reg>
+           </l>         
+           <pb/>
+           <fw>
+             <orig>SATIRE.</orig>
+             <reg>SATIRE.</reg>
+           </fw>
+           <fw>
+             <orig>5</orig>
+             <reg>5</reg>
+           </fw> 
+           <l>
+             <orig>Je ne me couche point, qu’außi-toſt dans mon lit</orig>
+             <reg>Je ne me couche point, qu’aussitôt dans mon lit</reg>
+           </l>
+           <l>
+             <orig>Un ſouvenir faſcheux n'apporte à mon eſprit</orig>
+             <reg>Un souvenir fâcheux n'apporte à mon esprit</reg>
+           </l>
+           <l>
+             <orig>Ces Hiſtoires de morts lamentables, tragiques,</orig>
+             <reg>Ces Histoires de morts lamentables, tragiques,</reg>
+           </l>
+           <l>
+             <orig>Dont Paris tous les ans peut groſſir ſes Chroniques.</orig>
+             <reg>Dont Paris tous les ans peut grossir ses chroniques.</reg>
+           </l>           
+           <l>
+             <orig>Dépouillons-nous ici d’une vaine fierté:</orig>
+             <reg>Dépouillons-nous ici d’une vaine fierté:</reg>
+           </l>        
+           <l>
+             <orig>Nous naiſſons, nous vivons pour la ſocieté.</orig>
+             <reg>Nous naissons, nous vivons pour la société.</reg>
+           </l>
+           <l>
+             <orig>A nous-meſmes livres dans une ſolitude</orig>
+             <reg>À nous-mêmes livres dans une solitude</reg>
+           </l>
+           <l>
+             <orig>Noſtre bonheur bien-toſt fait neſtre inquietude,</orig>
+             <reg>Notre bonheur bientôt fait naître inquiétude,</reg>
+           </l>
+           <l>
+             <orig>Et ſi, durant un jour, noſtre premier Ayeul</orig>
+             <reg>Et si durant un jour, notre premier Aïeul</reg>
+           </l>
+           <l>
+             <orig>Plus riche d’une coſte avoit veſcu tout ſeul,</orig>
+             <reg>Plus riche d’une côte avait vécu tout seul</reg>
+           </l> 
+           <l>
+             <orig>Je doute, en ſa demeure alors ſi fortunée,</orig>
+             <reg>Je doute, en sa demeure alors si fortunée</reg>
+           </l>
+           <l>
+             <orig>S’il n'euſt point prié Dieu d’abreger la journée?</orig>
+             <reg>S’il n'eût point prié Dieu d’abréger la journée?</reg>
+           </l>            
+           <l>
+             <orig>N’allons donc point ici reformer l'Univers,</orig>
+             <reg>N’allons donc point ici reformer l'Univers,</reg>
+           </l>            
+           <l>
+             <orig>Ni par de vains diſcours, &amp; de frivoles vers</orig>
+             <reg>Ni par de vains discours, et de frivoles vers</reg>
+           </l>
+           <l>
+             <orig>E’talant au Public noſtre miſanthropie,</orig>
+             <reg>Étalant au public notre misanthropie,</reg>
+           </l>
+           <l>
+             <orig>Cenſurer le lien le plus doux de la vie.</orig>
+             <reg>Censurer le lien le plus doux de la vie.</reg>
+           </l>
+           <l>
+             <orig>Laiſſons-là, croyés-moi, le monde tel qu’il eſt.</orig>
+             <reg>Laissons là, croyez-moi, le monde tel qu’il est.</reg>
+           </l>
+           <l>
+             <orig>L'Hymenée eſt un joug, &amp; c'eſt ce qui m'en plaiſt.</orig>
+             <reg>L'Hymenée est un joug, et c'est ce qui m'en plaît.</reg>
+           </l>
+           <l>
+             <orig>L'Homme en ſes paßions toûjours errant ſans guide</orig>
+             <reg>L'homme en ses passions toujours errant sans guide</reg>
+           </l>
+           <l>
+             <orig>A beſoin qu'on lui mette &amp; le mors &amp; la bride.</orig>
+             <reg>A besoin qu'on lui mette et le mors et la bride.</reg>
+           </l>
+           <l>
+             <orig>Son pouvoir malheureux ne ſert qu’à le geſner,</orig>
+             <reg>Son pouvoir malheureux ne sert qu’à le gêner,</reg>
+           </l>           
+           <l>
+             <orig>Et pour le rendre libre, il le faut enchaîner.</orig>
+             <reg>Et pour le rendre libre, il le faut enchaîner.</reg>
+           </l>             
+           <l>
+             <orig>C’eſt ainſi que ſouvent la main de Dieu l’aßiſte.</orig>
+             <reg>C’est ainsi que souvent la main de Dieu l’assiste.</reg>
+           </l>
+           <l>
+             <orig>Ha bon! voila parler en docte Janſeniſte!</orig>
+             <reg>Ha bon! voilà parler en docte Janséniste!</reg>
+           </l>
+           <l>
+             <orig>Alcippe, &amp; ſur ce point ſi ſçavamment touché.</orig>
+             <reg>Alcippe, et sur ce point si savamment touché.</reg>
+           </l>
+           <l>
+             <orig>Des-mares, * dans ſaint Roch, n’auroit pas mieux preſché.</orig>
+             <reg>Desmâres, * dans Saint-Roch, n’aurait pas mieux prêché.</reg>
+           </l>             
+           <fw>
+             <orig>Aiij</orig>
+             <reg>Aiij</reg>
+           </fw> 
+         </div>
+      </body>
+  </text> 
+</TEI> 

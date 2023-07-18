@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Bérénice</title>
+                <author>Jean Racine</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Université de Genève</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Jean Racine</author>
+                    <title>Bérénice</title>
+                    <pubPlace>Paris</pubPlace>
+                    <publisher>Claude Barbin</publisher>
+                    <date when="1671">1671</date>
+                    <ptr target="https://catalogue.bnf.fr/ark:/12148/bpt6k1280636j"/>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">theatre</term>
+                    <term type="form">vers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>       
+        <front>
+            <div type="pageDeGarde">
+                <pb n="1" facs="#Page0"/>
+                <ab>
+                    <choice>
+                        <orig>BERENICE PAR M.RACINE</orig>
+                        <reg>BÉRÉNICE PAR M.RACINE</reg>
+                    </choice>
+                    <choice>
+                        <orig>A PARIS, Chez CLAUDE BARBIN, au Palais, ſur le Second Perron de la Sainte Chapelle.</orig>
+                        <reg>A PARIS, chez CLAUDE BARBIN, au Palais, sur le Second Perron de la Sainte Chapelle.</reg>
+                    </choice>
+                    <choice>
+                        <orig>M. DC. LXXI. AVEC PRIVILEGE DV ROY.</orig>
+                        <reg>M. DC. LXXI. AVEC LE PRIVILÈGE DU ROI.</reg>
+                    </choice>
+                </ab> 
+            </div>
+        </front>
+        <body>
+            <fw type="pageNum" place="top-right">
+                <orig>1</orig>
+                <reg>1</reg>
+            </fw>
+            <div type="piece">
+                <head type="title" place="top-center">
+                    <orig>BERENICE. TRAGEDIE.</orig>
+                    <reg>BÉRÉNICE. TRAGÉDIE.</reg>
+                </head>
+                <div type="Acte" n="1">
+                    <head rend="center">
+                        <orig>ACTE PREMIER.</orig>
+                        <reg>ACTE PREMIER.</reg>
+                    </head>
+                    <div type="scene" n="1">
+                        <head rend="center">
+                            <orig>SCENE PREMIERE.</orig>
+                            <reg>SCÈNE PREMIÈRE.</reg>
+                        </head>
+                        <stage rend="center">
+                            <orig>ANTIOCHUS, ARSACE.</orig>
+                            <reg>ANTIOCHUS, ARSACE.</reg>
+                        </stage>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>ANTIOCHUS.</orig>
+                                <reg>ANTIOCHUS.</reg>
+                            </speaker>
+                            <lg>
+                                <l n="1">
+                                    <orig>ARRESTONS un moment. La Pompe de ces Lieux,</orig>
+                                    <reg>ARRÊTONS un moment. La Pompe de ces Lieux,</reg>
+                                </l>
+                                <l n="2">
+                                    <orig>Je le voy bien, Arſace, eſt nouvelle à tes yeux.</orig>
+                                    <reg>Je le vois bien, Arsace, est nouvelle à tes yeux.</reg>
+                                </l>
+                                <l n="3">
+                                    <orig>Souvent ce Cabinet ſuperbe &amp; ſolitaire,</orig>
+                                    <reg>Souvent ce Cabinet superbe et solitaire,</reg>
+                                </l>
+                                <l n="4">
+                                    <orig>Des ſecrets de Titus eſt le depoſitaire.</orig>
+                                    <reg>Des secrets de Titus est le dépositaire.</reg>
+                                </l>
+                                <l n="5">
+                                    <orig>C'eſt icy quelquefois qu'il ſe cache à ſa Cour,</orig>
+                                    <reg>C'est ici quelquefois qu'il se cache à sa Cour,</reg>
+                                </l>
+                                <l n="6">
+                                    <orig>Lors qu'il vient à la Reyne expliquer ſon amour.</orig>
+                                    <reg>Lorsqu'il vient à la Reine expliquer son amour.</reg>
+                                </l>
+                                <l n="7">
+                                    <orig>De ſon Apartement cette porte eſt prochaine,</orig>
+                                    <reg>De son Appartement cette porte est prochaine,</reg>
+                                </l>
+                                <l n="8">
+                                    <orig>Et cette autre conduit dans celuy de la Reyne,</orig>
+                                    <reg>Et cette autre conduit dans celui de la Reine,</reg>
+                                </l>
+                                <l n="9">
+                                    <orig>Va chez elle. Dy-luy qu'importun à regret,</orig>
+                                    <reg>Va chez elle. Dis-lui qu'importun à regret,</reg><!-- erreur -->
+                                </l>
+                                <l n="10">
+                                    <orig>J'oſe luy demander un entretien ſecret.</orig>
+                                    <reg>J'ose lui demander un entretien secret.</reg>
+                                </l>    
+                            </lg>
+                        </sp>
+                        <fw type="sig" place="bot-right">
+                            <orig>Tome II.</orig>
+                            <reg>Tome II.</reg>
+                        </fw>
+                        <fw type="sig" place="bot-right">
+                            <orig>A</orig>
+                            <reg>A</reg>
+                        </fw>
+                        <pb n="3" facs="#Page2"/>
+                        <fw type="pageNum" place="top-left">
+                            <orig>2</orig>
+                            <reg>2</reg>
+                        </fw>
+                        <fw type="title" place="center">
+                            <orig>BERENICE.</orig>
+                            <reg>BÉRÉNICE</reg>
+                        </fw>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>ARSACE.</orig>
+                                <reg>ARSACE.</reg>
+                            </speaker>
+                            <lg>
+                                <l n="11">
+                                    <orig>Vous, Seigneur, importun? Vous, cet Amy fidelle,</orig>
+                                    <reg>Vous, Seigneur, importun? Vous, cet Ami fidèle,</reg>
+                                </l>
+                                <l n="12">
+                                    <orig>Qu'un ſoin ſi genereux intereſſe pour elle?</orig>
+                                    <reg>Qu'un soin si généreux intéresse pour elle?</reg>
+                                </l>
+                                <l n="13">
+                                    <orig>Vous, cet Antiochus, ſon Amant autrefois;</orig>
+                                    <reg>Vous, cet Antiochus, son Amant autrefois;</reg>
+                                </l>
+                                <l n="14">
+                                    <orig>Vous, que l'Orient conte entre ſes plus grands Rois?</orig>
+                                    <reg>Vous, que l'Orient compte entre ses plus grands Rois?</reg>
+                                </l>
+                                <l n="15">
+                                    <orig>Quoy déja de Titus l'Epouſe en eſperance,</orig>
+                                    <reg>Quoi déjà de Titus l'Épouse en espérance,</reg>
+                                </l>
+                                <l n="16">
+                                    <orig>Ce rang entre elle &amp; vous met-il tant de diſtance?</orig>
+                                    <reg>Ce rang entre elle et vous met-il tant de distance?</reg>
+                                </l>
+                            </lg>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>ANTIOCHUS.</orig>
+                                <reg>ANTIOCHUS.</reg>
+                            </speaker>
+                            <lg>
+                                <l n="17">
+                                    <orig>Va, dis-je, &amp; ſans vouloir te charger d'autres ſoins,</orig>
+                                    <reg>Va, dis-je, et sans vouloir te charger d'autres soins,</reg>
+                                </l>
+                                <l n="18">
+                                    <orig>Voy ſi je puis bientoſt luy parler ſans témoins.</orig>
+                                    <reg>Vois si je puis bientôt lui parler sans témoins.</reg>
+                                </l>
+                            </lg>
+                        </sp>
+                    </div>
+                    <div type="scene" n="2">
+                        <head rend="center">
+                            <orig>SCENE II.</orig>
+                            <reg>SCÈNE II.</reg>
+                        </head>
+                        <sp>
+                            <speaker>
+                                <orig>ANTIOCHUS,</orig>
+                                <reg>ANTIOCHUS,</reg>
+                            </speaker>
+                            <stage rend="center">
+                                <choice>
+                                    <orig>ſeul.</orig>
+                                    <reg>seul.</reg>
+                                </choice>
+                            </stage>
+                            <lg>
+                                <l n="19">
+                                    <orig>HE' bien! Antiochus, es-tu toûjours le meſme?</orig>
+                                    <reg>HÉ bien! Antiochus, es-tu toujours le même?</reg>
+                                </l>
+                                <l n="20">
+                                    <orig>Pourray-je ſans trambler luy dire, Je vous aime?</orig>
+                                    <reg>Pourrai-je sans trembler lui dire, je vous aime?</reg>
+                                </l>
+                                <l n="21">
+                                    <orig>Mais quoy? Déja je tremble, &amp; mon cœur agité</orig>
+                                    <reg>Mais quoi? Déjà je tremble, et mon cœur agité</reg>
+                                </l>
+                                <l n="22">
+                                    <orig>Craint autant ce moment que je l'ay ſouhaité.</orig>
+                                    <reg>Craint autant ce moment que je l'ai souhaité.</reg>
+                                </l>
+                                <l n="23">
+                                    <orig>Berenice autrefois m'oſta toute eſpérance.</orig>
+                                    <reg>Bérénice autrefois m'ôta toute espérance.</reg>
+                                </l>
+                                <l n="24">
+                                    <orig>Elle m'imposa meſme un éternel ſilence.</orig>
+                                    <reg>Elle m'imposa même un éternel silence.</reg>
+                                </l>
+                                <l n="25">
+                                    <orig>Je me ſuis tû cinq ans. Et juſques à ce jour</orig>
+                                    <reg>Je me suis tu cinq ans. Et jusques à ce jour</reg>
+                                </l>
+                                <l n="26">
+                                    <orig>D'un voile d'amitié j'ay couvert mon amour.</orig>
+                                    <reg>D'un voile d'amitié j'ai couvert mon amour.</reg>
+                                </l>
+                                <l n="27">
+                                    <orig>Dois-je croire qu'au rang, où Titus la deſtine,</orig>
+                                    <reg>Dois-je croire qu'au rang, où Titus la destine,</reg>
+                                </l>
+                                <l n="28">
+                                    <orig>Elle m'écoute mieux que dans la Paleſtine?</orig>
+                                    <reg>Elle m'écoute mieux que dans la Palestine?</reg>
+                                </l>
+                                <l n="29">
+                                    <orig>Il l'épouſe. Ay-je donc attendu ce moment</orig>
+                                    <reg>Il l'épouse. Ai-je donc attendu ce moment</reg>
+                                </l>
+                                <l n="20">
+                                    <orig>Pour me venir encor declarer ſon Amant?</orig>
+                                    <reg>Pour me venir encore déclarer son Amant?</reg>
+                                </l>
+                                <l n="30">
+                                    <orig>Ah! puis qu'il faut partir, partons ſans luy déplaire:</orig>
+                                    <reg>Ah! puisqu'il faut partir, partons sans lui déplaire:</reg>
+                                </l>
+                                <l n="31">
+                                    <orig>Je me ſuis tû long-temps, je puis encor me taire.</orig>
+                                    <reg>Je me suis tu longtemps, je puis encore me taire.</reg>
+                                </l>
+                                <l n="32">
+                                    <orig>Retirons-nous, ſortons, &amp;ſans nous découvrir,</orig>
+                                    <reg>Retirons-nous, sortons, et sans nous découvrir,</reg>
+                                </l>
+                                <l n="33">
+                                    <orig>Allons loin de ſes yeux l'oublier, ou mourir.</orig>
+                                    <reg>Allons loin de ses yeux l'oublier, ou mourir.</reg>
+                                </l>
+                                <pb n="4" facs="#Page3"/>
+                                <fw type="pageNum" place="top-right">
+                                    <orig>3</orig>
+                                    <reg>3</reg>
+                                </fw>
+                                <fw type="runningTitle">
+                                    <orig>TRAGEDIE</orig>
+                                    <reg>TRAGÉDIE</reg>
+                                </fw>
+                                <l n="34">
+                                    <orig>Hé quoy? ſouffrir toûjours un tourmét qu'elle ignore?</orig>
+                                    <reg>Hé quoi? souffrir toujours un tourment qu'elle ignore?</reg>
+                                </l>
+                                <l n="35">
+                                    <orig>Toûjours verſer des pleurs qu'il faut que je devore?</orig>
+                                    <reg>Toujours verser des pleurs qu'il faut que je dévore?</reg>
+                                </l>
+                                <l n="36">
+                                    <orig>Quoy meſme en la perdant redouter ſon courroux?</orig>
+                                    <reg>Quoi même en la perdant redouter son courroux?</reg>
+                                </l>
+                                <l n="37">
+                                    <orig>Belle Reyne, &amp; pourquoy vous offenſeriez-vous?</orig>
+                                    <reg>Belle Reine, et pourquoi vous offenseriez-vous?</reg>
+                                </l>
+                                <l n="38">
+                                    <orig>Viens-je vous demander que vous quittiez l'Empire?</orig>
+                                    <reg>Viens-je vous demander que vous quittiez l'Empire?</reg>
+                                </l>
+                                <l n="39">
+                                    <orig>Que vous m'aimiez? Helas! Je ne viens que vous dire,</orig>
+                                    <reg>Que vous m'aimiez? Hélas! Je ne viens que vous dire,</reg>
+                                </l>
+                                <l n="40">
+                                    <orig>Qu'apres m'eſtre longtemps flatté que mon Rival</orig>
+                                    <reg>Qu'après m'être longtemps flatté que mon Rival</reg>
+                                </l>
+                                <l n="41">
+                                    <orig>Trouveroit à ſes vœux quelque obſtacle fatal,</orig>
+                                    <reg>Trouverait à ses vœux quelque obstacle fatal,</reg>
+                                </l>
+                                <l n="42">
+                                    <orig>Aujourd'huy qu'il peut tout, que votre hymen s'avance,</orig>
+                                    <reg>Aujourd'hui qu'il peut tout, que votre hymen s'avance,</reg>
+                                </l>
+                                <l n="43">
+                                    <orig>Exemple infortuné d'une longue conſtance,</orig>
+                                    <reg>Exemple infortuné d'une longue constance,</reg>
+                                </l>
+                                <l n="44">
+                                    <orig>Apres cinq ans d'amour, &amp; d'eſpoir ſuperflus,</orig>
+                                    <reg>Après cinq ans d'amour, et d'espoir superflus,</reg>
+                                </l>
+                                <l n="45">
+                                    <orig>Je pars, fidelle encor quand je n'eſpere plus.</orig>
+                                    <reg>Je pars, fidèle encore quand je n'espère plus.</reg>
+                                </l>
+                                <l n="46">
+                                    <orig>Non, loin de s'offenſer, elle pourra me plaindre.</orig>
+                                    <reg>Non, loin de s'offenser, elle pourra me plaindre.</reg>
+                                </l>
+                                <l n="47">
+                                    <orig>Quoy qu'il en ſoit, parls, c'eſt aſſez nous cótraindre,</orig>
+                                    <reg>Quoi qu'il en soit, parlõns, c'est assez nous contraindre,</reg>
+                                </l>
+                                <l n="48">
+                                    <orig>Et que peut craindre, helas un Amant ſans eſpoir</orig>
+                                    <reg>Et que peut craindre, hélas un Amant sans espoir</reg>
+                                </l>
+                                <l n="49">
+                                    <orig>Qui peut bien ſe reſoudre à ne jamais voir?</orig>
+                                    <reg>Qui peut bien se résoudre à ne jamais voir?</reg>
+                                </l>
+                            </lg>
+                        </sp>
+                    </div>
+                    <div type="scene" n="3">
+                        <head rend="center">
+                            <orig>SCENE III.</orig>
+                            <reg>SCÈNE III.</reg>
+                        </head>
+                        <stage rend="center">
+                            <orig>ANTIOCHUS, ARSACE.</orig>
+                            <reg>ANTIOCHUS, ARSACE.</reg>
+                        </stage>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>ANTIOCHUS.</orig>
+                                <reg>ANTIOCHUS.</reg>
+                            </speaker>
+                            <lg>
+                                <l>
+                                    <orig>ARſace, entrerons-nous?</orig>
+                                    <reg>ARsace, entrerons-nous?</reg>
+                                </l>
+                            </lg>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>ARSACE.</orig>
+                                <reg>ARSACE.</reg>
+                            </speaker>
+                            <lg>
+                                <l>
+                                    <orig>Seigneur, j'ay vû la Reyne.</orig>
+                                    <reg>Seigneur, j'ai vu la Reine.</reg>
+                                </l>
+                                <l>
+                                    <orig>Mais pour me faire voir, je n'ay percé qu'à peine</orig>
+                                    <reg>Mais pour me faire voir, je n'ai percé qu'à peine</reg>
+                                </l>
+                                <l>
+                                    <orig>Les flots toûjours nouveaux d'un Peuple adorateur</orig>
+                                    <reg>Les flots toûjours nouveaux d'un Peuple adorateur</reg>
+                                </l>
+                                <l>
+                                    <orig>Qu'attire ſur ſes pas ſa prochaine grandeur.</orig>
+                                    <reg>Qu'attire sur ses pas sa prochaine grandeur.</reg>
+                                </l>
+                            </lg>
+                            <fw type="sig" place="bot-right">
+                                <orig>A ij</orig>
+                                <reg>A ij</reg>
+                            </fw>
+                            <pb n="5" facs="#Page4"/>
+                            <fw type="pageNum" place="top-left">
+                                <orig>4</orig>
+                                <reg>4</reg>
+                            </fw>
+                            <fw type="title" place="center">
+                                <orig>BERENICE.</orig>
+                                <reg>BÉRÉNICE.</reg>
+                            </fw>
+                        </sp>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>

@@ -1,0 +1,793 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml" schematypens="http://relaxng.org/ns/structure/1.0"?>
+<?xml-model href="http://www.tei-c.org/release/xml/tei/custom/schema/relaxng/tei_all.rng" type="application/xml"
+  schematypens="http://purl.oclc.org/dsdl/schematron"?>
+<TEI xmlns="http://www.tei-c.org/ns/1.0">
+    <teiHeader>
+        <fileDesc>
+            <titleStmt>
+                <title>Médée</title>
+                <author>Pierre corneille</author>
+            </titleStmt>
+            <publicationStmt>
+                <authority>Université de Genève</authority>
+                <availability>
+                    <licence target="https://creativecommons.org/licenses/by/4.0/">CC-BY</licence>
+                </availability>
+            </publicationStmt>
+            <sourceDesc>
+                <bibl>
+                    <author>Pierre Corneille</author>
+                    <title>Médée</title>
+                    <pubPlace>Paris</pubPlace>
+                    <date>1639</date>
+                    <publisher>François Targa</publisher>
+                </bibl>
+            </sourceDesc>
+        </fileDesc>
+        <profileDesc>
+            <textClass>
+                <keywords>
+                    <term type="genre">theatre</term>
+                    <term type="form">vers</term>
+                </keywords>
+            </textClass>
+        </profileDesc>
+    </teiHeader>
+    <text>
+        <front>
+            <div>
+                <ab>
+                    <orig>MEDEE</orig>
+                    <reg>MEDÉE</reg>
+                </ab>
+                <ab>
+                    <orig>TRAGEDIE.</orig>
+                    <reg>TRAGÉDIE.</reg>
+                </ab>
+                <ab>
+                    <orig>PAR LE Sr. CORNEILLE</orig>
+                    <reg>PAR LE Sr. CORNEILLE</reg>
+                </ab>
+                <ab>
+                    <orig>Sur l'imprimé.</orig>
+                    <reg>Sur l'imprimé.</reg>
+                </ab>
+                <ab>
+                    <orig>A PARIS,</orig>
+                    <reg>À PARIS,</reg>
+                </ab>
+                <ab>
+                    <orig>Chez François Targa, au premier pilier de la grand' Salle du Palais,
+                        deuant le Chapelle, au Soleil d'or.</orig>
+                    <reg>Chez François Targa, au premier pilier de la grand' Salle du Palais, devant
+                        le Chapelle, au Soleil d'or.</reg>
+                </ab>
+                <ab>
+                    <orig>M.DC.XXXIX.</orig>
+                    <reg>M.DC.XXXIX.</reg>
+                </ab>
+            </div>
+            <div type="castList">
+                <castList>
+                    <head>
+                        <orig>ACTEVRS.</orig>
+                        <reg>ACTEURS.</reg>
+                    </head>
+                    <castItem>
+                        <role>
+                            <orig>CREON, Roy de Corinthe.</orig>
+                            <reg>CRÉON, Roi de Corinthe.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>AEGEE, Roy d'Athenes.</orig>
+                            <reg>ÉGÉE, Roi d'Athènes.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>IASON, Mary de Medée.</orig>
+                            <reg>JASON, Mari de Médée.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>POLLVX, Argonaute amy de Iaſon.</orig>
+                            <reg>POLLUX, Argonaute ami de Jason.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>CREVSE, Fille de Creon.</orig>
+                            <reg>CRÉUSE, Fille de Créon.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>MEDEE, Femme de Iaſon.</orig>
+                            <reg>MÉDÉE, Femme de Jason.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>CLEONE, Gouuernante de Creuſe.</orig>
+                            <reg>CLÉONE, Gouvernante de Créuse.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>NERINE, Suiuante de Medée.</orig>
+                            <reg>NÉRINE, Suivante de Médée.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>THEVDAS, Domeſtique de Creon.</orig>
+                            <reg>THEUDAS, Domestique de Créon.</reg>
+                        </role>
+                    </castItem>
+                    <castItem>
+                        <role>
+                            <orig>TROVPE, Des gardes de Creon</orig>
+                            <reg>TROUPE, Des gardes de Créon</reg>
+                        </role>
+                    </castItem>
+                </castList>
+            </div>
+        </front>
+        <body>
+            <div type="play">
+                <div type="acteI">
+                    <fw>
+                        <orig>TRAGEDIE</orig>
+                        <reg>TRAGÉDIE</reg>
+                    </fw>
+                    <fw>
+                        <orig>15</orig>
+                        <reg>15</reg>
+                    </fw>
+                    <div type="SCENEIV">
+                        <head>
+                            <orig>SCENE QVATRIESME.</orig>
+                            <reg>SCÈNE QUATRIÈME.</reg>
+                        </head>
+                        <stage>
+                            <orig>MEDEE, NERINE</orig>
+                            <reg>MÉDÉE, NÉRINE</reg>
+                        </stage>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>ET bien, Nérine, à quand cés Hyménée?</orig>
+                                <reg>ET bien, Nérine, à quand ces Hyménéés?</reg>
+                            </l>
+                            <l>
+                                <orig>En ont il choiſy l'heure ? en ſçais tu la journée?</orig>
+                                <reg>En ont-ils choisi l'heure ? en sais-tu la journée?</reg>
+                            </l>
+                            <l>
+                                <orig>N'en as tu rien appris? n'as tu point veu Iaſon?</orig>
+                                <reg>N'en as-tu rien appris? n'as tu point vu Jason?</reg>
+                            </l>
+                            <l>
+                                <orig>N'appréhende t'il rien après ſa trahiſon?</orig>
+                                <reg>NN’appréhende-t-il rien après sa trahison?</reg>
+                            </l>
+                            <l>
+                                <orig>Croit-il qu'en cet affrot ie m'amuſe à me plaindre?</orig>
+                                <reg>Croit-il qu'en cet affront je m'amuse à me plaindre?</reg>
+                            </l>
+                            <l>
+                                <orig>S'il ceſſe de m'aymer, qu'il commence a me craindre,</orig>
+                                <reg>S'il cesse de m'aimer, qu'il commence à me craindre,</reg>
+                            </l>
+                            <l>
+                                <orig>Il verra, le perfide, à quel comble d'horreur</orig>
+                                <reg>Il verra, le perfide, à quel comble d'horreur</reg>
+                            </l>
+                            <l>
+                                <orig>de mes reſſentiments peut monter la fureur.</orig>
+                                <reg>de mes ressentiments peut monter la fureur.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE</orig>
+                                <reg>NÉRINE</reg>
+                            </speaker>
+
+                            <l>
+                                <orig>Moderez les bouillons de cette violence,</orig>
+                                <reg>Modérez les bouillons de cette violence,</reg>
+                            </l>
+                            <l>
+                                <orig>Et laiſſez deſguiſer vos douleurs au ſilence.</orig>
+                                <reg>Et laissez déguiser vos douleurs au silence.</reg>
+                            </l>
+                            <l>
+                                <orig>Quoy! Madame, est-ce ainſi qu'il faut diſsimuler?</orig>
+                                <reg>Quoi! Madame, est-ce ainsi qu'il faut dissimuler?</reg>
+                            </l>
+                            <pb n="28"
+                                facs="https://gallica.bnf.fr/ark:/12148/bpt6k1280262n/f28.item.zoom"/>
+                            <fw type="pageNum" place="top-left">
+                                <orig>16</orig>
+                                <reg>16</reg>
+                            </fw>
+                            <fw type="runningTitle" place="top-centre">
+                                <orig>MEDEE</orig>
+                                <reg>MÉDÉE</reg>
+                            </fw>
+                            <l>
+                                <orig>Et faut il perdre ainſi des menaces en l'air?</orig>
+                                <reg>Et faut-il perdre ainsi des menaces en l'air?</reg>
+                            </l>
+                            <l>
+                                <orig>Les plus ardents tranſports d'une haine cognuë</orig>
+                                <reg>Les plus ardents transports d'une haine connue</reg>
+                            </l>
+                            <l>
+                                <orig>Ne sont qu'autant deſclairs avortés dans la nuë,</orig>
+                                <reg>Ne sont qu'autant d'éclairs avortés dans la nue,</reg>
+                            </l>
+                            <l>
+                                <orig>Qu'autant d'aduis à ceux que vous voulez punir</orig>
+                                <reg>Qu'autant d'avis à ceux que vous voulez punir</reg>
+                            </l>
+                            <l>
+                                <orig>Pour repouſſer vos coups, ou pour les prévenir.</orig>
+                                <reg>Pour repousser vos coups, ou pour les prévenir.</reg>
+                            </l>
+                            <l>
+                                <orig>Qui peut ſans s'émouvoir ſupporter une offence</orig>
+                                <reg>Qui peut sans s'émouvoir supporter une offense</reg>
+                            </l>
+                            <l>
+                                <orig>Peut mieux prendre à ſon point le temps de ſa vangeance,</orig>
+                                <reg>Peut mieux prendre à son point le temps de sa vangeance,</reg>
+                            </l>
+                            <l>
+                                <orig>Et ſa feinte douceur ſoubs un appas mortel,</orig>
+                                <reg>Et sa feinte douceur sous un appas mortel,</reg>
+                            </l>
+                            <l>
+                                <orig>Méne inſenſiblement ſa victime à l'autel.</orig>
+                                <reg>Mène insensiblement sa victime à l'autel.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Tu veux que ie me taiſe, &amp; que ie diſsimule!</orig>
+                                <reg>Tu veux que je me taise, et que je dissimule!</reg>
+                            </l>
+                            <l>
+                                <orig>Nerine, porte ailleurs ce conſeil ridicule,</orig>
+                                <reg>Nérine, porte ailleurs ce conseil ridicule,</reg>
+                            </l>
+                            <l>
+                                <orig>L'ame en eſt incapable en de moindres malheurs,</orig>
+                                <reg>L'âme en est incapable en de moindres malheurs,</reg>
+                            </l>
+                            <l>
+                                <orig>Et n'a point ou cacher de ſi grandes douleurs.</orig>
+                                <reg>Et n'a point ou cacher de si grandes douleurs.</reg>
+                            </l>
+                            <l>
+                                <orig>Iaſon m'a fait trahir mon pays &amp; mon pere,</orig>
+                                <reg>Jason m'a fait trahir mon pays et mon père,</reg>
+                            </l>
+                            <l>
+                                <orig>Et me laiſſe au milieu d'une terre eſtrangere,</orig>
+                                <reg>Et me laisse au milieu d'une terre étrangère,</reg>
+                            </l>
+                            <l>
+                                <orig>Sans ſupport, ſans amis, ſans retraite, ſans bien,</orig>
+                                <reg>Sans support, sans amis, sans retraite, sans bien,</reg>
+                            </l>
+                            <l>
+                                <orig>La fable de ſon peuple, &amp; la haine du mien,</orig>
+                                <reg>La fable de son peuple, et la haine du mien</reg>
+                            </l>
+                            <l>
+                                <orig>Nerine, après cela, tu veux que je me taiſe!</orig>
+                                <reg>Nérine, après cela, tu veux que je me taise!</reg>
+                            </l>
+                            <l>
+                                <orig>Ne doiſ-ie point encor en teſmoigner de l'aiſe,</orig>
+                                <reg>Ne dois-je point encore en témoigner de l'aise,</reg>
+                            </l>
+                            <l>
+                                <orig>De ce Royal Hymen ſouhaiter l'heureux iour,</orig>
+                                <reg>De ce Royal Hymen souhaiter l'heureux jour,</reg>
+                            </l>
+                            <l>
+                                <orig>Et m'offrir pour ſervante à ſon amour?</orig>
+                                <reg>Et m'offrir pour ſervante à son amour?</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE.</orig>
+                                <reg>NÉRINE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Madame, penſés mieux à l'eſclat que vous faites,</orig>
+                                <reg>Madame, pensez mieux à l'éclat que vous faites,</reg>
+                            </l>
+                            <l>
+                                <orig>Quelque iuſte qu'il ſoit, regardez où vous eſtes,</orig>
+                                <reg>Quelque injuste qu'il soit, regardez où vous êtes,</reg>
+                            </l>
+                            <l>
+                                <orig>Et ſongez qu'a grand peine un eſprit plus remis</orig>
+                                <reg>Et songez qu'à grand peine un esprit plus remis</reg>
+                            </l>
+                            <fw type="catch">
+                                <orig>Et ſongez</orig>
+                                <reg>Et songez</reg>
+                            </fw>
+                            <pb n="29"
+                                facs="https://gallica.bnf.fr/ark:/12148/bpt6k1280262n/f29.item.zoom"/>
+                            <fw type="runningTitle" place="top-centre">
+                                <orig>TRAGEDIE.</orig>
+                                <reg>TRAGÉDIE.</reg>
+                            </fw>
+                            <fw type="pageNum" place="top-right">
+                                <orig>17</orig>
+                                <reg>17</reg>
+                            </fw>
+                            <l>
+                                <orig>Vous tient en ſeureté parmy vos ennemis.</orig>
+                                <reg>Vous tient en sûreté parmi vos ennemis.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>L'ame doibt ſe roidir plus elle est menacée,</orig>
+                                <reg>L'âme doit se roidir plus elle est menacée,</reg>
+                            </l>
+                            <l>
+                                <orig>Et contre la fortune aller teſte baiſſée,</orig>
+                                <reg>Et contre la fortune aller tête baissée,</reg>
+                            </l>
+                            <l>
+                                <orig>La choquer hardiment, &amp; ſans craindre la mort</orig>
+                                <reg>Le choquer hardiment, et sans craindre la mort</reg>
+                            </l>
+                            <l>
+                                <orig>Se présenter de front a ſon plus rude effort,</orig>
+                                <reg>Se présenter de front à son plus rude effort,</reg>
+                            </l>
+                            <l>
+                                <orig>Cette laſche ennemie a peur des grands courages,</orig>
+                                <reg>Cette lâche ennemie a peur des grands courages,</reg>
+                            </l>
+                            <l>
+                                <orig>Et sur ceux qu'elle abat redouble ſes outrages.</orig>
+                                <reg>Et sur ceux qu'elle abat redouble ses outrages.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE.</orig>
+                                <reg>NÉRINE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Que ſert ce grand courage ou l'on eſt ſans pouvoir?</orig>
+                                <reg>Que sert ce grand courage où l'on est sans pouvoir?</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Il trouuve touſiours lieus de ſe faire valoir.</orig>
+                                <reg>Il trouve toujours lieu se se faire valoir.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE.</orig>
+                                <reg>NÉRINE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Forcés l'aveuglement dont vous eſtes ſéduite,</orig>
+                                <reg>Forcez l'aveuglement dont vous êtes séduite,</reg>
+                            </l>
+                            <l>
+                                <orig>Pour voir en quel eſtat le ſort vous a reduite;</orig>
+                                <reg>Pour voir en quel état le sort vous a réduite;</reg>
+                            </l>
+                            <l>
+                                <orig>Voſtre pays vous hait, voſtre eſpoux eſt ſans foy,</orig>
+                                <reg>Votre pays vous hait, votre époux est sans foi,</reg>
+                            </l>
+                            <l part="I">
+                                <orig>Dans vn ſi grand reuers que vous reſte t'il?</orig>
+                                <reg>Dans un si grand revers que vous reste-t-il?</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l part="F">
+                                <orig>Moy,</orig>
+                                <reg>Moi,</reg>
+                            </l>
+                            <l part="I">
+                                <orig>Moy diſie, &amp; c'eſt aſſez.</orig>
+                                <reg>Moi dis-je, et c'est assez.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE.</orig>
+                                <reg>NÉRINE.</reg>
+                            </speaker>
+                            <l part="F">
+                                <orig>Quoy? vous ſeule, Madame?</orig>
+                                <reg>Quoi? vous seule, Madame?</reg>
+                            </l>
+                        </sp>
+                        <fw type="sig">
+                            <orig>C</orig>
+                            <reg>C</reg>
+                        </fw>
+                        <pb n="30"
+                            facs="https://gallica.bnf.fr/ark:/12148/bpt6k1280262n/f30.item.zoom"/>
+                        <fw type="pageNum" place="top-left">
+                            <orig>18</orig>
+                            <reg>18</reg>
+                        </fw>
+                        <fw type="runningTitle" place="top-centre">
+                            <orig>MEDEE</orig>
+                            <reg>MÉDÉE</reg>
+                        </fw>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Ouy tu vois en moy ſeule, &amp; le fer, &amp; et le flame,</orig>
+                                <reg>Oui tu vois en moi seule, et le fer, et la flamme,</reg>
+                            </l>
+                            <l>
+                                <orig>Et la terre, &amp; et la mer, &amp; et l'Enfer, &amp; les Cieux,</orig>
+                                <reg>Et la terre, et la mer, et l'Enfer, et les Cieux,</reg>
+                            </l>
+                            <l>
+                                <orig>Et le ſceptre des rois, &amp; la foudre des Dieux.</orig>
+                                <reg>Et le sceptre des rois, et la foudre des Dieux.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE.</orig>
+                                <reg>NÉRINE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>L'impetueuſe ardeur d'un courage ſenſible</orig>
+                                <reg>L'impétueuse ardeur d'un courage sensible</reg>
+                            </l>
+                            <l>
+                                <orig>A vos reſſentiments figure tout poſsible,</orig>
+                                <reg>À vos ressentiments figure tout possible,</reg>
+                            </l>
+                            <l>
+                                <orig>Mais il faut craindre un Roy fort de tãt de ſujets.</orig>
+                                <reg>Mais il faut craindre un Roi fort de tant de sujets.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Mon pere qui l'eſtoit rompit-il mes proiets?</orig>
+                                <reg>Mon père qui l'était rompit-il mes projets?</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE.</orig>
+                                <reg>NÉRINE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Non, mais il fut ſurpris, &amp; Creon ſe deſfie.</orig>
+                                <reg>Non, mais il fut surpris, et Créon se défie.</reg>
+                            </l>
+                            <l>
+                                <orig>Fuyés, qu'à ſes ſoupçons il ne vous ſacrifie.</orig>
+                                <reg>Fuyez, qu'à ses soupçons il ne vous sacrifie.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Las! ie n'ai que trop fuy, cette infidelité</orig>
+                                <reg>Las! je n'ai que trop fui, cette infidelité</reg>
+                            </l>
+                            <l>
+                                <orig>D'vn iuste chatiment punit ma laſcheté:</orig>
+                                <reg>D'un juste châtiment punit ma lâcheté:</reg>
+                            </l>
+                            <l>
+                                <orig>Si ie n'euſſe point fuy pour la mort de Pelie,</orig>
+                                <reg>Si je n'eusse point fui pour la mort de Pélie</reg>
+                            </l>
+                            <l>
+                                <orig>Si i'euſſe tenu bon dedans la Theſſalie,</orig>
+                                <reg>Si j'eusse tenu bon dedans la Thessalie,</reg>
+                            </l>
+                            <l>
+                                <orig>Il n'euſt point veu Creuſe, &amp; cet objet nouueau</orig>
+                                <reg>Il n'eût point vu Créuse et cet objet nouveau</reg>
+                            </l>
+                            <l>
+                                <orig>N'euſt point de nos amours eſtouffé le flambeau.</orig>
+                                <reg>N'eût point de nos amours étouffé le flambeau.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE.</orig>
+                                <reg>NÉRINE.</reg>
+                            </speaker>
+                            <l part="I">
+                                <orig>Fuyez encor de grace.</orig>
+                                <reg>Fuyez encor de grâce.</reg>
+                            </l>
+                        </sp>
+                        <pb n="31"
+                            facs="https://gallica.bnf.fr/ark:/12148/bpt6k1280262n/f31.item.zoom"/>
+                        <fw type="runningTitle" place="top-centre">
+                            <orig>TRAGEDIE</orig>
+                            <reg>TRAGÉDIE</reg>
+                        </fw>
+                        <fw type="pageNum">
+                            <orig>19</orig>
+                            <reg>19</reg>
+                        </fw>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>MEDEE.</orig>
+                                <reg>MÉDÉE.</reg>
+                            </speaker>
+                            <l part="F">
+                                <orig>Ouy, ie fuyray Nerine,</orig>
+                                <reg>Oui, je fuirai Nérine,</reg>
+                            </l>
+                            <l>
+                                <orig>Mais avant de Creon on verra la ruine.</orig>
+                                <reg>Mais avant de Créon on verra la ruine.</reg>
+                            </l>
+                            <l>
+                                <orig>Ie brave la fortune, &amp; toute ſa rigueur</orig>
+                                <reg>Je brave la fortune, et toute sa rigueur</reg>
+                            </l>
+                            <l>
+                                <orig>En m'oſtant vn mary ne m'oſte pas le cœur,</orig>
+                                <reg>En m'ôtant un mari ne m'ôte pas le cœur,</reg>
+                            </l>
+                            <l>
+                                <orig>Sois ſeulement fidelle, &amp; ſans te mettre en peine</orig>
+                                <reg>Sois seulement fidèle, et sans te mettre en peine</reg>
+                            </l>
+                            <l>
+                                <orig>Laisse agir plainement mon ſçavoir, &amp; ma haine.</orig>
+                                <reg>Laisse agir pleinement mon savoir, et ma haine.</reg>
+                            </l>
+                        </sp>
+                        <sp>
+                            <speaker rend="center">
+                                <orig>NERINE.</orig>
+                                <reg>NÉRINE.</reg>
+                            </speaker>
+                            <l>
+                                <orig>Madame. Elle s'enfuit au lieu de m'écouter,</orig>
+                                <reg>Madame. Elle s'enfuit au lieu de m'écouter,</reg>
+                            </l>
+                            <l>
+                                <orig>Ces violens tranſports la vont precipiter,</orig>
+                                <reg>Ces violents transports la vont précipiter,</reg>
+                            </l>
+                            <l>
+                                <orig>Elle court à ſa perte, &amp; ſa brutale envie</orig>
+                                <reg>Elle court à sa perte, et sa brutale envie</reg>
+                            </l>
+                            <l>
+                                <orig>Luy fait abandonner le ſoucy de ſa vie,</orig>
+                                <reg>Lui fait abandonner le souci de sa vie,</reg>
+                            </l>
+                            <l>
+                                <orig>Taſchons encor vn coup d'en diuertir le cours,</orig>
+                                <reg>Tâchons encor un coup d'en divertir le cours,</reg>
+                            </l>
+                            <l>
+                                <orig>Appaiſer ſa fureur, c'est conſeruer ſes iours.</orig>
+                                <reg>Apaiser sa fureur, c'est conserver ses jours.</reg>
+                            </l>
+                        </sp>
+                        <fw type="fleuron"/>
+                        <fw type="sig">
+                            <orig>C ij</orig>
+                            <reg>C ij</reg>
+                        </fw>
+                    </div>
+                    <pb n="32" facs="https://gallica.bnf.fr/ark:/12148/bpt6k1280262n/f32.item.zoom"/>
+                    <fw type="pageNum" place="top-left">
+                        <orig>20</orig>
+                        <reg>20</reg>
+                    </fw>
+                    <fw type="runningTitle" place="top-centre">
+                        <orig>MEDEE</orig>
+                        <reg>MÉDÉE</reg>
+                    </fw>
+                    <fw type="bandeau"/>
+                    <div type="acteII">
+                        <head>
+                            <orig>ACTE II</orig>
+                            <reg>ACTE II</reg>
+                        </head>
+                        <div type="SCENE_PREMIERE">
+                            <head>
+                                <orig>SCENE PREMIERE.</orig>
+                                <reg>SCENE PREMIÈRE.</reg>
+                            </head>
+                            <stage>
+                                <orig>MEDEE, NERINE.</orig>
+                                <reg>MÉDÉE, NÉRINE.</reg>
+                            </stage>
+                            <sp>
+                                <speaker rend="center">
+                                    <orig>NERINE.</orig>
+                                    <reg>NÉRINE.</reg>
+                                </speaker>
+                                <l>
+                                    <orig>BIen qu'un peril certain ſuive voſtre entrepriſe,</orig>
+                                    <reg>BIen qu'un péril certain suive votre entreprise,</reg>
+                                </l>
+                                <l>
+                                    <orig>Aſſeurez vous ſur moy, ie vous ſuis toute acquiſe:</orig>
+                                    <reg>Assurez-vous sur moi, je vous suis toute acquise:</reg>
+                                </l>
+                                <l>
+                                    <orig>Employez mon ſervice aux flames, au poiſon,</orig>
+                                    <reg>Employez mon service aux flammes, au poison,</reg>
+                                </l>
+                                <l>
+                                    <orig>Ie ne refuſe rien, mais eſpargnez Iaſon.</orig>
+                                    <reg>Je ne refuse rien, mais épargnez Jason.</reg>
+                                </l>
+                                <l>
+                                    <orig>Voſtre aveugle vangeance une fois aſſouuie,</orig>
+                                    <reg>Votre aveugle vengeance une fois assouvie,</reg>
+                                </l>
+                                <l>
+                                    <orig>Le regret de ſa mort vous couſteroit la vie;</orig>
+                                    <reg>Le regret de sa mort vous coûterait la vie;</reg>
+                                </l>
+                                <l>
+                                    <orig>Et les coups violens d'un rigoureux ennuy.</orig>
+                                    <reg>Et les coups violents d'un rigoureux ennui.</reg>
+                                </l>
+                            </sp>
+                            <sp>
+                                <speaker rend="center">
+                                    <orig>MEDEE.</orig>
+                                    <reg>MÉDÉE.</reg>
+                                </speaker>
+                                <l>
+                                    <orig>Ceſſe de m'en parler, &amp; ne crains rien pour luy,</orig>
+                                    <reg>Cesse de m'en parler, et ne crains rien pour lui,</reg>
+                                </l>
+                                <l>
+                                    <orig>Ma fureur iuſque-là n'oſeroit me ſeduire,</orig>
+                                    <reg>Ma fureur jusque-là n'oserait me séduire,</reg>
+                                </l>
+                                <l>
+                                    <orig>Iason m'a trop couſté pour le vouloir deſtruire,</orig>
+                                    <reg>Jason m'a trop coûté pour le vouloir détruire,</reg>
+                                </l>
+                                <pb n="33"
+                                    facs="https://gallica.bnf.fr/ark:/12148/bpt6k1280262n/f33.item.zoom"/>
+                                <fw type="runningTitle" place="top-centre">
+                                    <orig>TRAGEDIE</orig>
+                                    <reg>TRAGÉDIE</reg>
+                                </fw>
+                                <fw type="pageNum">
+                                    <orig>21</orig>
+                                    <reg>21</reg>
+                                </fw>
+                                <l>
+                                    <orig>Mon courroux luy fait grace, &amp; tout leger qu'il eſt</orig>
+                                    <reg>Mon courroux lui fait grâce, et tout léger qu'il est</reg>
+                                </l>
+                                <l>
+                                    <orig>Noſtre premiere ardeur ſouſtient ſon intreſt:</orig>
+                                    <reg>Notre première ardeur soutient son intérêt:</reg>
+                                </l>
+                                <l>
+                                    <orig>Ie croy qu'il m'ayme encore, &amp; qu'il nourrit en l'ame</orig>
+                                    <reg>Je crois qu'il m'aime encore, et qu'il nourrit en l'âme</reg>
+                                </l>
+                                <l>
+                                    <orig>Quelques reſtes ſecrets d'une ſi belle flame,</orig>
+                                    <reg>Quelques restes secrets d'une si belle flamme,</reg>
+                                </l>
+                                <l>
+                                    <orig>Il ne fait qu'obeir aux volontez d'un Roy,</orig>
+                                    <reg>Il ne fait qu'obéir aux volontés d'un Roi,</reg>
+                                </l>
+                                <l>
+                                    <orig>Qui l'arrache à Médée en deſpit de ſa foy,</orig>
+                                    <reg>Qui l'arrache à Médée en dépit de sa foi,</reg>
+                                </l>
+                                <l>
+                                    <orig>Qu'il viue, &amp; s'il ſe peut, que l'ingrat me demeure,</orig>
+                                    <reg>Qu'il vive, et s'il se peut, que l'ingrat me demeure,</reg>
+                                </l>
+                                <l>
+                                    <orig>Sinon, ce m'eſt aſſez que ſa Crëuse meure :</orig>
+                                    <reg>Sinon, ce m'est assez que sa Créuse meure:</reg>
+                                </l>
+                                <l>
+                                    <orig>Qu'il viue cependant, &amp; iouyſſe du iour</orig>
+                                    <reg>Qu'il vive cependant, et jouisse du jour</reg>
+                                </l>
+                                <l>
+                                    <orig>Que luy conſerue encor mon immuable amour.</orig>
+                                    <reg>Que lui conserve encore mon immable amour.</reg>
+                                </l>
+                                <l>
+                                    <orig>Creon ſeul, &amp; ſa fille ont fait la perfidie;</orig>
+                                    <reg>Créon seul, et sa fille ont fait la perfidie;</reg>
+                                </l>
+                                <l>
+                                    <orig>Eux ſeuls termineront toute la Tragédie,</orig>
+                                    <reg>Eux seuls termineront toute la Tragédie,</reg>
+                                </l>
+                                <l>
+                                    <orig>Leur perte acheuera cette fatale paix.</orig>
+                                    <reg>Leur perte achèvera cette fatale paix.</reg>
+                                </l>
+                            </sp>
+                            <sp>
+                                <speaker rend="center">
+                                    <orig>NERINE.</orig>
+                                    <reg>NÉRINE.</reg>
+                                </speaker>
+                                <l>
+                                    <orig>Contenés vous Madame, il ſort de ſon Palais.</orig>
+                                    <reg>Contenez-vous Madame, il sort de son Palais.</reg>
+                                </l>
+                            </sp>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </body>
+    </text>
+</TEI>
